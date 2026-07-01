@@ -1,0 +1,775 @@
+{
+  "timestamp": "2026-06-26T00:19:51.670368+00:00",
+  "n_regions": 73,
+  "region_summary": {
+    "ACA": {
+      "n_sessions": 11,
+      "lda_accuracy_mean": 0.7784787209392138,
+      "lda_capture_mean": 0.0015055822776735331,
+      "lda_mean_cos_mean": 0.04773176822593009,
+      "mean_cos_with_lda_mean": 0.03214096186746208,
+      "lda_miss_fraction_mean": 0.9988809328552205,
+      "curvature_mean": 9.9786976112798,
+      "global_dim_mean": 35.26721863464007
+    },
+    "ACB": {
+      "n_sessions": 3,
+      "lda_accuracy_mean": 0.7999999999999999,
+      "lda_capture_mean": 0.000953247613575987,
+      "lda_mean_cos_mean": 0.04778110846476139,
+      "mean_cos_with_lda_mean": 0.02381987994153258,
+      "lda_miss_fraction_mean": 0.9997093358914965,
+      "curvature_mean": 12.666673724182266,
+      "global_dim_mean": 44.51126849312613
+    },
+    "APN": {
+      "n_sessions": 2,
+      "lda_accuracy_mean": 0.9163768033301021,
+      "lda_capture_mean": 0.00022878186436878418,
+      "lda_mean_cos_mean": 0.029857892288100877,
+      "mean_cos_with_lda_mean": 0.013192064845566764,
+      "lda_miss_fraction_mean": 0.9998989344250931,
+      "curvature_mean": 13.096876643132799,
+      "global_dim_mean": 62.16722264265065
+    },
+    "AUD": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 1.0,
+      "lda_capture_mean": 9.544122756163594e-05,
+      "lda_mean_cos_mean": 0.018324127300415362,
+      "mean_cos_with_lda_mean": 0.011189957447663235,
+      "lda_miss_fraction_mean": 0.9999979373275883,
+      "curvature_mean": 12.443963029116576,
+      "global_dim_mean": 101.7936826608239
+    },
+    "BLA": {
+      "n_sessions": 2,
+      "lda_accuracy_mean": 0.8903618090452261,
+      "lda_capture_mean": 0.0005282038543979956,
+      "lda_mean_cos_mean": 0.03628090584905992,
+      "mean_cos_with_lda_mean": 0.018230082424610702,
+      "lda_miss_fraction_mean": 0.9997890000348486,
+      "curvature_mean": 12.603426434643627,
+      "global_dim_mean": 60.89401440193382
+    },
+    "BMA": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.9,
+      "lda_capture_mean": 0.0021394426862808655,
+      "lda_mean_cos_mean": 0.11757615303778408,
+      "mean_cos_with_lda_mean": 0.040008616232921124,
+      "lda_miss_fraction_mean": 0.9991310464910726,
+      "curvature_mean": 13.1923907778483,
+      "global_dim_mean": 71.22989668640317
+    },
+    "CA": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.94,
+      "lda_capture_mean": 0.00036354097132246043,
+      "lda_mean_cos_mean": 0.0421303580425809,
+      "mean_cos_with_lda_mean": 0.017768717450687824,
+      "lda_miss_fraction_mean": 0.999924526210592,
+      "curvature_mean": 13.334152246093113,
+      "global_dim_mean": 99.24575999387017
+    },
+    "CA1": {
+      "n_sessions": 20,
+      "lda_accuracy_mean": 0.7790831130942377,
+      "lda_capture_mean": 0.002169414244174471,
+      "lda_mean_cos_mean": 0.05302918236268911,
+      "mean_cos_with_lda_mean": 0.03299336986741176,
+      "lda_miss_fraction_mean": 0.9985671301675165,
+      "curvature_mean": 10.997263453249987,
+      "global_dim_mean": 32.46523472057708
+    },
+    "CA2": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.9090909090909091,
+      "lda_capture_mean": 0.0008701015174086741,
+      "lda_mean_cos_mean": 0.07320438387827503,
+      "mean_cos_with_lda_mean": 0.026000579590257075,
+      "lda_miss_fraction_mean": 0.9997291674842094,
+      "curvature_mean": 13.394224342276871,
+      "global_dim_mean": 72.49626388488157
+    },
+    "CA3": {
+      "n_sessions": 8,
+      "lda_accuracy_mean": 0.7365460261003746,
+      "lda_capture_mean": 0.0029499368950458124,
+      "lda_mean_cos_mean": 0.07577879760875511,
+      "mean_cos_with_lda_mean": 0.042410835174269905,
+      "lda_miss_fraction_mean": 0.9976315734873875,
+      "curvature_mean": 11.317158016106315,
+      "global_dim_mean": 32.830751681341695
+    },
+    "CL": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.8391608391608392,
+      "lda_capture_mean": 0.0027747679232992127,
+      "lda_mean_cos_mean": 0.08916618501242732,
+      "mean_cos_with_lda_mean": 0.044722575208095076,
+      "lda_miss_fraction_mean": 0.9982188109553917,
+      "curvature_mean": 10.85911981828434,
+      "global_dim_mean": 19.59449933311604
+    },
+    "COA": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.98,
+      "lda_capture_mean": 0.00025149055995481027,
+      "lda_mean_cos_mean": 0.046683974362190905,
+      "mean_cos_with_lda_mean": 0.014702290375141645,
+      "lda_miss_fraction_mean": 0.9999560649179081,
+      "curvature_mean": 13.215407376518126,
+      "global_dim_mean": 153.51826219620222
+    },
+    "CP": {
+      "n_sessions": 5,
+      "lda_accuracy_mean": 0.8843498691099476,
+      "lda_capture_mean": 0.0003417347384500534,
+      "lda_mean_cos_mean": 0.030748963719472437,
+      "mean_cos_with_lda_mean": 0.015919992587411353,
+      "lda_miss_fraction_mean": 0.9998030381036941,
+      "curvature_mean": 12.897857283414705,
+      "global_dim_mean": 71.93052115799986
+    },
+    "DG": {
+      "n_sessions": 16,
+      "lda_accuracy_mean": 0.7611276285376112,
+      "lda_capture_mean": 0.0020012185721719694,
+      "lda_mean_cos_mean": 0.06443058205964956,
+      "mean_cos_with_lda_mean": 0.03400153955604436,
+      "lda_miss_fraction_mean": 0.9986227941507329,
+      "curvature_mean": 9.72248250157044,
+      "global_dim_mean": 24.081736036714535
+    },
+    "DP": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.684,
+      "lda_capture_mean": 0.0018134067239461227,
+      "lda_mean_cos_mean": 0.06321063409801386,
+      "mean_cos_with_lda_mean": 0.03508960960045424,
+      "lda_miss_fraction_mean": 0.9987074674003898,
+      "curvature_mean": 10.524098563448117,
+      "global_dim_mean": 19.02911184219912
+    },
+    "EP": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.8481675392670157,
+      "lda_capture_mean": 0.0007713396218250547,
+      "lda_mean_cos_mean": 0.08358364382386939,
+      "mean_cos_with_lda_mean": 0.023552780707339495,
+      "lda_miss_fraction_mean": 0.9996943814244245,
+      "curvature_mean": 12.560547948870214,
+      "global_dim_mean": 56.538768076698055
+    },
+    "EPd": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.748,
+      "lda_capture_mean": 0.002545556448752543,
+      "lda_mean_cos_mean": 0.09657463221821207,
+      "mean_cos_with_lda_mean": 0.04432537549280362,
+      "lda_miss_fraction_mean": 0.998432494826329,
+      "curvature_mean": 6.017908106345438,
+      "global_dim_mean": 22.66786004687915
+    },
+    "GPe": {
+      "n_sessions": 3,
+      "lda_accuracy_mean": 0.8177822445561139,
+      "lda_capture_mean": 0.0007571307862574689,
+      "lda_mean_cos_mean": 0.05031897048619441,
+      "mean_cos_with_lda_mean": 0.023632696008653042,
+      "lda_miss_fraction_mean": 0.9997377973805784,
+      "curvature_mean": 13.02910865541998,
+      "global_dim_mean": 51.6896284481684
+    },
+    "IC": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.716,
+      "lda_capture_mean": 0.00021906088575625508,
+      "lda_mean_cos_mean": 0.007916674855685459,
+      "mean_cos_with_lda_mean": 0.012282386572613399,
+      "lda_miss_fraction_mean": 0.9997328473502619,
+      "curvature_mean": 12.037859425260415,
+      "global_dim_mean": 26.06894633313047
+    },
+    "ILA": {
+      "n_sessions": 3,
+      "lda_accuracy_mean": 0.864,
+      "lda_capture_mean": 0.0008783484756668822,
+      "lda_mean_cos_mean": 0.053706479335431594,
+      "mean_cos_with_lda_mean": 0.023448627249088472,
+      "lda_miss_fraction_mean": 0.9995188089416658,
+      "curvature_mean": 13.146517685938056,
+      "global_dim_mean": 72.85828870555635
+    },
+    "LD": {
+      "n_sessions": 5,
+      "lda_accuracy_mean": 0.7799870967741935,
+      "lda_capture_mean": 0.00409562322016138,
+      "lda_mean_cos_mean": 0.09551628970942046,
+      "mean_cos_with_lda_mean": 0.050663198007230736,
+      "lda_miss_fraction_mean": 0.996961075557268,
+      "curvature_mean": 12.247624784089327,
+      "global_dim_mean": 35.92151087173889
+    },
+    "LGd": {
+      "n_sessions": 8,
+      "lda_accuracy_mean": 0.8370291790232847,
+      "lda_capture_mean": 0.0028118478762749017,
+      "lda_mean_cos_mean": 0.07860655591856638,
+      "mean_cos_with_lda_mean": 0.033290128757279075,
+      "lda_miss_fraction_mean": 0.9985297439201141,
+      "curvature_mean": 12.807567954453049,
+      "global_dim_mean": 60.49344014391635
+    },
+    "LH": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.644,
+      "lda_capture_mean": 0.001906919258767794,
+      "lda_mean_cos_mean": 0.05209173852140808,
+      "mean_cos_with_lda_mean": 0.03648717461654749,
+      "lda_miss_fraction_mean": 0.9983763955999059,
+      "curvature_mean": 9.390643154307604,
+      "global_dim_mean": 11.614194219576445
+    },
+    "LP": {
+      "n_sessions": 10,
+      "lda_accuracy_mean": 0.8190254772749608,
+      "lda_capture_mean": 0.004215263839999201,
+      "lda_mean_cos_mean": 0.09662505373399094,
+      "mean_cos_with_lda_mean": 0.04832220956894415,
+      "lda_miss_fraction_mean": 0.9972810113044368,
+      "curvature_mean": 11.326593718651576,
+      "global_dim_mean": 42.784759757929564
+    },
+    "LS": {
+      "n_sessions": 3,
+      "lda_accuracy_mean": 0.9032218373526785,
+      "lda_capture_mean": 0.006925949738719337,
+      "lda_mean_cos_mean": 0.11040266608704745,
+      "mean_cos_with_lda_mean": 0.047907224046275336,
+      "lda_miss_fraction_mean": 0.996734983585331,
+      "curvature_mean": 13.195462623677585,
+      "global_dim_mean": 74.05734609785166
+    },
+    "LSc": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.772,
+      "lda_capture_mean": 0.0009365097550144194,
+      "lda_mean_cos_mean": 0.08157527732406641,
+      "mean_cos_with_lda_mean": 0.027078962608776642,
+      "lda_miss_fraction_mean": 0.9996742851215377,
+      "curvature_mean": 12.476444923929938,
+      "global_dim_mean": 39.158921094021224
+    },
+    "LSr": {
+      "n_sessions": 2,
+      "lda_accuracy_mean": 0.8118955823293172,
+      "lda_capture_mean": 0.003630568690249593,
+      "lda_mean_cos_mean": 0.08621050540586178,
+      "mean_cos_with_lda_mean": 0.043900538814679764,
+      "lda_miss_fraction_mean": 0.9979294889362063,
+      "curvature_mean": 12.215768563506783,
+      "global_dim_mean": 90.54020131183914
+    },
+    "MB": {
+      "n_sessions": 6,
+      "lda_accuracy_mean": 0.8087587476979742,
+      "lda_capture_mean": 0.0007553970999471465,
+      "lda_mean_cos_mean": 0.024627072595943992,
+      "mean_cos_with_lda_mean": 0.01935252031976488,
+      "lda_miss_fraction_mean": 0.9993052212341151,
+      "curvature_mean": 12.851564060159475,
+      "global_dim_mean": 53.63584793750895
+    },
+    "MD": {
+      "n_sessions": 3,
+      "lda_accuracy_mean": 0.8919999999999999,
+      "lda_capture_mean": 0.0004116879549424664,
+      "lda_mean_cos_mean": 0.04270643615475848,
+      "mean_cos_with_lda_mean": 0.018609830411696945,
+      "lda_miss_fraction_mean": 0.9998960385096695,
+      "curvature_mean": 13.42828225976009,
+      "global_dim_mean": 78.55027107170825
+    },
+    "MEA": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.7366071428571429,
+      "lda_capture_mean": 0.0029361380288501293,
+      "lda_mean_cos_mean": 0.09591326448141638,
+      "mean_cos_with_lda_mean": 0.04332059787482543,
+      "lda_miss_fraction_mean": 0.9976264566251262,
+      "curvature_mean": 11.882316237181376,
+      "global_dim_mean": 28.525560245331533
+    },
+    "MG": {
+      "n_sessions": 2,
+      "lda_accuracy_mean": 0.9455673758865248,
+      "lda_capture_mean": 0.00029373924993955235,
+      "lda_mean_cos_mean": 0.02691601193583867,
+      "mean_cos_with_lda_mean": 0.014296243260751008,
+      "lda_miss_fraction_mean": 0.9998686328428555,
+      "curvature_mean": 13.671295270083599,
+      "global_dim_mean": 94.58749913271905
+    },
+    "MOp": {
+      "n_sessions": 3,
+      "lda_accuracy_mean": 0.9546216397849463,
+      "lda_capture_mean": 9.347048082188639e-05,
+      "lda_mean_cos_mean": 0.016762154856531826,
+      "mean_cos_with_lda_mean": 0.009999935097229512,
+      "lda_miss_fraction_mean": 0.9999839065415467,
+      "curvature_mean": 13.228880764330995,
+      "global_dim_mean": 70.13979007186629
+    },
+    "MOs": {
+      "n_sessions": 17,
+      "lda_accuracy_mean": 0.8017766734664211,
+      "lda_capture_mean": 0.0026682755501679744,
+      "lda_mean_cos_mean": 0.049545454815278084,
+      "mean_cos_with_lda_mean": 0.030260978748608426,
+      "lda_miss_fraction_mean": 0.9977777370035072,
+      "curvature_mean": 10.83126336599221,
+      "global_dim_mean": 44.153631303300415
+    },
+    "MRN": {
+      "n_sessions": 11,
+      "lda_accuracy_mean": 0.811885280670221,
+      "lda_capture_mean": 0.0013191032692678347,
+      "lda_mean_cos_mean": 0.04760716713677562,
+      "mean_cos_with_lda_mean": 0.025345853417189937,
+      "lda_miss_fraction_mean": 0.999276154431863,
+      "curvature_mean": 12.43474542396375,
+      "global_dim_mean": 42.99978834787143
+    },
+    "MS": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.588,
+      "lda_capture_mean": 0.010142154160973698,
+      "lda_mean_cos_mean": 0.165684719701101,
+      "mean_cos_with_lda_mean": 0.09154911079509441,
+      "lda_miss_fraction_mean": 0.9965932306135361,
+      "curvature_mean": 10.454495665278031,
+      "global_dim_mean": 16.070313223028297
+    },
+    "NB": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.7894736842105263,
+      "lda_capture_mean": 0.0006815734398067045,
+      "lda_mean_cos_mean": 0.009483032592620753,
+      "mean_cos_with_lda_mean": 0.023248447473540487,
+      "lda_miss_fraction_mean": 0.9991428954116457,
+      "curvature_mean": 12.35153435072277,
+      "global_dim_mean": 29.297067365818773
+    },
+    "OLF": {
+      "n_sessions": 2,
+      "lda_accuracy_mean": 0.8636371308016877,
+      "lda_capture_mean": 0.0027006778195740443,
+      "lda_mean_cos_mean": 0.11140476409565264,
+      "mean_cos_with_lda_mean": 0.042430741572554206,
+      "lda_miss_fraction_mean": 0.9985973660301298,
+      "curvature_mean": 12.175517948360268,
+      "global_dim_mean": 71.93226303981172
+    },
+    "ORB": {
+      "n_sessions": 5,
+      "lda_accuracy_mean": 0.9094453038674033,
+      "lda_capture_mean": 0.0021984357148447592,
+      "lda_mean_cos_mean": 0.06490938913957145,
+      "mean_cos_with_lda_mean": 0.027896028262023486,
+      "lda_miss_fraction_mean": 0.9983787031439112,
+      "curvature_mean": 10.713493645147686,
+      "global_dim_mean": 73.10211538367949
+    },
+    "ORBm": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.836,
+      "lda_capture_mean": 0.0003864561281910398,
+      "lda_mean_cos_mean": 0.023066279781460954,
+      "mean_cos_with_lda_mean": 0.017839588974734078,
+      "lda_miss_fraction_mean": 0.9996706787947965,
+      "curvature_mean": 12.99528633743784,
+      "global_dim_mean": 56.99600785847627
+    },
+    "OT": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.676,
+      "lda_capture_mean": 0.003305859526069859,
+      "lda_mean_cos_mean": 0.027543963616039432,
+      "mean_cos_with_lda_mean": 0.028405394897910153,
+      "lda_miss_fraction_mean": 0.9961688090786583,
+      "curvature_mean": 1.065942481452086,
+      "global_dim_mean": 10.123253140866971
+    },
+    "PAG": {
+      "n_sessions": 2,
+      "lda_accuracy_mean": 0.715403314917127,
+      "lda_capture_mean": 0.002521916949497437,
+      "lda_mean_cos_mean": 0.11177735948102635,
+      "mean_cos_with_lda_mean": 0.043668615800176225,
+      "lda_miss_fraction_mean": 0.998623799454657,
+      "curvature_mean": 12.12160522282559,
+      "global_dim_mean": 35.56135319995612
+    },
+    "PIR": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.748,
+      "lda_capture_mean": 0.001104580239301449,
+      "lda_mean_cos_mean": 0.029129538517716425,
+      "mean_cos_with_lda_mean": 0.027252286292267544,
+      "lda_miss_fraction_mean": 0.9988205719077402,
+      "curvature_mean": 12.286449239683478,
+      "global_dim_mean": 38.38729131686593
+    },
+    "PL": {
+      "n_sessions": 8,
+      "lda_accuracy_mean": 0.8115,
+      "lda_capture_mean": 0.0012681476766833706,
+      "lda_mean_cos_mean": 0.05394997902438328,
+      "mean_cos_with_lda_mean": 0.028149429085277,
+      "lda_miss_fraction_mean": 0.9993327530365805,
+      "curvature_mean": 12.506077305623656,
+      "global_dim_mean": 54.663634335984455
+    },
+    "PO": {
+      "n_sessions": 5,
+      "lda_accuracy_mean": 0.908911776964757,
+      "lda_capture_mean": 0.0011218178847792596,
+      "lda_mean_cos_mean": 0.05494365327254187,
+      "mean_cos_with_lda_mean": 0.0239149572552003,
+      "lda_miss_fraction_mean": 0.999553385357163,
+      "curvature_mean": 13.001963683771155,
+      "global_dim_mean": 71.3410932901103
+    },
+    "POL": {
+      "n_sessions": 3,
+      "lda_accuracy_mean": 0.7903826196042653,
+      "lda_capture_mean": 0.00326484894545992,
+      "lda_mean_cos_mean": 0.06811400009849848,
+      "mean_cos_with_lda_mean": 0.04260747180810983,
+      "lda_miss_fraction_mean": 0.9977686669387721,
+      "curvature_mean": 11.277778568894433,
+      "global_dim_mean": 35.99505410024277
+    },
+    "POST": {
+      "n_sessions": 4,
+      "lda_accuracy_mean": 0.7651864312680435,
+      "lda_capture_mean": 0.002433677442361712,
+      "lda_mean_cos_mean": 0.05626276427277306,
+      "mean_cos_with_lda_mean": 0.03636136847266911,
+      "lda_miss_fraction_mean": 0.9978702112050908,
+      "curvature_mean": 10.30790513057326,
+      "global_dim_mean": 37.985676007746214
+    },
+    "PT": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.708,
+      "lda_capture_mean": 0.0028764470476392618,
+      "lda_mean_cos_mean": 0.08483859293675884,
+      "mean_cos_with_lda_mean": 0.04644156919396638,
+      "lda_miss_fraction_mean": 0.9981367291670726,
+      "curvature_mean": 12.037018314819113,
+      "global_dim_mean": 29.77909203770007
+    },
+    "RN": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.7,
+      "lda_capture_mean": 0.0005288721533502844,
+      "lda_mean_cos_mean": 0.03896118486136188,
+      "mean_cos_with_lda_mean": 0.020565115175193018,
+      "lda_miss_fraction_mean": 0.9997511928595246,
+      "curvature_mean": 12.889695266357112,
+      "global_dim_mean": 36.55938512900705
+    },
+    "RSP": {
+      "n_sessions": 9,
+      "lda_accuracy_mean": 0.7936779901173975,
+      "lda_capture_mean": 0.002449638701237722,
+      "lda_mean_cos_mean": 0.05920272790961824,
+      "mean_cos_with_lda_mean": 0.031823655684982216,
+      "lda_miss_fraction_mean": 0.9978688000849993,
+      "curvature_mean": 10.96311240448528,
+      "global_dim_mean": 40.46708633595496
+    },
+    "RT": {
+      "n_sessions": 2,
+      "lda_accuracy_mean": 0.8116071428571429,
+      "lda_capture_mean": 0.00035942654323692336,
+      "lda_mean_cos_mean": 0.029707461970188618,
+      "mean_cos_with_lda_mean": 0.0162852539065218,
+      "lda_miss_fraction_mean": 0.9998182554327204,
+      "curvature_mean": 12.402144177033593,
+      "global_dim_mean": 48.616896870796054
+    },
+    "SCig": {
+      "n_sessions": 4,
+      "lda_accuracy_mean": 0.9458090683136251,
+      "lda_capture_mean": 0.00012549873683910659,
+      "lda_mean_cos_mean": 0.01862524492169442,
+      "mean_cos_with_lda_mean": 0.010022616791305446,
+      "lda_miss_fraction_mean": 0.9999500513080661,
+      "curvature_mean": 13.361592569037349,
+      "global_dim_mean": 78.09409185241945
+    },
+    "SCm": {
+      "n_sessions": 7,
+      "lda_accuracy_mean": 0.6963629025006745,
+      "lda_capture_mean": 0.00140699658745626,
+      "lda_mean_cos_mean": 0.04287928420191258,
+      "mean_cos_with_lda_mean": 0.02830285009881887,
+      "lda_miss_fraction_mean": 0.9987827833460919,
+      "curvature_mean": 11.971650770520926,
+      "global_dim_mean": 29.625484195455567
+    },
+    "SCs": {
+      "n_sessions": 4,
+      "lda_accuracy_mean": 0.6806022099447514,
+      "lda_capture_mean": 0.006485678311615888,
+      "lda_mean_cos_mean": 0.0641105492006454,
+      "mean_cos_with_lda_mean": 0.05481462000616072,
+      "lda_miss_fraction_mean": 0.9936930922390954,
+      "curvature_mean": 10.107691046822648,
+      "global_dim_mean": 22.625605303415686
+    },
+    "SCsg": {
+      "n_sessions": 3,
+      "lda_accuracy_mean": 0.7198573975044562,
+      "lda_capture_mean": 0.00442922280954167,
+      "lda_mean_cos_mean": 0.06329723699764263,
+      "mean_cos_with_lda_mean": 0.05499226834838688,
+      "lda_miss_fraction_mean": 0.9956620768406367,
+      "curvature_mean": 9.686565199612215,
+      "global_dim_mean": 26.79791224219287
+    },
+    "SI": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.712,
+      "lda_capture_mean": 0.002894280385419571,
+      "lda_mean_cos_mean": 0.09028217115523277,
+      "mean_cos_with_lda_mean": 0.04863291229818058,
+      "lda_miss_fraction_mean": 0.9987536153319988,
+      "curvature_mean": 11.854112594446983,
+      "global_dim_mean": 23.50836632134582
+    },
+    "SNr": {
+      "n_sessions": 4,
+      "lda_accuracy_mean": 0.7820842080151347,
+      "lda_capture_mean": 0.0013483987052211827,
+      "lda_mean_cos_mean": 0.05536023747727235,
+      "mean_cos_with_lda_mean": 0.029948048595630355,
+      "lda_miss_fraction_mean": 0.9991817393941409,
+      "curvature_mean": 11.961125287988686,
+      "global_dim_mean": 41.1708620180446
+    },
+    "SPF": {
+      "n_sessions": 2,
+      "lda_accuracy_mean": 0.7857036207540127,
+      "lda_capture_mean": 0.005298929528528119,
+      "lda_mean_cos_mean": 0.061240894206697524,
+      "mean_cos_with_lda_mean": 0.060536045389345955,
+      "lda_miss_fraction_mean": 0.9942947757740472,
+      "curvature_mean": 10.338004622267913,
+      "global_dim_mean": 16.053158395318953
+    },
+    "SSp": {
+      "n_sessions": 4,
+      "lda_accuracy_mean": 0.8100100806451612,
+      "lda_capture_mean": 0.006453738720039453,
+      "lda_mean_cos_mean": 0.07867861654356718,
+      "mean_cos_with_lda_mean": 0.0507955661993035,
+      "lda_miss_fraction_mean": 0.9954133977342409,
+      "curvature_mean": 10.72744307106468,
+      "global_dim_mean": 35.47582389303006
+    },
+    "SSs": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.812,
+      "lda_capture_mean": 0.0006705388111055273,
+      "lda_mean_cos_mean": 0.05046733115587365,
+      "mean_cos_with_lda_mean": 0.024735176944247362,
+      "lda_miss_fraction_mean": 0.9998846795129023,
+      "curvature_mean": 13.165023219370317,
+      "global_dim_mean": 64.96628026025034
+    },
+    "SUB": {
+      "n_sessions": 9,
+      "lda_accuracy_mean": 0.8198373979793437,
+      "lda_capture_mean": 0.00185148777645975,
+      "lda_mean_cos_mean": 0.055983549266977746,
+      "mean_cos_with_lda_mean": 0.03568576661465528,
+      "lda_miss_fraction_mean": 0.9985878475296571,
+      "curvature_mean": 12.411578775373014,
+      "global_dim_mean": 42.79933141744321
+    },
+    "TH": {
+      "n_sessions": 8,
+      "lda_accuracy_mean": 0.8751615943980608,
+      "lda_capture_mean": 0.0010736118872218573,
+      "lda_mean_cos_mean": 0.055091553395438045,
+      "mean_cos_with_lda_mean": 0.023215127655472893,
+      "lda_miss_fraction_mean": 0.9995710350164705,
+      "curvature_mean": 12.4504651601187,
+      "global_dim_mean": 77.32316038172368
+    },
+    "TT": {
+      "n_sessions": 3,
+      "lda_accuracy_mean": 0.7066666666666667,
+      "lda_capture_mean": 0.0038150036765279088,
+      "lda_mean_cos_mean": 0.06990976962556542,
+      "mean_cos_with_lda_mean": 0.04625576928230404,
+      "lda_miss_fraction_mean": 0.9970221777935769,
+      "curvature_mean": 11.92543190309378,
+      "global_dim_mean": 23.051020393162712
+    },
+    "VAL": {
+      "n_sessions": 1,
+      "lda_accuracy_mean": 0.9516129032258065,
+      "lda_capture_mean": 0.0007427306842940881,
+      "lda_mean_cos_mean": 0.06002930861171328,
+      "mean_cos_with_lda_mean": 0.026148663340767573,
+      "lda_miss_fraction_mean": 0.9998584755994704,
+      "curvature_mean": 13.14751769120869,
+      "global_dim_mean": 46.077963003246275
+    },
+    "VISa": {
+      "n_sessions": 5,
+      "lda_accuracy_mean": 0.8349442334133439,
+      "lda_capture_mean": 0.0029445447330050467,
+      "lda_mean_cos_mean": 0.051695256983860446,
+      "mean_cos_with_lda_mean": 0.03636409930735485,
+      "lda_miss_fraction_mean": 0.9979112983248793,
+      "curvature_mean": 10.216740276444872,
+      "global_dim_mean": 36.54059924483925
+    },
+    "VISam": {
+      "n_sessions": 11,
+      "lda_accuracy_mean": 0.7705557152937206,
+      "lda_capture_mean": 0.0007489724729823756,
+      "lda_mean_cos_mean": 0.039707213877287595,
+      "mean_cos_with_lda_mean": 0.022721966405767832,
+      "lda_miss_fraction_mean": 0.9995077430132739,
+      "curvature_mean": 12.144623411646448,
+      "global_dim_mean": 40.21240974340219
+    },
+    "VISl": {
+      "n_sessions": 3,
+      "lda_accuracy_mean": 0.8386666666666667,
+      "lda_capture_mean": 0.00028050590449480627,
+      "lda_mean_cos_mean": 0.029080356020794767,
+      "mean_cos_with_lda_mean": 0.013918690428744766,
+      "lda_miss_fraction_mean": 0.9998443213175584,
+      "curvature_mean": 12.787791953674224,
+      "global_dim_mean": 70.74074818309852
+    },
+    "VISp": {
+      "n_sessions": 12,
+      "lda_accuracy_mean": 0.8125230204096169,
+      "lda_capture_mean": 0.0019557257598678663,
+      "lda_mean_cos_mean": 0.05322806106661998,
+      "mean_cos_with_lda_mean": 0.031860424528295954,
+      "lda_miss_fraction_mean": 0.9986497017159502,
+      "curvature_mean": 10.159759734219826,
+      "global_dim_mean": 42.9208220027301
+    },
+    "VISpm": {
+      "n_sessions": 4,
+      "lda_accuracy_mean": 0.8644131378149605,
+      "lda_capture_mean": 0.0009244675425957691,
+      "lda_mean_cos_mean": 0.04591455749583914,
+      "mean_cos_with_lda_mean": 0.02439099593383997,
+      "lda_miss_fraction_mean": 0.9994126627276111,
+      "curvature_mean": 12.036304823775462,
+      "global_dim_mean": 63.55756380418457
+    },
+    "VISrl": {
+      "n_sessions": 2,
+      "lda_accuracy_mean": 0.8679144385026738,
+      "lda_capture_mean": 0.0011362258616470621,
+      "lda_mean_cos_mean": 0.0649742563445857,
+      "mean_cos_with_lda_mean": 0.02806112475500078,
+      "lda_miss_fraction_mean": 0.9995575315997538,
+      "curvature_mean": 12.255190322762932,
+      "global_dim_mean": 69.71128686589381
+    },
+    "VPL": {
+      "n_sessions": 4,
+      "lda_accuracy_mean": 0.7899911431440046,
+      "lda_capture_mean": 0.0021693295733882295,
+      "lda_mean_cos_mean": 0.06510085588203814,
+      "mean_cos_with_lda_mean": 0.03967023995483842,
+      "lda_miss_fraction_mean": 0.9985526821089079,
+      "curvature_mean": 12.769656506176947,
+      "global_dim_mean": 44.822471188879184
+    },
+    "VPM": {
+      "n_sessions": 4,
+      "lda_accuracy_mean": 0.8472317312922679,
+      "lda_capture_mean": 0.0011923762565274893,
+      "lda_mean_cos_mean": 0.05478205038824923,
+      "mean_cos_with_lda_mean": 0.0285006864136591,
+      "lda_miss_fraction_mean": 0.9993485849012254,
+      "curvature_mean": 12.414666419939092,
+      "global_dim_mean": 43.598865137470135
+    },
+    "ZI": {
+      "n_sessions": 4,
+      "lda_accuracy_mean": 0.7565706806282722,
+      "lda_capture_mean": 0.0009559664589518674,
+      "lda_mean_cos_mean": 0.027473081350500278,
+      "mean_cos_with_lda_mean": 0.02449371368161093,
+      "lda_miss_fraction_mean": 0.9990507380342729,
+      "curvature_mean": 11.536144460067533,
+      "global_dim_mean": 36.97166811221052
+    },
+    "root": {
+      "n_sessions": 22,
+      "lda_accuracy_mean": 0.7991448742093503,
+      "lda_capture_mean": 0.0030265870404562415,
+      "lda_mean_cos_mean": 0.06465728295404034,
+      "mean_cos_with_lda_mean": 0.03537702508699272,
+      "lda_miss_fraction_mean": 0.9980976283666304,
+      "curvature_mean": 11.739208585916913,
+      "global_dim_mean": 70.20231919978875
+    }
+  },
+  "silencing_correlations": {
+    "lda_accuracy": {
+      "rho": 0.6503496503496504,
+      "p": 0.022034190932365316,
+      "n": 12
+    },
+    "lda_capture": {
+      "rho": -0.11188811188811189,
+      "p": 0.729194990751066,
+      "n": 12
+    },
+    "lda_miss_fraction": {
+      "rho": 0.10489510489510491,
+      "p": 0.7456094809807079,
+      "n": 12
+    },
+    "curvature": {
+      "rho": 0.27272727272727276,
+      "p": 0.39109677094189615,
+      "n": 12
+    },
+    "global_dim": {
+      "rho": 0.5944055944055945,
+      "p": 0.04152149441031857,
+      "n": 12
+    },
+    "mean_cos_with_lda": {
+      "rho": -0.2377622377622378,
+      "p": 0.45680085263992326,
+      "n": 12
+    }
+  },
+  "curvature_vs_lda": {
+    "curvature_vs_lda_miss": {
+      "rho": 0.7346543617709262,
+      "p": 2.281968011143389e-56,
+      "n": 325
+    }
+  }
+}

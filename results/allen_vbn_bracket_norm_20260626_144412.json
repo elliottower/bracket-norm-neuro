@@ -1,0 +1,437 @@
+{
+  "timestamp": "2026-06-26T14:44:12.730684+00:00",
+  "experiment": "allen_vbn_bracket_norm",
+  "n_sessions_processed": 3,
+  "n_sessions_requested": 3,
+  "n_regions": 29,
+  "region_summary": {
+    "APN": {
+      "bn_mean": 50.380863189697266,
+      "bn_std": 0.0,
+      "nc_mean": 162.0,
+      "n_sessions": 1
+    },
+    "CA1": {
+      "bn_mean": 26.49372100830078,
+      "bn_std": 6.783489227294922,
+      "nc_mean": 293.5,
+      "n_sessions": 2
+    },
+    "CA3": {
+      "bn_mean": 12.830503463745117,
+      "bn_std": 3.191720962524414,
+      "nc_mean": 45.0,
+      "n_sessions": 2
+    },
+    "DG": {
+      "bn_mean": 19.164915561676025,
+      "bn_std": 4.166759014129639,
+      "nc_mean": 142.0,
+      "n_sessions": 2
+    },
+    "DT": {
+      "bn_mean": 5.446206092834473,
+      "bn_std": 0.0,
+      "nc_mean": 26.0,
+      "n_sessions": 1
+    },
+    "LGd": {
+      "bn_mean": 21.993112564086914,
+      "bn_std": 0.0,
+      "nc_mean": 86.0,
+      "n_sessions": 1
+    },
+    "LGv": {
+      "bn_mean": 23.323274612426758,
+      "bn_std": 0.0,
+      "nc_mean": 15.0,
+      "n_sessions": 1
+    },
+    "LP": {
+      "bn_mean": 19.68162441253662,
+      "bn_std": 0.5901594161987305,
+      "nc_mean": 80.5,
+      "n_sessions": 2
+    },
+    "MB": {
+      "bn_mean": 16.615723133087158,
+      "bn_std": 5.5874762535095215,
+      "nc_mean": 62.0,
+      "n_sessions": 2
+    },
+    "MGd": {
+      "bn_mean": 7.530153036117554,
+      "bn_std": 2.7313482761383057,
+      "nc_mean": 27.5,
+      "n_sessions": 2
+    },
+    "MGm": {
+      "bn_mean": 23.121723175048828,
+      "bn_std": 0.0,
+      "nc_mean": 87.0,
+      "n_sessions": 1
+    },
+    "MGv": {
+      "bn_mean": 28.048587799072266,
+      "bn_std": 0.0,
+      "nc_mean": 117.0,
+      "n_sessions": 1
+    },
+    "MRN": {
+      "bn_mean": 25.555435180664062,
+      "bn_std": 10.554485321044922,
+      "nc_mean": 78.5,
+      "n_sessions": 2
+    },
+    "PIL": {
+      "bn_mean": 14.813850402832031,
+      "bn_std": 0.0,
+      "nc_mean": 74.0,
+      "n_sessions": 1
+    },
+    "POL": {
+      "bn_mean": 19.807848691940308,
+      "bn_std": 12.322488069534302,
+      "nc_mean": 89.0,
+      "n_sessions": 2
+    },
+    "POST": {
+      "bn_mean": 8.607065200805664,
+      "bn_std": 0.0,
+      "nc_mean": 40.0,
+      "n_sessions": 1
+    },
+    "PoT": {
+      "bn_mean": 9.2140474319458,
+      "bn_std": 0.0,
+      "nc_mean": 59.0,
+      "n_sessions": 1
+    },
+    "SCig": {
+      "bn_mean": 4.546230792999268,
+      "bn_std": 0.0,
+      "nc_mean": 33.0,
+      "n_sessions": 1
+    },
+    "SGN": {
+      "bn_mean": 6.285452365875244,
+      "bn_std": 1.3662524223327637,
+      "nc_mean": 39.5,
+      "n_sessions": 2
+    },
+    "SNr": {
+      "bn_mean": 36.680320739746094,
+      "bn_std": 0.0,
+      "nc_mean": 42.0,
+      "n_sessions": 1
+    },
+    "SUB": {
+      "bn_mean": 15.63454532623291,
+      "bn_std": 0.0,
+      "nc_mean": 112.0,
+      "n_sessions": 1
+    },
+    "TH": {
+      "bn_mean": 31.542505264282227,
+      "bn_std": 0.35729217529296875,
+      "nc_mean": 92.0,
+      "n_sessions": 2
+    },
+    "VISal": {
+      "bn_mean": 14.847419738769531,
+      "bn_std": 3.665590286254883,
+      "nc_mean": 111.5,
+      "n_sessions": 2
+    },
+    "VISam": {
+      "bn_mean": 14.408526420593262,
+      "bn_std": 0.0,
+      "nc_mean": 146.0,
+      "n_sessions": 1
+    },
+    "VISl": {
+      "bn_mean": 26.279675483703613,
+      "bn_std": 0.29012584686279297,
+      "nc_mean": 148.0,
+      "n_sessions": 2
+    },
+    "VISp": {
+      "bn_mean": 17.597383975982666,
+      "bn_std": 7.870761394500732,
+      "nc_mean": 188.0,
+      "n_sessions": 2
+    },
+    "VISpm": {
+      "bn_mean": 23.559358596801758,
+      "bn_std": 3.542612075805664,
+      "nc_mean": 182.0,
+      "n_sessions": 2
+    },
+    "VISrl": {
+      "bn_mean": 18.474242210388184,
+      "bn_std": 0.03666973114013672,
+      "nc_mean": 99.5,
+      "n_sessions": 2
+    },
+    "ZI": {
+      "bn_mean": 15.495326042175293,
+      "bn_std": 0.0,
+      "nc_mean": 18.0,
+      "n_sessions": 1
+    }
+  },
+  "session_results": [
+    {
+      "session_id": 1043752325,
+      "n_valid_trials": 185,
+      "n_hit": 92,
+      "n_miss": 69,
+      "n_fa": 7,
+      "n_cr": 17,
+      "n_regions": 24,
+      "regions": {
+        "APN": {
+          "bracket_norm": 50.380863189697266,
+          "rotation_angle": 1.1783320903778076,
+          "n_neurons": 162
+        },
+        "CA1": {
+          "bracket_norm": 19.71023178100586,
+          "rotation_angle": 1.0116045475006104,
+          "n_neurons": 181
+        },
+        "VISam": {
+          "bracket_norm": 14.408526420593262,
+          "rotation_angle": 1.3198208808898926,
+          "n_neurons": 146
+        },
+        "LP": {
+          "bracket_norm": 19.09146499633789,
+          "rotation_angle": 1.5243282318115234,
+          "n_neurons": 44
+        },
+        "MRN": {
+          "bracket_norm": 15.00094985961914,
+          "rotation_angle": 1.183858036994934,
+          "n_neurons": 39
+        },
+        "VISpm": {
+          "bracket_norm": 20.016746520996094,
+          "rotation_angle": 1.1671335697174072,
+          "n_neurons": 141
+        },
+        "DG": {
+          "bracket_norm": 14.998156547546387,
+          "rotation_angle": 1.234812617301941,
+          "n_neurons": 54
+        },
+        "SGN": {
+          "bracket_norm": 4.9191999435424805,
+          "rotation_angle": 1.3857338428497314,
+          "n_neurons": 19
+        },
+        "MB": {
+          "bracket_norm": 22.20319938659668,
+          "rotation_angle": 1.4237924814224243,
+          "n_neurons": 107
+        },
+        "SUB": {
+          "bracket_norm": 15.63454532623291,
+          "rotation_angle": 1.0736620426177979,
+          "n_neurons": 112
+        },
+        "VISp": {
+          "bracket_norm": 25.4681453704834,
+          "rotation_angle": 1.2046581506729126,
+          "n_neurons": 231
+        },
+        "DT": {
+          "bracket_norm": 5.446206092834473,
+          "rotation_angle": 1.0329179763793945,
+          "n_neurons": 26
+        },
+        "VISl": {
+          "bracket_norm": 26.569801330566406,
+          "rotation_angle": 1.1536911725997925,
+          "n_neurons": 125
+        },
+        "MGm": {
+          "bracket_norm": 23.121723175048828,
+          "rotation_angle": 0.705605149269104,
+          "n_neurons": 87
+        },
+        "TH": {
+          "bracket_norm": 31.185213088989258,
+          "rotation_angle": 1.09190833568573,
+          "n_neurons": 91
+        },
+        "LGd": {
+          "bracket_norm": 21.993112564086914,
+          "rotation_angle": 1.1009113788604736,
+          "n_neurons": 86
+        },
+        "MGv": {
+          "bracket_norm": 28.048587799072266,
+          "rotation_angle": 1.7601345777511597,
+          "n_neurons": 117
+        },
+        "CA3": {
+          "bracket_norm": 9.638782501220703,
+          "rotation_angle": 1.2978086471557617,
+          "n_neurons": 31
+        },
+        "VISal": {
+          "bracket_norm": 18.513010025024414,
+          "rotation_angle": 1.677443504333496,
+          "n_neurons": 135
+        },
+        "POL": {
+          "bracket_norm": 7.485360622406006,
+          "rotation_angle": 0.9455450177192688,
+          "n_neurons": 30
+        },
+        "SNr": {
+          "bracket_norm": 36.680320739746094,
+          "rotation_angle": 1.7094961404800415,
+          "n_neurons": 42
+        },
+        "VISrl": {
+          "bracket_norm": 18.437572479248047,
+          "rotation_angle": 1.3770718574523926,
+          "n_neurons": 86
+        },
+        "MGd": {
+          "bracket_norm": 10.26150131225586,
+          "rotation_angle": 1.0392982959747314,
+          "n_neurons": 41
+        },
+        "PIL": {
+          "bracket_norm": 14.813850402832031,
+          "rotation_angle": 1.3856831789016724,
+          "n_neurons": 74
+        }
+      }
+    },
+    {
+      "session_id": 1044385384,
+      "n_valid_trials": 274,
+      "n_hit": 124,
+      "n_miss": 115,
+      "n_fa": 5,
+      "n_cr": 30,
+      "n_regions": 20,
+      "regions": {
+        "VISpm": {
+          "bracket_norm": 27.101970672607422,
+          "rotation_angle": 0.8325369358062744,
+          "n_neurons": 223
+        },
+        "LP": {
+          "bracket_norm": 20.27178382873535,
+          "rotation_angle": 0.7141845226287842,
+          "n_neurons": 117
+        },
+        "POL": {
+          "bracket_norm": 32.13033676147461,
+          "rotation_angle": 0.8966789841651917,
+          "n_neurons": 148
+        },
+        "PoT": {
+          "bracket_norm": 9.2140474319458,
+          "rotation_angle": 0.7035666704177856,
+          "n_neurons": 59
+        },
+        "DG": {
+          "bracket_norm": 23.331674575805664,
+          "rotation_angle": 0.8444625735282898,
+          "n_neurons": 230
+        },
+        "CA1": {
+          "bracket_norm": 33.2772102355957,
+          "rotation_angle": 0.774175763130188,
+          "n_neurons": 406
+        },
+        "MRN": {
+          "bracket_norm": 36.109920501708984,
+          "rotation_angle": 0.9068018198013306,
+          "n_neurons": 118
+        },
+        "VISp": {
+          "bracket_norm": 9.726622581481934,
+          "rotation_angle": 0.41000136733055115,
+          "n_neurons": 145
+        },
+        "SCig": {
+          "bracket_norm": 4.546230792999268,
+          "rotation_angle": 0.2824576795101166,
+          "n_neurons": 33
+        },
+        "POST": {
+          "bracket_norm": 8.607065200805664,
+          "rotation_angle": 0.38387373089790344,
+          "n_neurons": 40
+        },
+        "MB": {
+          "bracket_norm": 11.028246879577637,
+          "rotation_angle": 1.8946646451950073,
+          "n_neurons": 17
+        },
+        "TH": {
+          "bracket_norm": 31.899797439575195,
+          "rotation_angle": 1.5050528049468994,
+          "n_neurons": 93
+        },
+        "CA3": {
+          "bracket_norm": 16.02222442626953,
+          "rotation_angle": 0.7811324596405029,
+          "n_neurons": 59
+        },
+        "VISl": {
+          "bracket_norm": 25.98954963684082,
+          "rotation_angle": 0.7115448117256165,
+          "n_neurons": 171
+        },
+        "LGv": {
+          "bracket_norm": 23.323274612426758,
+          "rotation_angle": 2.30631947517395,
+          "n_neurons": 15
+        },
+        "ZI": {
+          "bracket_norm": 15.495326042175293,
+          "rotation_angle": 1.680345058441162,
+          "n_neurons": 18
+        },
+        "MGd": {
+          "bracket_norm": 4.798804759979248,
+          "rotation_angle": 0.9261301755905151,
+          "n_neurons": 14
+        },
+        "VISal": {
+          "bracket_norm": 11.181829452514648,
+          "rotation_angle": 0.7639599442481995,
+          "n_neurons": 88
+        },
+        "SGN": {
+          "bracket_norm": 7.651704788208008,
+          "rotation_angle": 0.692685604095459,
+          "n_neurons": 60
+        },
+        "VISrl": {
+          "bracket_norm": 18.51091194152832,
+          "rotation_angle": 0.9486477375030518,
+          "n_neurons": 113
+        }
+      }
+    },
+    {
+      "session_id": 1044389060,
+      "n_valid_trials": 239,
+      "n_hit": 104,
+      "n_miss": 104,
+      "n_fa": 4,
+      "n_cr": 27,
+      "n_regions": 0,
+      "regions": {}
+    }
+  ]
+}

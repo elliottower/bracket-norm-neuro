@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-06-26T00:50:34.430779+00:00",
+  "n_regions": 12,
+  "median_er": 21.80568654623065,
+  "rho_all": 0.5244755244755246,
+  "p_all": 0.08001937592027474,
+  "regions": [
+    {
+      "region": "PL",
+      "effective_rank": 22.89647218129113,
+      "commutativity": 0.034820082035825345,
+      "silencing": 0.3333
+    },
+    {
+      "region": "ORB",
+      "effective_rank": 24.701674548850917,
+      "commutativity": 0.03946056940707642,
+      "silencing": 0.3085
+    },
+    {
+      "region": "VISpm",
+      "effective_rank": 23.640560668993547,
+      "commutativity": 0.0034120477793851203,
+      "silencing": 0.2248
+    },
+    {
+      "region": "MOp",
+      "effective_rank": 23.56970167186833,
+      "commutativity": 0.17786563423324575,
+      "silencing": 0.1869
+    },
+    {
+      "region": "SSp",
+      "effective_rank": 15.927252487071957,
+      "commutativity": 0.10409958806087605,
+      "silencing": 0.1862
+    },
+    {
+      "region": "VISl",
+      "effective_rank": 27.320219824698082,
+      "commutativity": 0.035942892781166504,
+      "silencing": 0.1722
+    },
+    {
+      "region": "SSs",
+      "effective_rank": 23.885646496827942,
+      "commutativity": 0.24627768647954182,
+      "silencing": 0.16
+    },
+    {
+      "region": "MOs",
+      "effective_rank": 20.239557786624,
+      "commutativity": 0.007914125626419114,
+      "silencing": 0.1529
+    },
+    {
+      "region": "ACA",
+      "effective_rank": 16.152392920804402,
+      "commutativity": 0.028865964587891688,
+      "silencing": 0.1451
+    },
+    {
+      "region": "RSP",
+      "effective_rank": 18.458718891108116,
+      "commutativity": 0.029767725608536966,
+      "silencing": 0.1421
+    },
+    {
+      "region": "VISp",
+      "effective_rank": 20.71490091117017,
+      "commutativity": -0.01616600594789969,
+      "silencing": 0.1414
+    },
+    {
+      "region": "VISam",
+      "effective_rank": 18.71000866846508,
+      "commutativity": -0.004332198999853274,
+      "silencing": 0.0818
+    }
+  ]
+}

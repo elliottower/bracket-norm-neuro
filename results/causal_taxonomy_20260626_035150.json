@@ -1,0 +1,2638 @@
+{
+  "timestamp": "2026-06-26T03:51:50.876724+00:00",
+  "experiment": "causal_taxonomy",
+  "full_brain_profile": {
+    "ACA": {
+      "bracket_norm": 0.08927163804641387,
+      "seis": 0.10868888983496944,
+      "neuron_count": 76.27272727272727,
+      "n_sessions": 11
+    },
+    "ACB": {
+      "bracket_norm": 0.11965173995973738,
+      "seis": 0.1274973027157464,
+      "neuron_count": 112.33333333333333,
+      "n_sessions": 3
+    },
+    "APN": {
+      "bracket_norm": 0.37411627526932595,
+      "seis": -0.17219636373208644,
+      "neuron_count": 123.5,
+      "n_sessions": 2
+    },
+    "AUD": {
+      "bracket_norm": 0.08122331053592934,
+      "seis": 0.11322415138594906,
+      "neuron_count": 246.0,
+      "n_sessions": 1
+    },
+    "BLA": {
+      "bracket_norm": 0.1532028151823051,
+      "seis": -0.04582152909243458,
+      "neuron_count": 158.5,
+      "n_sessions": 2
+    },
+    "BMA": {
+      "bracket_norm": 0.09008458090975989,
+      "seis": 0.06340401970952,
+      "neuron_count": 104.0,
+      "n_sessions": 1
+    },
+    "CA": {
+      "bracket_norm": 0.16657494022207375,
+      "seis": 0.08863864779906828,
+      "neuron_count": 193.0,
+      "n_sessions": 1
+    },
+    "CA1": {
+      "bracket_norm": 0.1179739489547706,
+      "seis": 0.051294004397105984,
+      "neuron_count": 67.7,
+      "n_sessions": 20
+    },
+    "CA2": {
+      "bracket_norm": 0.16273200418340247,
+      "seis": 0.018000149098675634,
+      "neuron_count": 115.0,
+      "n_sessions": 1
+    },
+    "CA3": {
+      "bracket_norm": 0.12190449595973196,
+      "seis": 0.0970442641303075,
+      "neuron_count": 54.55555555555556,
+      "n_sessions": 9
+    },
+    "CL": {
+      "bracket_norm": 0.10270544894587556,
+      "seis": -0.29630489772569146,
+      "neuron_count": 32.0,
+      "n_sessions": 1
+    },
+    "COA": {
+      "bracket_norm": 0.14119423611123624,
+      "seis": -0.21968496379895325,
+      "neuron_count": 316.0,
+      "n_sessions": 1
+    },
+    "CP": {
+      "bracket_norm": 0.1407547671212091,
+      "seis": 0.06608428958897186,
+      "neuron_count": 243.0,
+      "n_sessions": 5
+    },
+    "DG": {
+      "bracket_norm": 0.10609685211207831,
+      "seis": 0.019282102503612467,
+      "neuron_count": 48.5,
+      "n_sessions": 16
+    },
+    "DP": {
+      "seis": 0.02095151300574881,
+      "neuron_count": 39.0,
+      "n_sessions": 1
+    },
+    "EP": {
+      "seis": 0.08847777874249742,
+      "neuron_count": 91.0,
+      "n_sessions": 1
+    },
+    "EPd": {
+      "seis": 0.02257365311461341,
+      "neuron_count": 52.0,
+      "n_sessions": 1
+    },
+    "GPe": {
+      "bracket_norm": 0.20128781547642083,
+      "seis": 0.2836776814425325,
+      "neuron_count": 97.33333333333333,
+      "n_sessions": 3
+    },
+    "IC": {
+      "seis": 0.3708803810837969,
+      "neuron_count": 58.0,
+      "n_sessions": 1
+    },
+    "ILA": {
+      "bracket_norm": 0.15508141500230713,
+      "seis": 0.06323180656578165,
+      "neuron_count": 137.0,
+      "n_sessions": 3
+    },
+    "LD": {
+      "bracket_norm": 0.18238409295339575,
+      "seis": 0.13289480625642472,
+      "neuron_count": 49.666666666666664,
+      "n_sessions": 6
+    },
+    "LGd": {
+      "bracket_norm": 0.13646799620510916,
+      "seis": -0.0011975255943167064,
+      "neuron_count": 88.2,
+      "n_sessions": 10
+    },
+    "LH": {
+      "bracket_norm": 0.04756777512116514,
+      "seis": 0.04025194459764246,
+      "neuron_count": 12.0,
+      "n_sessions": 2
+    },
+    "LP": {
+      "bracket_norm": 0.1613503628223769,
+      "seis": 0.007705130513682863,
+      "neuron_count": 74.4,
+      "n_sessions": 10
+    },
+    "LS": {
+      "bracket_norm": 0.16474945272243133,
+      "seis": 0.033786127979767266,
+      "neuron_count": 135.0,
+      "n_sessions": 3
+    },
+    "LSc": {
+      "bracket_norm": 0.07745217284503804,
+      "seis": -0.04910754854893063,
+      "neuron_count": 72.0,
+      "n_sessions": 1
+    },
+    "LSr": {
+      "bracket_norm": 0.15358207493152365,
+      "seis": 0.04086365463870008,
+      "neuron_count": 234.0,
+      "n_sessions": 2
+    },
+    "MB": {
+      "bracket_norm": 0.2636606862475921,
+      "seis": 0.047725436812838674,
+      "neuron_count": 145.66666666666666,
+      "n_sessions": 6
+    },
+    "MD": {
+      "bracket_norm": 0.261027621559777,
+      "seis": -0.052908709024191036,
+      "neuron_count": 132.33333333333334,
+      "n_sessions": 3
+    },
+    "MEA": {
+      "bracket_norm": 0.07730896406314568,
+      "seis": -0.04490643598401971,
+      "neuron_count": 41.0,
+      "n_sessions": 1
+    },
+    "MG": {
+      "seis": 0.1008868781477795,
+      "neuron_count": 147.5,
+      "n_sessions": 2
+    },
+    "MOp": {
+      "bracket_norm": 0.2635792961127127,
+      "seis": -0.020495244903316136,
+      "neuron_count": 264.3333333333333,
+      "n_sessions": 3
+    },
+    "MOs": {
+      "bracket_norm": 0.0937769115946867,
+      "seis": 0.007889474313375805,
+      "neuron_count": 96.77777777777777,
+      "n_sessions": 18
+    },
+    "MRN": {
+      "bracket_norm": 0.18445084741115372,
+      "seis": -0.03331523253593036,
+      "neuron_count": 92.36363636363636,
+      "n_sessions": 11
+    },
+    "MS": {
+      "bracket_norm": 0.1280852002611115,
+      "seis": 0.08254110287889564,
+      "neuron_count": 23.0,
+      "n_sessions": 1
+    },
+    "NB": {
+      "seis": 0.19831414686634732,
+      "neuron_count": 43.0,
+      "n_sessions": 1
+    },
+    "OLF": {
+      "bracket_norm": 0.08084251701959802,
+      "seis": 0.1647822010425441,
+      "neuron_count": 129.5,
+      "n_sessions": 2
+    },
+    "ORB": {
+      "bracket_norm": 0.13587878637401762,
+      "seis": 0.05961900951558724,
+      "neuron_count": 162.4,
+      "n_sessions": 5
+    },
+    "ORBm": {
+      "bracket_norm": 0.12362158062244237,
+      "seis": 0.22447032006200485,
+      "neuron_count": 122.0,
+      "n_sessions": 1
+    },
+    "OT": {
+      "bracket_norm": 0.046278742023778595,
+      "seis": 0.1373368817542725,
+      "neuron_count": 26.0,
+      "n_sessions": 1
+    },
+    "PAG": {
+      "bracket_norm": 0.19223318833975753,
+      "seis": 0.01814450682655851,
+      "neuron_count": 46.666666666666664,
+      "n_sessions": 3
+    },
+    "PIR": {
+      "seis": -0.07659395875238585,
+      "neuron_count": 67.0,
+      "n_sessions": 1
+    },
+    "PL": {
+      "bracket_norm": 0.11189490026621553,
+      "seis": 0.010283557334861526,
+      "neuron_count": 86.3,
+      "n_sessions": 10
+    },
+    "PO": {
+      "bracket_norm": 0.22969570118439642,
+      "seis": -0.04574212886607567,
+      "neuron_count": 138.4,
+      "n_sessions": 5
+    },
+    "POL": {
+      "bracket_norm": 0.14364591879276573,
+      "seis": -0.18288968958102345,
+      "neuron_count": 71.66666666666667,
+      "n_sessions": 3
+    },
+    "POST": {
+      "bracket_norm": 0.09541054008502171,
+      "seis": 0.22962851921461347,
+      "neuron_count": 78.0,
+      "n_sessions": 4
+    },
+    "PT": {
+      "bracket_norm": 0.06916096643560286,
+      "seis": 0.05701787152455272,
+      "neuron_count": 45.0,
+      "n_sessions": 1
+    },
+    "RN": {
+      "bracket_norm": 0.3252933842697722,
+      "seis": 0.11012226690143001,
+      "neuron_count": 58.0,
+      "n_sessions": 1
+    },
+    "RSP": {
+      "bracket_norm": 0.10860361748598164,
+      "seis": 0.029699180185107057,
+      "neuron_count": 85.22222222222223,
+      "n_sessions": 9
+    },
+    "RT": {
+      "bracket_norm": 0.15977441065152126,
+      "seis": -0.08605850764365876,
+      "neuron_count": 86.5,
+      "n_sessions": 2
+    },
+    "SCig": {
+      "bracket_norm": 0.33305488288505747,
+      "seis": 0.1494294412393844,
+      "neuron_count": 201.75,
+      "n_sessions": 4
+    },
+    "SCm": {
+      "bracket_norm": 0.15433737125062347,
+      "seis": -0.10341294133580492,
+      "neuron_count": 50.857142857142854,
+      "n_sessions": 7
+    },
+    "SCs": {
+      "bracket_norm": 0.07039168012435859,
+      "seis": -0.02643743215523289,
+      "neuron_count": 39.25,
+      "n_sessions": 4
+    },
+    "SCsg": {
+      "bracket_norm": 0.05645547638284854,
+      "seis": 0.18636622305715403,
+      "neuron_count": 29.666666666666668,
+      "n_sessions": 6
+    },
+    "SI": {
+      "bracket_norm": 0.11875360999162847,
+      "seis": -0.19664359623283417,
+      "neuron_count": 48.0,
+      "n_sessions": 1
+    },
+    "SNr": {
+      "bracket_norm": 0.19112922995445927,
+      "seis": 0.041041900513941756,
+      "neuron_count": 76.5,
+      "n_sessions": 4
+    },
+    "SPF": {
+      "seis": 0.31186158827167365,
+      "neuron_count": 26.5,
+      "n_sessions": 2
+    },
+    "SSp": {
+      "bracket_norm": 0.1464089932888686,
+      "seis": 0.024139203298094897,
+      "neuron_count": 103.0,
+      "n_sessions": 5
+    },
+    "SSs": {
+      "bracket_norm": 0.09895036359224255,
+      "seis": -0.07742579576975177,
+      "neuron_count": 120.0,
+      "n_sessions": 1
+    },
+    "SUB": {
+      "bracket_norm": 0.16528382885210663,
+      "seis": 0.015835061045931333,
+      "neuron_count": 76.11111111111111,
+      "n_sessions": 9
+    },
+    "TH": {
+      "bracket_norm": 0.14180876324229813,
+      "seis": 0.057474791426783384,
+      "neuron_count": 157.125,
+      "n_sessions": 8
+    },
+    "TT": {
+      "bracket_norm": 0.09289569386213913,
+      "seis": 0.03731169818794958,
+      "neuron_count": 45.25,
+      "n_sessions": 4
+    },
+    "VAL": {
+      "bracket_norm": 0.3885129778703333,
+      "seis": 0.09703031606234475,
+      "neuron_count": 83.0,
+      "n_sessions": 1
+    },
+    "VISa": {
+      "bracket_norm": 0.05442819322752509,
+      "seis": 0.07182458989705948,
+      "neuron_count": 68.0,
+      "n_sessions": 5
+    },
+    "VISam": {
+      "bracket_norm": 0.09305269798075029,
+      "seis": -0.008848264647390594,
+      "neuron_count": 90.9090909090909,
+      "n_sessions": 11
+    },
+    "VISl": {
+      "bracket_norm": 0.12917655352015736,
+      "seis": 0.2244361465304335,
+      "neuron_count": 144.66666666666666,
+      "n_sessions": 3
+    },
+    "VISp": {
+      "bracket_norm": 0.11179741647258148,
+      "seis": 0.030233228968052393,
+      "neuron_count": 93.16666666666667,
+      "n_sessions": 12
+    },
+    "VISpm": {
+      "bracket_norm": 0.15603915387483505,
+      "seis": 0.07486523462621307,
+      "neuron_count": 146.75,
+      "n_sessions": 4
+    },
+    "VISrl": {
+      "bracket_norm": 0.0827585231439442,
+      "seis": 0.01635294608232229,
+      "neuron_count": 143.0,
+      "n_sessions": 2
+    },
+    "VPL": {
+      "bracket_norm": 0.18861354807062125,
+      "seis": 0.04763327564412173,
+      "neuron_count": 75.25,
+      "n_sessions": 4
+    },
+    "VPM": {
+      "bracket_norm": 0.2002172865998194,
+      "seis": 0.06661404535444619,
+      "neuron_count": 88.25,
+      "n_sessions": 4
+    },
+    "ZI": {
+      "bracket_norm": 0.14523515972770631,
+      "seis": -0.27283763888353557,
+      "neuron_count": 72.25,
+      "n_sessions": 4
+    },
+    "root": {
+      "bracket_norm": 0.11303772899830988,
+      "seis": 0.10878061391003976,
+      "neuron_count": 147.3448275862069,
+      "n_sessions": 29
+    }
+  },
+  "group_stats": {
+    "sensory": {
+      "bracket_norm_mean": 0.10454208970329892,
+      "seis_mean": 0.06814398024278169,
+      "n_regions": 6,
+      "predicted_bn": "low",
+      "predicted_seis": "high",
+      "predicted_role": "relay"
+    },
+    "association": {
+      "bracket_norm_mean": 0.13686950926890504,
+      "seis_mean": 0.036988096120909524,
+      "n_regions": 7,
+      "predicted_bn": "high",
+      "predicted_seis": "moderate",
+      "predicted_role": "computation"
+    },
+    "motor": {
+      "bracket_norm_mean": 0.15067889114712762,
+      "seis_mean": -0.016473090765399302,
+      "n_regions": 4,
+      "predicted_bn": "low",
+      "predicted_seis": "high",
+      "predicted_role": "readout"
+    },
+    "subcortical": {
+      "bracket_norm_mean": 0.19357190594443757,
+      "seis_mean": 0.020404742450975132,
+      "n_regions": 14,
+      "predicted_bn": "moderate",
+      "predicted_seis": "moderate",
+      "predicted_role": "relay/gating"
+    },
+    "hippocampal": {
+      "bracket_norm_mean": 0.12133393319274184,
+      "seis_mean": 0.08261679025831414,
+      "n_regions": 5,
+      "predicted_bn": "low",
+      "predicted_seis": "low",
+      "predicted_role": "context"
+    },
+    "assoc_vs_sensory_bn": {
+      "U": 28.0,
+      "p": 0.18298368298368298,
+      "assoc_mean": 0.13686950926890504,
+      "sensory_mean": 0.10454208970329892
+    }
+  },
+  "single_trial_rt": {
+    "ACA": {
+      "rho_deviation_rt": 0.002257169244745819,
+      "bracket_norm": 0.0893379277856987,
+      "neuron_count": 76.27272727272727,
+      "n_sessions": 11
+    },
+    "CA3": {
+      "rho_deviation_rt": -0.028931937568064885,
+      "bracket_norm": 0.12186055826351005,
+      "neuron_count": 54.55555555555556,
+      "n_sessions": 9
+    },
+    "DG": {
+      "rho_deviation_rt": 0.0060583505947070845,
+      "bracket_norm": 0.10546220468226888,
+      "neuron_count": 48.5,
+      "n_sessions": 16
+    },
+    "LS": {
+      "rho_deviation_rt": 0.06591940847019932,
+      "bracket_norm": 0.16158582787805373,
+      "neuron_count": 135.0,
+      "n_sessions": 3
+    },
+    "MOs": {
+      "rho_deviation_rt": 0.030071830140868165,
+      "bracket_norm": 0.0939132057812642,
+      "neuron_count": 96.77777777777777,
+      "n_sessions": 18
+    },
+    "SUB": {
+      "rho_deviation_rt": 0.05251498393780323,
+      "bracket_norm": 0.16714819857289004,
+      "neuron_count": 76.11111111111111,
+      "n_sessions": 9
+    },
+    "VISp": {
+      "rho_deviation_rt": 0.0015237132411479394,
+      "bracket_norm": 0.11191645223372881,
+      "neuron_count": 93.16666666666667,
+      "n_sessions": 12
+    },
+    "root": {
+      "rho_deviation_rt": 0.004811337920804015,
+      "bracket_norm": 0.11317725328918324,
+      "neuron_count": 147.3448275862069,
+      "n_sessions": 29
+    },
+    "CA1": {
+      "rho_deviation_rt": 0.004835386613891228,
+      "bracket_norm": 0.11973982682781502,
+      "neuron_count": 67.7,
+      "n_sessions": 20
+    },
+    "POST": {
+      "rho_deviation_rt": -0.038232831072799824,
+      "bracket_norm": 0.09518905285118473,
+      "neuron_count": 78.0,
+      "n_sessions": 4
+    },
+    "VISl": {
+      "rho_deviation_rt": 0.09698051366849002,
+      "bracket_norm": 0.12953907801717437,
+      "neuron_count": 144.66666666666666,
+      "n_sessions": 3
+    },
+    "VISpm": {
+      "rho_deviation_rt": 0.024982370254676034,
+      "bracket_norm": 0.1562516748424114,
+      "neuron_count": 146.75,
+      "n_sessions": 4
+    },
+    "MG": {
+      "rho_deviation_rt": 0.049007965540028835,
+      "bracket_norm": null,
+      "neuron_count": 147.5,
+      "n_sessions": 2
+    },
+    "MRN": {
+      "rho_deviation_rt": -0.01107495587266774,
+      "bracket_norm": 0.18610615128267718,
+      "neuron_count": 92.36363636363636,
+      "n_sessions": 11
+    },
+    "NB": {
+      "rho_deviation_rt": 0.00037948719560540543,
+      "bracket_norm": null,
+      "neuron_count": 43.0,
+      "n_sessions": 1
+    },
+    "SPF": {
+      "rho_deviation_rt": -0.013451691244957613,
+      "bracket_norm": null,
+      "neuron_count": 26.5,
+      "n_sessions": 2
+    },
+    "VISam": {
+      "rho_deviation_rt": 0.05761449088294026,
+      "bracket_norm": 0.09313546539151868,
+      "neuron_count": 90.9090909090909,
+      "n_sessions": 11
+    },
+    "LGd": {
+      "rho_deviation_rt": 0.04536649682612105,
+      "bracket_norm": 0.13671050604071638,
+      "neuron_count": 88.2,
+      "n_sessions": 10
+    },
+    "LSr": {
+      "rho_deviation_rt": 0.09571758790469417,
+      "bracket_norm": 0.15582920835645428,
+      "neuron_count": 234.0,
+      "n_sessions": 2
+    },
+    "TH": {
+      "rho_deviation_rt": 0.0033009971286972507,
+      "bracket_norm": 0.1418881518639382,
+      "neuron_count": 157.125,
+      "n_sessions": 8
+    },
+    "VISa": {
+      "rho_deviation_rt": 0.04042241971596205,
+      "bracket_norm": 0.05453992983988697,
+      "neuron_count": 68.0,
+      "n_sessions": 5
+    },
+    "VPL": {
+      "rho_deviation_rt": -0.005967914422084649,
+      "bracket_norm": 0.18788140923799557,
+      "neuron_count": 75.25,
+      "n_sessions": 4
+    },
+    "OLF": {
+      "rho_deviation_rt": 0.004319828360373672,
+      "bracket_norm": 0.08084251701959802,
+      "neuron_count": 129.5,
+      "n_sessions": 2
+    },
+    "ORB": {
+      "rho_deviation_rt": 0.037551257402691406,
+      "bracket_norm": 0.13587878637401762,
+      "neuron_count": 162.4,
+      "n_sessions": 5
+    },
+    "PL": {
+      "rho_deviation_rt": -0.006596947825183051,
+      "bracket_norm": 0.1118202505213712,
+      "neuron_count": 86.3,
+      "n_sessions": 10
+    },
+    "AUD": {
+      "rho_deviation_rt": 0.06380358260953799,
+      "bracket_norm": 0.08148508956859059,
+      "neuron_count": 246.0,
+      "n_sessions": 1
+    },
+    "SSp": {
+      "rho_deviation_rt": 0.01715028649972758,
+      "bracket_norm": 0.14630939060556275,
+      "neuron_count": 103.0,
+      "n_sessions": 5
+    },
+    "CP": {
+      "rho_deviation_rt": -0.017457115577945236,
+      "bracket_norm": 0.1414820193401531,
+      "neuron_count": 243.0,
+      "n_sessions": 5
+    },
+    "EPd": {
+      "rho_deviation_rt": 0.09114911828048945,
+      "bracket_norm": null,
+      "neuron_count": 52.0,
+      "n_sessions": 1
+    },
+    "LD": {
+      "rho_deviation_rt": -0.08174167440234403,
+      "bracket_norm": 0.18263817556490916,
+      "neuron_count": 49.666666666666664,
+      "n_sessions": 6
+    },
+    "PIR": {
+      "rho_deviation_rt": 0.051145122360109554,
+      "bracket_norm": null,
+      "neuron_count": 67.0,
+      "n_sessions": 1
+    },
+    "ILA": {
+      "rho_deviation_rt": -0.03291588950401999,
+      "bracket_norm": 0.1569428347157333,
+      "neuron_count": 137.0,
+      "n_sessions": 3
+    },
+    "LP": {
+      "rho_deviation_rt": -0.0060741905130517766,
+      "bracket_norm": 0.1629000470196011,
+      "neuron_count": 74.4,
+      "n_sessions": 10
+    },
+    "PO": {
+      "rho_deviation_rt": 0.02067523356936655,
+      "bracket_norm": 0.2304280323168514,
+      "neuron_count": 138.4,
+      "n_sessions": 5
+    },
+    "TT": {
+      "rho_deviation_rt": -0.006427231799329836,
+      "bracket_norm": 0.09307398053939903,
+      "neuron_count": 45.25,
+      "n_sessions": 4
+    },
+    "ORBm": {
+      "rho_deviation_rt": 0.0478761506391905,
+      "bracket_norm": 0.12396130649378186,
+      "neuron_count": 122.0,
+      "n_sessions": 1
+    },
+    "GPe": {
+      "rho_deviation_rt": -0.019875983642457434,
+      "bracket_norm": 0.20164678628957733,
+      "neuron_count": 97.33333333333333,
+      "n_sessions": 3
+    },
+    "MB": {
+      "rho_deviation_rt": 0.07845631118802796,
+      "bracket_norm": 0.26390981872110086,
+      "neuron_count": 145.66666666666666,
+      "n_sessions": 6
+    },
+    "POL": {
+      "rho_deviation_rt": 0.026132727298507148,
+      "bracket_norm": 0.14738581275976492,
+      "neuron_count": 71.66666666666667,
+      "n_sessions": 3
+    },
+    "SCm": {
+      "rho_deviation_rt": 0.014682919660607563,
+      "bracket_norm": 0.1546523119175471,
+      "neuron_count": 50.857142857142854,
+      "n_sessions": 7
+    },
+    "SCsg": {
+      "rho_deviation_rt": -0.024817507168095696,
+      "bracket_norm": 0.05674560885864626,
+      "neuron_count": 29.666666666666668,
+      "n_sessions": 6
+    },
+    "VISrl": {
+      "rho_deviation_rt": -0.0594062888240504,
+      "bracket_norm": 0.08334387973151981,
+      "neuron_count": 143.0,
+      "n_sessions": 2
+    },
+    "LSc": {
+      "rho_deviation_rt": 0.05014720495450743,
+      "bracket_norm": 0.07872439753421086,
+      "neuron_count": 72.0,
+      "n_sessions": 1
+    },
+    "MOp": {
+      "rho_deviation_rt": 0.004987633801442679,
+      "bracket_norm": 0.26250234125760197,
+      "neuron_count": 264.3333333333333,
+      "n_sessions": 3
+    },
+    "PT": {
+      "rho_deviation_rt": 0.0565673366705277,
+      "bracket_norm": 0.06985877922024346,
+      "neuron_count": 45.0,
+      "n_sessions": 1
+    },
+    "LH": {
+      "rho_deviation_rt": 0.104533278615366,
+      "bracket_norm": 0.044809234785137625,
+      "neuron_count": 12.0,
+      "n_sessions": 2
+    },
+    "MD": {
+      "rho_deviation_rt": 0.08609325892766884,
+      "bracket_norm": 0.26036093275740324,
+      "neuron_count": 132.33333333333334,
+      "n_sessions": 3
+    },
+    "MS": {
+      "rho_deviation_rt": -0.027881057344293855,
+      "bracket_norm": 0.12859543363029438,
+      "neuron_count": 23.0,
+      "n_sessions": 1
+    },
+    "RN": {
+      "rho_deviation_rt": 0.11510232073556467,
+      "bracket_norm": 0.32575215573026123,
+      "neuron_count": 58.0,
+      "n_sessions": 1
+    },
+    "SCs": {
+      "rho_deviation_rt": -0.024114640272598152,
+      "bracket_norm": 0.07034217410945622,
+      "neuron_count": 39.25,
+      "n_sessions": 4
+    },
+    "ZI": {
+      "rho_deviation_rt": -0.011266819884758583,
+      "bracket_norm": 0.14419363339669078,
+      "neuron_count": 72.25,
+      "n_sessions": 4
+    },
+    "PAG": {
+      "rho_deviation_rt": -0.028229750046101936,
+      "bracket_norm": 0.19223318833975753,
+      "neuron_count": 46.666666666666664,
+      "n_sessions": 3
+    },
+    "RSP": {
+      "rho_deviation_rt": -0.008010328409072323,
+      "bracket_norm": 0.10851727482758836,
+      "neuron_count": 85.22222222222223,
+      "n_sessions": 9
+    },
+    "BLA": {
+      "rho_deviation_rt": 0.1170741666891744,
+      "bracket_norm": 0.1539899978510897,
+      "neuron_count": 158.5,
+      "n_sessions": 2
+    },
+    "VPM": {
+      "rho_deviation_rt": 0.015441987849774512,
+      "bracket_norm": 0.19969562717280698,
+      "neuron_count": 88.25,
+      "n_sessions": 4
+    },
+    "SSs": {
+      "rho_deviation_rt": -0.11792581927312498,
+      "bracket_norm": 0.10236699370766815,
+      "neuron_count": 120.0,
+      "n_sessions": 1
+    },
+    "MEA": {
+      "rho_deviation_rt": 0.08883108876901549,
+      "bracket_norm": 0.07684351770598731,
+      "neuron_count": 41.0,
+      "n_sessions": 1
+    },
+    "RT": {
+      "rho_deviation_rt": -0.017539422555910678,
+      "bracket_norm": 0.1595534651684827,
+      "neuron_count": 86.5,
+      "n_sessions": 2
+    },
+    "ACB": {
+      "rho_deviation_rt": -0.021867571892997043,
+      "bracket_norm": 0.12029263991747978,
+      "neuron_count": 112.33333333333333,
+      "n_sessions": 3
+    },
+    "OT": {
+      "rho_deviation_rt": -0.02387167770733751,
+      "bracket_norm": 0.046205066570907685,
+      "neuron_count": 26.0,
+      "n_sessions": 1
+    },
+    "SI": {
+      "rho_deviation_rt": -0.06720003034149033,
+      "bracket_norm": 0.11615733668122095,
+      "neuron_count": 48.0,
+      "n_sessions": 1
+    },
+    "SNr": {
+      "rho_deviation_rt": 0.03219906819758933,
+      "bracket_norm": 0.19121668114035165,
+      "neuron_count": 76.5,
+      "n_sessions": 4
+    },
+    "APN": {
+      "rho_deviation_rt": -0.07438556962830165,
+      "bracket_norm": 0.38955954123268904,
+      "neuron_count": 123.5,
+      "n_sessions": 2
+    },
+    "VAL": {
+      "rho_deviation_rt": 0.23278636337185896,
+      "bracket_norm": 0.3885129778703333,
+      "neuron_count": 83.0,
+      "n_sessions": 1
+    },
+    "IC": {
+      "rho_deviation_rt": -0.07382537027685876,
+      "bracket_norm": null,
+      "neuron_count": 58.0,
+      "n_sessions": 1
+    },
+    "CA2": {
+      "rho_deviation_rt": 0.06960433342706492,
+      "bracket_norm": 0.16626521872572517,
+      "neuron_count": 115.0,
+      "n_sessions": 1
+    },
+    "SCig": {
+      "rho_deviation_rt": -0.042481868979609025,
+      "bracket_norm": 0.33599330042476994,
+      "neuron_count": 201.75,
+      "n_sessions": 4
+    },
+    "DP": {
+      "rho_deviation_rt": 0.1263896161211761,
+      "bracket_norm": null,
+      "neuron_count": 39.0,
+      "n_sessions": 1
+    },
+    "CL": {
+      "rho_deviation_rt": 0.08356848085065527,
+      "bracket_norm": 0.10270544894587556,
+      "neuron_count": 32.0,
+      "n_sessions": 1
+    },
+    "EP": {
+      "rho_deviation_rt": 0.02988098177104567,
+      "bracket_norm": null,
+      "neuron_count": 91.0,
+      "n_sessions": 1
+    },
+    "BMA": {
+      "rho_deviation_rt": -0.05000681948506498,
+      "bracket_norm": 0.09056005184338416,
+      "neuron_count": 104.0,
+      "n_sessions": 1
+    },
+    "COA": {
+      "rho_deviation_rt": -0.14083046892440804,
+      "bracket_norm": 0.13049824031242577,
+      "neuron_count": 316.0,
+      "n_sessions": 1
+    },
+    "CA": {
+      "rho_deviation_rt": -0.05835387150530818,
+      "bracket_norm": 0.16657494022207375,
+      "neuron_count": 193.0,
+      "n_sessions": 1
+    }
+  },
+  "single_trial_rt_meta": {
+    "bn_vs_rt_rho": 0.046634615384615385,
+    "bn_vs_rt_p": 0.7122128025891755,
+    "bn_vs_rt_partial": 0.0388835430178067,
+    "n_regions": 65
+  },
+  "single_trial_rt_silencing": {
+    "bn_vs_silencing_partial": 0.40684969680042005,
+    "rt_corr_vs_silencing_partial": -0.33750031666398483,
+    "n": 9
+  },
+  "evidence_dimensionality": {
+    "ACA": {
+      "evidence_pr": 2.6791592531305173,
+      "n_sessions": 11,
+      "neuron_count": 76.27272727272727,
+      "bracket_norm": 0.08927163804641387
+    },
+    "CA3": {
+      "evidence_pr": 2.6020743355614333,
+      "n_sessions": 9,
+      "neuron_count": 54.55555555555556,
+      "bracket_norm": 0.12190449595973196
+    },
+    "DG": {
+      "evidence_pr": 2.808642634613504,
+      "n_sessions": 16,
+      "neuron_count": 48.5,
+      "bracket_norm": 0.10609685211207831
+    },
+    "LS": {
+      "evidence_pr": 3.340186657891858,
+      "n_sessions": 3,
+      "neuron_count": 135.0,
+      "bracket_norm": 0.16474945272243133
+    },
+    "MOs": {
+      "evidence_pr": 3.0162061190721055,
+      "n_sessions": 18,
+      "neuron_count": 96.77777777777777,
+      "bracket_norm": 0.0937769115946867
+    },
+    "SUB": {
+      "evidence_pr": 2.762903161225151,
+      "n_sessions": 9,
+      "neuron_count": 76.11111111111111,
+      "bracket_norm": 0.16528382885210663
+    },
+    "VISp": {
+      "evidence_pr": 2.90096059071889,
+      "n_sessions": 12,
+      "neuron_count": 93.16666666666667,
+      "bracket_norm": 0.11179741647258148
+    },
+    "root": {
+      "evidence_pr": 2.603262653918897,
+      "n_sessions": 29,
+      "neuron_count": 147.3448275862069,
+      "bracket_norm": 0.11303772899830988
+    },
+    "CA1": {
+      "evidence_pr": 2.8292130966065763,
+      "n_sessions": 20,
+      "neuron_count": 67.7,
+      "bracket_norm": 0.1179739489547706
+    },
+    "POST": {
+      "evidence_pr": 2.5503003961922053,
+      "n_sessions": 4,
+      "neuron_count": 78.0,
+      "bracket_norm": 0.09541054008502171
+    },
+    "VISl": {
+      "evidence_pr": 3.1741508071412157,
+      "n_sessions": 3,
+      "neuron_count": 144.66666666666666,
+      "bracket_norm": 0.12917655352015736
+    },
+    "VISpm": {
+      "evidence_pr": 2.697000670681163,
+      "n_sessions": 4,
+      "neuron_count": 146.75,
+      "bracket_norm": 0.15603915387483505
+    },
+    "MG": {
+      "evidence_pr": 3.5730550807227717,
+      "n_sessions": 2,
+      "neuron_count": 147.5
+    },
+    "MRN": {
+      "evidence_pr": 3.126104780168509,
+      "n_sessions": 11,
+      "neuron_count": 92.36363636363636,
+      "bracket_norm": 0.18445084741115372
+    },
+    "NB": {
+      "evidence_pr": 3.2850942396962166,
+      "n_sessions": 1,
+      "neuron_count": 43.0
+    },
+    "SPF": {
+      "evidence_pr": 3.053778007113352,
+      "n_sessions": 2,
+      "neuron_count": 26.5
+    },
+    "VISam": {
+      "evidence_pr": 2.865065809285032,
+      "n_sessions": 11,
+      "neuron_count": 90.9090909090909,
+      "bracket_norm": 0.09305269798075029
+    },
+    "LGd": {
+      "evidence_pr": 3.164975880236498,
+      "n_sessions": 10,
+      "neuron_count": 88.2,
+      "bracket_norm": 0.13646799620510916
+    },
+    "LSr": {
+      "evidence_pr": 3.376094018970501,
+      "n_sessions": 2,
+      "neuron_count": 234.0,
+      "bracket_norm": 0.15358207493152365
+    },
+    "TH": {
+      "evidence_pr": 3.3085669340902726,
+      "n_sessions": 8,
+      "neuron_count": 157.125,
+      "bracket_norm": 0.14180876324229813
+    },
+    "VISa": {
+      "evidence_pr": 2.966251449984403,
+      "n_sessions": 5,
+      "neuron_count": 68.0,
+      "bracket_norm": 0.05442819322752509
+    },
+    "VPL": {
+      "evidence_pr": 2.883545367113903,
+      "n_sessions": 4,
+      "neuron_count": 75.25,
+      "bracket_norm": 0.18861354807062125
+    },
+    "OLF": {
+      "evidence_pr": 2.8942307602895996,
+      "n_sessions": 2,
+      "neuron_count": 129.5,
+      "bracket_norm": 0.08084251701959802
+    },
+    "ORB": {
+      "evidence_pr": 3.402614756572259,
+      "n_sessions": 5,
+      "neuron_count": 162.4,
+      "bracket_norm": 0.13587878637401762
+    },
+    "PL": {
+      "evidence_pr": 3.1482568088238025,
+      "n_sessions": 10,
+      "neuron_count": 86.3,
+      "bracket_norm": 0.11189490026621553
+    },
+    "AUD": {
+      "evidence_pr": 3.7938202382553543,
+      "n_sessions": 1,
+      "neuron_count": 246.0,
+      "bracket_norm": 0.08122331053592934
+    },
+    "SSp": {
+      "evidence_pr": 2.8688387614763062,
+      "n_sessions": 5,
+      "neuron_count": 103.0,
+      "bracket_norm": 0.1464089932888686
+    },
+    "CP": {
+      "evidence_pr": 3.043520467792799,
+      "n_sessions": 5,
+      "neuron_count": 243.0,
+      "bracket_norm": 0.1407547671212091
+    },
+    "EPd": {
+      "evidence_pr": 2.7903355080421357,
+      "n_sessions": 1,
+      "neuron_count": 52.0
+    },
+    "LD": {
+      "evidence_pr": 3.0093871786145563,
+      "n_sessions": 6,
+      "neuron_count": 49.666666666666664,
+      "bracket_norm": 0.18238409295339575
+    },
+    "PIR": {
+      "evidence_pr": 1.5639007883286733,
+      "n_sessions": 1,
+      "neuron_count": 67.0
+    },
+    "ILA": {
+      "evidence_pr": 3.2107615962083145,
+      "n_sessions": 3,
+      "neuron_count": 137.0,
+      "bracket_norm": 0.15508141500230713
+    },
+    "LP": {
+      "evidence_pr": 3.0283218542583756,
+      "n_sessions": 10,
+      "neuron_count": 74.4,
+      "bracket_norm": 0.1613503628223769
+    },
+    "PO": {
+      "evidence_pr": 3.1937032582096236,
+      "n_sessions": 5,
+      "neuron_count": 138.4,
+      "bracket_norm": 0.22969570118439642
+    },
+    "TT": {
+      "evidence_pr": 2.325814766937633,
+      "n_sessions": 4,
+      "neuron_count": 45.25,
+      "bracket_norm": 0.09289569386213913
+    },
+    "ORBm": {
+      "evidence_pr": 3.143587584635683,
+      "n_sessions": 1,
+      "neuron_count": 122.0,
+      "bracket_norm": 0.12362158062244237
+    },
+    "GPe": {
+      "evidence_pr": 3.023759300010223,
+      "n_sessions": 3,
+      "neuron_count": 97.33333333333333,
+      "bracket_norm": 0.20128781547642083
+    },
+    "MB": {
+      "evidence_pr": 2.6011010361011224,
+      "n_sessions": 6,
+      "neuron_count": 145.66666666666666,
+      "bracket_norm": 0.2636606862475921
+    },
+    "POL": {
+      "evidence_pr": 2.8887234397436274,
+      "n_sessions": 3,
+      "neuron_count": 71.66666666666667,
+      "bracket_norm": 0.14364591879276573
+    },
+    "SCm": {
+      "evidence_pr": 2.624395066040978,
+      "n_sessions": 7,
+      "neuron_count": 50.857142857142854,
+      "bracket_norm": 0.15433737125062347
+    },
+    "SCsg": {
+      "evidence_pr": 2.3746885652008074,
+      "n_sessions": 6,
+      "neuron_count": 29.666666666666668,
+      "bracket_norm": 0.05645547638284854
+    },
+    "VISrl": {
+      "evidence_pr": 3.1678794433007833,
+      "n_sessions": 2,
+      "neuron_count": 143.0,
+      "bracket_norm": 0.0827585231439442
+    },
+    "LSc": {
+      "evidence_pr": 2.902351435479518,
+      "n_sessions": 1,
+      "neuron_count": 72.0,
+      "bracket_norm": 0.07745217284503804
+    },
+    "MOp": {
+      "evidence_pr": 3.3418864521225955,
+      "n_sessions": 3,
+      "neuron_count": 264.3333333333333,
+      "bracket_norm": 0.2635792961127127
+    },
+    "PT": {
+      "evidence_pr": 3.2057242884173394,
+      "n_sessions": 1,
+      "neuron_count": 45.0,
+      "bracket_norm": 0.06916096643560286
+    },
+    "LH": {
+      "evidence_pr": 1.961517341421719,
+      "n_sessions": 2,
+      "neuron_count": 12.0,
+      "bracket_norm": 0.04756777512116514
+    },
+    "MD": {
+      "evidence_pr": 3.4127860188588808,
+      "n_sessions": 3,
+      "neuron_count": 132.33333333333334,
+      "bracket_norm": 0.261027621559777
+    },
+    "MS": {
+      "evidence_pr": 2.651852512071523,
+      "n_sessions": 1,
+      "neuron_count": 23.0,
+      "bracket_norm": 0.1280852002611115
+    },
+    "RN": {
+      "evidence_pr": 2.4719343204557083,
+      "n_sessions": 1,
+      "neuron_count": 58.0,
+      "bracket_norm": 0.3252933842697722
+    },
+    "SCs": {
+      "evidence_pr": 2.8632399237675235,
+      "n_sessions": 4,
+      "neuron_count": 39.25,
+      "bracket_norm": 0.07039168012435859
+    },
+    "ZI": {
+      "evidence_pr": 2.425454342250964,
+      "n_sessions": 4,
+      "neuron_count": 72.25,
+      "bracket_norm": 0.14523515972770631
+    },
+    "PAG": {
+      "evidence_pr": 2.427637235124808,
+      "n_sessions": 3,
+      "neuron_count": 46.666666666666664,
+      "bracket_norm": 0.19223318833975753
+    },
+    "RSP": {
+      "evidence_pr": 2.82388960694286,
+      "n_sessions": 9,
+      "neuron_count": 85.22222222222223,
+      "bracket_norm": 0.10860361748598164
+    },
+    "BLA": {
+      "evidence_pr": 2.955834225142657,
+      "n_sessions": 2,
+      "neuron_count": 158.5,
+      "bracket_norm": 0.1532028151823051
+    },
+    "VPM": {
+      "evidence_pr": 2.9434392965181173,
+      "n_sessions": 4,
+      "neuron_count": 88.25,
+      "bracket_norm": 0.2002172865998194
+    },
+    "SSs": {
+      "evidence_pr": 3.1707305824244476,
+      "n_sessions": 1,
+      "neuron_count": 120.0,
+      "bracket_norm": 0.09895036359224255
+    },
+    "MEA": {
+      "evidence_pr": 3.740968492511864,
+      "n_sessions": 1,
+      "neuron_count": 41.0,
+      "bracket_norm": 0.07730896406314568
+    },
+    "RT": {
+      "evidence_pr": 2.7108884351005686,
+      "n_sessions": 2,
+      "neuron_count": 86.5,
+      "bracket_norm": 0.15977441065152126
+    },
+    "ACB": {
+      "evidence_pr": 2.9051034492244807,
+      "n_sessions": 3,
+      "neuron_count": 112.33333333333333,
+      "bracket_norm": 0.11965173995973738
+    },
+    "OT": {
+      "evidence_pr": 2.421499607563133,
+      "n_sessions": 1,
+      "neuron_count": 26.0,
+      "bracket_norm": 0.046278742023778595
+    },
+    "SI": {
+      "evidence_pr": 2.8919990960317463,
+      "n_sessions": 1,
+      "neuron_count": 48.0,
+      "bracket_norm": 0.11875360999162847
+    },
+    "SNr": {
+      "evidence_pr": 2.776691259272824,
+      "n_sessions": 4,
+      "neuron_count": 76.5,
+      "bracket_norm": 0.19112922995445927
+    },
+    "APN": {
+      "evidence_pr": 2.5530033161571373,
+      "n_sessions": 2,
+      "neuron_count": 123.5,
+      "bracket_norm": 0.37411627526932595
+    },
+    "VAL": {
+      "evidence_pr": 2.8050590224059406,
+      "n_sessions": 1,
+      "neuron_count": 83.0,
+      "bracket_norm": 0.3885129778703333
+    },
+    "IC": {
+      "evidence_pr": 2.2773158000241507,
+      "n_sessions": 1,
+      "neuron_count": 58.0
+    },
+    "CA2": {
+      "evidence_pr": 3.6491458290388565,
+      "n_sessions": 1,
+      "neuron_count": 115.0,
+      "bracket_norm": 0.16273200418340247
+    },
+    "SCig": {
+      "evidence_pr": 2.9704203176039368,
+      "n_sessions": 4,
+      "neuron_count": 201.75,
+      "bracket_norm": 0.33305488288505747
+    },
+    "DP": {
+      "evidence_pr": 2.447936388861434,
+      "n_sessions": 1,
+      "neuron_count": 39.0
+    },
+    "CL": {
+      "evidence_pr": 2.7898968968727442,
+      "n_sessions": 1,
+      "neuron_count": 32.0,
+      "bracket_norm": 0.10270544894587556
+    },
+    "EP": {
+      "evidence_pr": 3.197247048030292,
+      "n_sessions": 1,
+      "neuron_count": 91.0
+    },
+    "BMA": {
+      "evidence_pr": 3.440199101513652,
+      "n_sessions": 1,
+      "neuron_count": 104.0,
+      "bracket_norm": 0.09008458090975989
+    },
+    "COA": {
+      "evidence_pr": 3.399897382909662,
+      "n_sessions": 1,
+      "neuron_count": 316.0,
+      "bracket_norm": 0.14119423611123624
+    },
+    "CA": {
+      "evidence_pr": 2.9496593304332976,
+      "n_sessions": 1,
+      "neuron_count": 193.0,
+      "bracket_norm": 0.16657494022207375
+    }
+  },
+  "evidence_dimensionality_meta": {
+    "bn_vs_pr_rho": 0.05555069930069931,
+    "bn_vs_pr_p": 0.6602893618481265,
+    "bn_vs_pr_partial": -0.1879537031152951,
+    "n": 65
+  },
+  "temporal_profiles": {
+    "ACA": {
+      "profile": [
+        0.13660037125893487,
+        0.13030366254226794,
+        0.12728894477561084,
+        0.12014707651817993,
+        0.11297647797632109,
+        0.10838715056783907,
+        0.11839578481961735,
+        0.11782850760045874,
+        0.12113941992419149,
+        0.12838397341327995,
+        0.12874061747685467,
+        0.17825167628798505,
+        0.18747936225321327,
+        0.19182351454540844,
+        0.1884657818958765,
+        0.1842771068886355,
+        0.1695062177138258,
+        0.16600701981876337,
+        0.16171019970084446,
+        0.15648226154812261,
+        0.1601980863877334,
+        0.1679577595580618,
+        0.16848962330321882,
+        0.16711608957214313,
+        0.16659045333216624,
+        0.15212430598823365,
+        0.16764461117355553,
+        0.16860409265028983,
+        0.15714234940345936,
+        0.17002115268229995,
+        0.16948537209008885,
+        0.16429213534120193,
+        0.15306430602675553,
+        0.16380001457992982,
+        0.16960890460882408,
+        0.16025588974301455,
+        0.16741657479186312,
+        0.16513440823865727,
+        0.15723438432321488,
+        0.14958403749152924,
+        0.14310460298957947,
+        0.13973775793111604,
+        0.14298995244482016,
+        0.14539242312236428,
+        0.1535324246040473,
+        0.14760694630549745,
+        0.1500699972584812,
+        0.1409366664872435
+      ],
+      "peak_bin": 13,
+      "peak_time_ms": 650,
+      "peak_bn": 0.19182351454540844,
+      "mean_bn": 0.15340271770740876,
+      "neuron_count": 76.27272727272727
+    },
+    "CA1": {
+      "profile": [
+        0.14786986120857112,
+        0.14326799286054814,
+        0.15720366196167646,
+        0.15780845734877189,
+        0.14944062393774937,
+        0.153365515919387,
+        0.15348569007716792,
+        0.15754743981236832,
+        0.16770890210693035,
+        0.15879477880098677,
+        0.150473544232087,
+        0.15639386311790246,
+        0.16046485871372668,
+        0.14888780248507094,
+        0.14764770312267858,
+        0.14863747342269915,
+        0.14915256765839466,
+        0.14649608087404725,
+        0.14356228702642576,
+        0.1400087744730671,
+        0.14240487814952837,
+        0.1456673413000147,
+        0.14202449403250103,
+        0.14268707744616127,
+        0.1532589329754781,
+        0.13995699211172935,
+        0.140929510511571,
+        0.14915957395868826,
+        0.14505610219047346,
+        0.1402441110377862,
+        0.1351020585372371,
+        0.14194248582406535,
+        0.138866316728679,
+        0.13378901379937488,
+        0.14252896059715617,
+        0.1421948558759335,
+        0.13958047296539722,
+        0.14047341070897754,
+        0.1435302405640501,
+        0.13530025044266208,
+        0.14455945616860966,
+        0.1395316994416309,
+        0.13679845521264716,
+        0.1362705437246048,
+        0.13232974015880486,
+        0.12969090198461153,
+        0.13255212526603768,
+        0.14668395045848046
+      ],
+      "peak_bin": 8,
+      "peak_time_ms": 400,
+      "peak_bn": 0.16770890210693035,
+      "mean_bn": 0.14523607981944062,
+      "neuron_count": 67.7
+    },
+    "CP": {
+      "profile": [
+        0.16650934672316553,
+        0.16784974039923073,
+        0.15438373476637074,
+        0.1553139439879812,
+        0.16525585430608888,
+        0.1795729579553232,
+        0.17383621584232234,
+        0.17807626023113748,
+        0.17373507517067702,
+        0.17930925562760558,
+        0.20264642862429447,
+        0.26107425923247857,
+        0.28703249865571523,
+        0.2770584010631894,
+        0.2731030458601671,
+        0.278843638007066,
+        0.26169321589926475,
+        0.24421791957150235,
+        0.23765333745186606,
+        0.22654775063129093,
+        0.22754503706206772,
+        0.23317187821764965,
+        0.2258745584572225,
+        0.21881813877887513,
+        0.2290427605993171,
+        0.2335809765082047,
+        0.23526621348612675,
+        0.23028069294076703,
+        0.22210985789070997,
+        0.2174098604739264,
+        0.21441046971098426,
+        0.19824288407713989,
+        0.2028639756577429,
+        0.22381692104497386,
+        0.23644884519958798,
+        0.22143989327901653,
+        0.21705363562576438,
+        0.2108029255869882,
+        0.21154733345908946,
+        0.23118680399437103,
+        0.22158940653515874,
+        0.20375476197814218,
+        0.2015362883806505,
+        0.19882079077683043,
+        0.20342992305553032,
+        0.18182035599892502,
+        0.1781979184715523,
+        0.1719083526630965
+      ],
+      "peak_bin": 12,
+      "peak_time_ms": 600,
+      "peak_bn": 0.28703249865571523,
+      "mean_bn": 0.21345175708160727,
+      "neuron_count": 243.0
+    },
+    "MOp": {
+      "profile": [
+        0.32101117590493466,
+        0.3657647440084346,
+        0.3632703091270992,
+        0.3284317012996637,
+        0.33398170120020404,
+        0.329391682119236,
+        0.30488471987006865,
+        0.3055900012697526,
+        0.35007335247740645,
+        0.354374367649421,
+        0.3480473968337795,
+        0.37024870526368847,
+        0.4645746992930516,
+        0.5396561206775845,
+        0.6101518418055131,
+        0.7087002960684469,
+        0.6733909666859239,
+        0.6520215859332077,
+        0.6390057112930165,
+        0.6455206581943911,
+        0.7373275829369836,
+        0.668352131240125,
+        0.6740700749304551,
+        0.6672741801749775,
+        0.6855427349296386,
+        0.7025440873207218,
+        0.6812264638137286,
+        0.7037616396705111,
+        0.7551865896827352,
+        0.7344537735803927,
+        0.7609545084058387,
+        0.7444622771077081,
+        0.6961775487107398,
+        0.6467943956314086,
+        0.6965474791461256,
+        0.7490364651266521,
+        0.7493237176996675,
+        0.693021291505646,
+        0.6765607776229864,
+        0.6975607611464587,
+        0.6648553963319719,
+        0.6814242345917338,
+        0.6631629042962377,
+        0.659409155213251,
+        0.6890914201073681,
+        0.705247706803384,
+        0.6793768338225306,
+        0.6545754227896485
+      ],
+      "peak_bin": 30,
+      "peak_time_ms": 1500,
+      "peak_bn": 0.7609545084058387,
+      "mean_bn": 0.594279443569051,
+      "neuron_count": 264.3333333333333
+    },
+    "MOs": {
+      "profile": [
+        0.12277255673021732,
+        0.11870415532301416,
+        0.11557013795426938,
+        0.11318469136203876,
+        0.12211320167271232,
+        0.12197062888033566,
+        0.12588833143629222,
+        0.12506003020008735,
+        0.1198365037505181,
+        0.12612753464442458,
+        0.13523007878224297,
+        0.15767843024337805,
+        0.17930545107282717,
+        0.17971311684730878,
+        0.1850756272856958,
+        0.18090577930407245,
+        0.1782792071320426,
+        0.18626183584768502,
+        0.18817810417666817,
+        0.17769993481496524,
+        0.1748969310580444,
+        0.18041395111522487,
+        0.1833437090830923,
+        0.18554572055608912,
+        0.18001619090171517,
+        0.17578643558022009,
+        0.18211213056500597,
+        0.18705549263009127,
+        0.19082520482627066,
+        0.1905952872877901,
+        0.18171592557718352,
+        0.17173283301947243,
+        0.1695993684641295,
+        0.15638559869394378,
+        0.15355587987473382,
+        0.15454612362600742,
+        0.15064889352556976,
+        0.15318568501528113,
+        0.15392831536169815,
+        0.14989241153677688,
+        0.14559638601890862,
+        0.14203173225626456,
+        0.14284168138252443,
+        0.14109213812637875,
+        0.140461820296582,
+        0.14153625315390092,
+        0.13731820558166355,
+        0.13936479524235493
+      ],
+      "peak_bin": 28,
+      "peak_time_ms": 1400,
+      "peak_bn": 0.19082520482627066,
+      "mean_bn": 0.15657459245453573,
+      "neuron_count": 96.77777777777777
+    },
+    "ORB": {
+      "profile": [
+        0.18559095559033367,
+        0.18207051415557174,
+        0.16940391777639,
+        0.17877090251343722,
+        0.18796061270682687,
+        0.17927107127837763,
+        0.17389358732498691,
+        0.15946412675694435,
+        0.18216769708909153,
+        0.19916425550750935,
+        0.2057174410552238,
+        0.20883405928446874,
+        0.21344251045712656,
+        0.22136540671638225,
+        0.2295365385505708,
+        0.21339241547223242,
+        0.21657390506397922,
+        0.20195490177738606,
+        0.21310737231928098,
+        0.21180965378862657,
+        0.20343440965569304,
+        0.2029628571224652,
+        0.20120020100941408,
+        0.1841829413569128,
+        0.1844865481152206,
+        0.20388449309026965,
+        0.193852636834182,
+        0.19573499457453566,
+        0.20405115863743095,
+        0.22192165627994762,
+        0.21553229990911874,
+        0.2019091759869056,
+        0.17740201351523047,
+        0.1965511074345687,
+        0.19433655652981044,
+        0.20813295994591163,
+        0.20311250386444088,
+        0.1909162705927154,
+        0.22099117302017376,
+        0.20266794692315826,
+        0.20312802787334186,
+        0.1946591037244821,
+        0.19136620801133655,
+        0.19023590761052223,
+        0.18923542249860156,
+        0.19305505857195496,
+        0.19084392811081285,
+        0.19198281942244358
+      ],
+      "peak_bin": 14,
+      "peak_time_ms": 700,
+      "peak_bn": 0.2295365385505708,
+      "mean_bn": 0.1976096296959656,
+      "neuron_count": 162.4
+    },
+    "PL": {
+      "profile": [
+        0.14306395197876995,
+        0.13805929389627594,
+        0.14653655036307445,
+        0.1414459446498147,
+        0.14511152164066063,
+        0.14141568572329455,
+        0.1408820558367693,
+        0.14545009288892607,
+        0.1443606865324164,
+        0.1366702756168877,
+        0.17535920268416166,
+        0.22265749889369835,
+        0.22863397276149477,
+        0.21076740025885993,
+        0.20376548978523987,
+        0.20054087323387132,
+        0.2022407807657733,
+        0.2049576042349453,
+        0.2075684969314858,
+        0.2047081957644886,
+        0.1958528508076149,
+        0.21010111530854966,
+        0.2109841855186985,
+        0.20076383091559685,
+        0.19738334113735928,
+        0.19351930685189084,
+        0.18727288217022617,
+        0.19255625120445533,
+        0.1969634472710601,
+        0.20897290839558275,
+        0.20469860594324255,
+        0.1903569464459114,
+        0.19877938458519637,
+        0.2008088175086564,
+        0.20125781519088576,
+        0.2019218161416639,
+        0.20247836587770296,
+        0.2020294355795686,
+        0.1922598116367939,
+        0.18607437988790415,
+        0.19003920072254604,
+        0.1902758742330476,
+        0.18517281168916774,
+        0.18545932843773458,
+        0.1870416383779204,
+        0.18923252968618642,
+        0.19784799234505068,
+        0.18620594258931394
+      ],
+      "peak_bin": 12,
+      "peak_time_ms": 600,
+      "peak_bn": 0.22863397276149477,
+      "mean_bn": 0.18688554981042574,
+      "neuron_count": 86.3
+    },
+    "RSP": {
+      "profile": [
+        0.12402368365678891,
+        0.14171624267874208,
+        0.14300475811656427,
+        0.1409835869016443,
+        0.14321040811726782,
+        0.1322946898822211,
+        0.13361948864674728,
+        0.13916029859417872,
+        0.15007526027590554,
+        0.1498096192658624,
+        0.16001216361541393,
+        0.16190762400721934,
+        0.1688162890433281,
+        0.1593122355683148,
+        0.1571821480116972,
+        0.1540861020504851,
+        0.1517925105339899,
+        0.15536390669370598,
+        0.15354521651734773,
+        0.14943241616711908,
+        0.14800598477206295,
+        0.15644852467266307,
+        0.16118427362793536,
+        0.150117484066735,
+        0.15596253698402038,
+        0.16378712706970208,
+        0.15172900648539267,
+        0.1408652999110263,
+        0.14658512990512243,
+        0.1518181949616133,
+        0.15354229187871624,
+        0.15924618056926435,
+        0.15361186266385557,
+        0.148865235431821,
+        0.19121798711611485,
+        0.2017478169997781,
+        0.18673938284430794,
+        0.19866934824662777,
+        0.21862612915616397,
+        0.23366136411877575,
+        0.20306789560544222,
+        0.1840499020585171,
+        0.18038872899472397,
+        0.17202879432853707,
+        0.17032607083294588,
+        0.16534138376397153,
+        0.17847598253040453,
+        0.17151773236089193
+      ],
+      "peak_bin": 39,
+      "peak_time_ms": 1950,
+      "peak_bn": 0.23366136411877575,
+      "mean_bn": 0.16181200625628492,
+      "neuron_count": 85.22222222222223
+    },
+    "SCm": {
+      "profile": [
+        0.18358610353759108,
+        0.18413681307662108,
+        0.18892300866110645,
+        0.18320706947811738,
+        0.1796295445888262,
+        0.17707413762128418,
+        0.1797205652143157,
+        0.17415275075432776,
+        0.17940201284322002,
+        0.18761268113654536,
+        0.20329031756870944,
+        0.21775243012893056,
+        0.22293938061940433,
+        0.24857896198949944,
+        0.2431073481550545,
+        0.24150076766778064,
+        0.23388666448964912,
+        0.23273778638370102,
+        0.2422437272948088,
+        0.24153471802291704,
+        0.2512673714154907,
+        0.25064626251551453,
+        0.25547252633434725,
+        0.26166786067277803,
+        0.24680423722154407,
+        0.2155672910109989,
+        0.21246235916773834,
+        0.2361740846098576,
+        0.22895501049343095,
+        0.2054848942462381,
+        0.20473819981530897,
+        0.20980919346392382,
+        0.21343454977222442,
+        0.20590077863851333,
+        0.19809630301432904,
+        0.20864789049688612,
+        0.21524488476121276,
+        0.22539818769629769,
+        0.23123500999387678,
+        0.21168549960422453,
+        0.20865730441280803,
+        0.20160767042864483,
+        0.2014688616678424,
+        0.19762085176772173,
+        0.20105317204117332,
+        0.18798284183894295,
+        0.1866440592767636,
+        0.19999273553439875
+      ],
+      "peak_bin": 23,
+      "peak_time_ms": 1150,
+      "peak_bn": 0.26166786067277803,
+      "mean_bn": 0.21289034752386335,
+      "neuron_count": 50.857142857142854
+    },
+    "VISam": {
+      "profile": [
+        0.1264000826515408,
+        0.11819274260417441,
+        0.11326063352913292,
+        0.11489396675404014,
+        0.11628309806085907,
+        0.1130900200249174,
+        0.11670735428735839,
+        0.13445240521757956,
+        0.13514009850718775,
+        0.1327554252792828,
+        0.1410228473930235,
+        0.15753145240385674,
+        0.172383738178385,
+        0.18134704706124394,
+        0.187872854082223,
+        0.17438299094613863,
+        0.17571804709601305,
+        0.16482034146739896,
+        0.15993337914970987,
+        0.1540099463175603,
+        0.1346099381920369,
+        0.14060242593850888,
+        0.15474200124452034,
+        0.16415260239478477,
+        0.1625751563331924,
+        0.15970826010858266,
+        0.1597783015580411,
+        0.15744815819121918,
+        0.1602847865244149,
+        0.16250016281019353,
+        0.14574279431658219,
+        0.1596007361070089,
+        0.15730574021595767,
+        0.14586024658823213,
+        0.13872255386072915,
+        0.14063274775454856,
+        0.14180199268273358,
+        0.14262981156995455,
+        0.14338313001067549,
+        0.15073301377577514,
+        0.15232434876161094,
+        0.1483871819695722,
+        0.13758248589460742,
+        0.1486995981826031,
+        0.14113811302714022,
+        0.14565894323505468,
+        0.1486558354547846,
+        0.15055009631036564
+      ],
+      "peak_bin": 14,
+      "peak_time_ms": 700,
+      "peak_bn": 0.187872854082223,
+      "mean_bn": 0.14762520070885535,
+      "neuron_count": 90.9090909090909
+    },
+    "VISl": {
+      "profile": [
+        0.15901725641189038,
+        0.16590514747609542,
+        0.17262450486139305,
+        0.17348056498630735,
+        0.16784589865128174,
+        0.1541651536066394,
+        0.1440832277256354,
+        0.13767737101929137,
+        0.15257243042208976,
+        0.15647164103606526,
+        0.23857334296745195,
+        0.2841545785760476,
+        0.20080583904502536,
+        0.19641118638425348,
+        0.21994416016462856,
+        0.21789902758974355,
+        0.21936286047299527,
+        0.20644796415333486,
+        0.20550509283386234,
+        0.2172417023895272,
+        0.20847735234183148,
+        0.2124595629680025,
+        0.21554516390920841,
+        0.2076595678084279,
+        0.22361887255777577,
+        0.22088017561628956,
+        0.19105062141498177,
+        0.19712208956396607,
+        0.2029806821200341,
+        0.22345596801098974,
+        0.23533846703748607,
+        0.22769299097033058,
+        0.2262134732816007,
+        0.2283798893935972,
+        0.2248832612320797,
+        0.22613415741922185,
+        0.21575059856081077,
+        0.20924398529815072,
+        0.20788650421341026,
+        0.20346835878637384,
+        0.20316065418124638,
+        0.19488195073272122,
+        0.2070849039514938,
+        0.18518247069627494,
+        0.18208286335228455,
+        0.1848859372912152,
+        0.17625351401239034,
+        0.18310255232939945
+      ],
+      "peak_bin": 11,
+      "peak_time_ms": 550,
+      "peak_bn": 0.2841545785760476,
+      "mean_bn": 0.20031386541302407,
+      "neuron_count": 144.66666666666666
+    },
+    "VISp": {
+      "profile": [
+        0.1464118102387088,
+        0.15204108657211224,
+        0.16404596394664034,
+        0.15130726183657184,
+        0.15298698898313284,
+        0.15546085489730327,
+        0.14676826273825422,
+        0.1714262228932663,
+        0.16763887759604418,
+        0.1448707149132836,
+        0.2054425972752449,
+        0.22627857991304623,
+        0.18817979109996727,
+        0.20666431979265903,
+        0.24228839513741937,
+        0.2673247702323424,
+        0.2410099676269013,
+        0.23615703634213409,
+        0.24121497979433532,
+        0.2124304491348104,
+        0.22441011016534027,
+        0.21955622813531034,
+        0.20588575336699236,
+        0.1935303342239594,
+        0.19683560676615894,
+        0.20141081406267727,
+        0.19632543473763672,
+        0.1794513577966102,
+        0.17787355511832556,
+        0.17829831848790495,
+        0.19252720015666475,
+        0.2070942763946634,
+        0.20418526778208607,
+        0.1976176470659518,
+        0.1776125865243799,
+        0.18688692945221883,
+        0.1684794871449939,
+        0.17253496984799557,
+        0.1806262908352354,
+        0.17727752730593774,
+        0.16985895824742447,
+        0.17299116543437804,
+        0.17490367076413946,
+        0.15949763577690196,
+        0.16805880507437748,
+        0.15574329114068192,
+        0.16836496368623508,
+        0.1649298316170624
+      ],
+      "peak_bin": 15,
+      "peak_time_ms": 750,
+      "peak_bn": 0.2673247702323424,
+      "mean_bn": 0.1873482697515921,
+      "neuron_count": 93.16666666666667
+    },
+    "VISpm": {
+      "profile": [
+        0.18003365677755526,
+        0.18151322765669708,
+        0.19551529768641693,
+        0.20464158530833274,
+        0.2080165246291199,
+        0.20756394129052788,
+        0.2018182382715308,
+        0.21600670639508526,
+        0.20792722657475463,
+        0.1907640280322093,
+        0.21725127784853773,
+        0.24353801552614215,
+        0.20642384359921725,
+        0.1983945930392983,
+        0.20978924992175121,
+        0.21585237252194323,
+        0.23025558717598785,
+        0.21484400023409134,
+        0.2013253959838163,
+        0.20794762860129593,
+        0.2078875300570412,
+        0.18672421413760823,
+        0.19591194240415666,
+        0.19392783725585042,
+        0.20119520999198384,
+        0.20280216094981443,
+        0.21671662302059938,
+        0.21728005497460848,
+        0.22114040280487277,
+        0.20784274501916988,
+        0.20218946840230548,
+        0.20689084314110873,
+        0.21353889101542023,
+        0.21653309520183747,
+        0.20845206881022174,
+        0.21489512014379852,
+        0.2059303190958336,
+        0.1936734491950903,
+        0.19874693551299596,
+        0.2117352348104539,
+        0.1966378473448158,
+        0.19948609745858414,
+        0.1897879567640451,
+        0.19363242144072967,
+        0.18249344425072336,
+        0.19195446674915673,
+        0.1733121598154422,
+        0.20693197788319947
+      ],
+      "peak_bin": 11,
+      "peak_time_ms": 550,
+      "peak_bn": 0.24353801552614215,
+      "mean_bn": 0.20411818572345372,
+      "neuron_count": 146.75
+    }
+  },
+  "taxonomy": {
+    "ACA": {
+      "bracket_norm": 0.08927163804641387,
+      "seis": 0.10868888983496944,
+      "assigned_role": "readout/context",
+      "predicted_group": "association",
+      "predicted_role": "computation",
+      "neuron_count": 76.27272727272727
+    },
+    "ACB": {
+      "bracket_norm": 0.11965173995973738,
+      "seis": 0.1274973027157464,
+      "assigned_role": "mixed",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 112.33333333333333
+    },
+    "APN": {
+      "bracket_norm": 0.37411627526932595,
+      "seis": -0.17219636373208644,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 123.5
+    },
+    "AUD": {
+      "bracket_norm": 0.08122331053592934,
+      "seis": 0.11322415138594906,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 246.0
+    },
+    "BLA": {
+      "bracket_norm": 0.1532028151823051,
+      "seis": -0.04582152909243458,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 158.5
+    },
+    "BMA": {
+      "bracket_norm": 0.09008458090975989,
+      "seis": 0.06340401970952,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 104.0
+    },
+    "CA": {
+      "bracket_norm": 0.16657494022207375,
+      "seis": 0.08863864779906828,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 193.0
+    },
+    "CA1": {
+      "bracket_norm": 0.1179739489547706,
+      "seis": 0.051294004397105984,
+      "assigned_role": "mixed",
+      "predicted_group": "hippocampal",
+      "predicted_role": "context",
+      "neuron_count": 67.7
+    },
+    "CA2": {
+      "bracket_norm": 0.16273200418340247,
+      "seis": 0.018000149098675634,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 115.0
+    },
+    "CA3": {
+      "bracket_norm": 0.12190449595973196,
+      "seis": 0.0970442641303075,
+      "assigned_role": "mixed",
+      "predicted_group": "hippocampal",
+      "predicted_role": "context",
+      "neuron_count": 54.55555555555556
+    },
+    "CL": {
+      "bracket_norm": 0.10270544894587556,
+      "seis": -0.29630489772569146,
+      "assigned_role": "mixed",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 32.0
+    },
+    "COA": {
+      "bracket_norm": 0.14119423611123624,
+      "seis": -0.21968496379895325,
+      "assigned_role": "mixed",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 316.0
+    },
+    "CP": {
+      "bracket_norm": 0.1407547671212091,
+      "seis": 0.06608428958897186,
+      "assigned_role": "mixed",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 243.0
+    },
+    "DG": {
+      "bracket_norm": 0.10609685211207831,
+      "seis": 0.019282102503612467,
+      "assigned_role": "mixed",
+      "predicted_group": "hippocampal",
+      "predicted_role": "context",
+      "neuron_count": 48.5
+    },
+    "GPe": {
+      "bracket_norm": 0.20128781547642083,
+      "seis": 0.2836776814425325,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 97.33333333333333
+    },
+    "ILA": {
+      "bracket_norm": 0.15508141500230713,
+      "seis": 0.06323180656578165,
+      "assigned_role": "computation",
+      "predicted_group": "association",
+      "predicted_role": "computation",
+      "neuron_count": 137.0
+    },
+    "LD": {
+      "bracket_norm": 0.18238409295339575,
+      "seis": 0.13289480625642472,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 49.666666666666664
+    },
+    "LGd": {
+      "bracket_norm": 0.13646799620510916,
+      "seis": -0.0011975255943167064,
+      "assigned_role": "mixed",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 88.2
+    },
+    "LH": {
+      "bracket_norm": 0.04756777512116514,
+      "seis": 0.04025194459764246,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 12.0
+    },
+    "LP": {
+      "bracket_norm": 0.1613503628223769,
+      "seis": 0.007705130513682863,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 74.4
+    },
+    "LS": {
+      "bracket_norm": 0.16474945272243133,
+      "seis": 0.033786127979767266,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 135.0
+    },
+    "LSc": {
+      "bracket_norm": 0.07745217284503804,
+      "seis": -0.04910754854893063,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 72.0
+    },
+    "LSr": {
+      "bracket_norm": 0.15358207493152365,
+      "seis": 0.04086365463870008,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 234.0
+    },
+    "MB": {
+      "bracket_norm": 0.2636606862475921,
+      "seis": 0.047725436812838674,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 145.66666666666666
+    },
+    "MD": {
+      "bracket_norm": 0.261027621559777,
+      "seis": -0.052908709024191036,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 132.33333333333334
+    },
+    "MEA": {
+      "bracket_norm": 0.07730896406314568,
+      "seis": -0.04490643598401971,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 41.0
+    },
+    "MOp": {
+      "bracket_norm": 0.2635792961127127,
+      "seis": -0.020495244903316136,
+      "assigned_role": "computation",
+      "predicted_group": "association",
+      "predicted_role": "computation",
+      "neuron_count": 264.3333333333333
+    },
+    "MOs": {
+      "bracket_norm": 0.0937769115946867,
+      "seis": 0.007889474313375805,
+      "assigned_role": "readout/context",
+      "predicted_group": "association",
+      "predicted_role": "computation",
+      "neuron_count": 96.77777777777777
+    },
+    "MRN": {
+      "bracket_norm": 0.18445084741115372,
+      "seis": -0.03331523253593036,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 92.36363636363636
+    },
+    "MS": {
+      "bracket_norm": 0.1280852002611115,
+      "seis": 0.08254110287889564,
+      "assigned_role": "mixed",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 23.0
+    },
+    "OLF": {
+      "bracket_norm": 0.08084251701959802,
+      "seis": 0.1647822010425441,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 129.5
+    },
+    "ORB": {
+      "bracket_norm": 0.13587878637401762,
+      "seis": 0.05961900951558724,
+      "assigned_role": "mixed",
+      "predicted_group": "association",
+      "predicted_role": "computation",
+      "neuron_count": 162.4
+    },
+    "ORBm": {
+      "bracket_norm": 0.12362158062244237,
+      "seis": 0.22447032006200485,
+      "assigned_role": "mixed",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 122.0
+    },
+    "OT": {
+      "bracket_norm": 0.046278742023778595,
+      "seis": 0.1373368817542725,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 26.0
+    },
+    "PAG": {
+      "bracket_norm": 0.19223318833975753,
+      "seis": 0.01814450682655851,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 46.666666666666664
+    },
+    "PL": {
+      "bracket_norm": 0.11189490026621553,
+      "seis": 0.010283557334861526,
+      "assigned_role": "mixed",
+      "predicted_group": "association",
+      "predicted_role": "computation",
+      "neuron_count": 86.3
+    },
+    "PO": {
+      "bracket_norm": 0.22969570118439642,
+      "seis": -0.04574212886607567,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 138.4
+    },
+    "POL": {
+      "bracket_norm": 0.14364591879276573,
+      "seis": -0.18288968958102345,
+      "assigned_role": "mixed",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 71.66666666666667
+    },
+    "POST": {
+      "bracket_norm": 0.09541054008502171,
+      "seis": 0.22962851921461347,
+      "assigned_role": "readout/context",
+      "predicted_group": "hippocampal",
+      "predicted_role": "context",
+      "neuron_count": 78.0
+    },
+    "PT": {
+      "bracket_norm": 0.06916096643560286,
+      "seis": 0.05701787152455272,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 45.0
+    },
+    "RN": {
+      "bracket_norm": 0.3252933842697722,
+      "seis": 0.11012226690143001,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 58.0
+    },
+    "RSP": {
+      "bracket_norm": 0.10860361748598164,
+      "seis": 0.029699180185107057,
+      "assigned_role": "mixed",
+      "predicted_group": "association",
+      "predicted_role": "computation",
+      "neuron_count": 85.22222222222223
+    },
+    "RT": {
+      "bracket_norm": 0.15977441065152126,
+      "seis": -0.08605850764365876,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 86.5
+    },
+    "SCig": {
+      "bracket_norm": 0.33305488288505747,
+      "seis": 0.1494294412393844,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 201.75
+    },
+    "SCm": {
+      "bracket_norm": 0.15433737125062347,
+      "seis": -0.10341294133580492,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 50.857142857142854
+    },
+    "SCs": {
+      "bracket_norm": 0.07039168012435859,
+      "seis": -0.02643743215523289,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 39.25
+    },
+    "SCsg": {
+      "bracket_norm": 0.05645547638284854,
+      "seis": 0.18636622305715403,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 29.666666666666668
+    },
+    "SI": {
+      "bracket_norm": 0.11875360999162847,
+      "seis": -0.19664359623283417,
+      "assigned_role": "mixed",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 48.0
+    },
+    "SNr": {
+      "bracket_norm": 0.19112922995445927,
+      "seis": 0.041041900513941756,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 76.5
+    },
+    "SSp": {
+      "bracket_norm": 0.1464089932888686,
+      "seis": 0.024139203298094897,
+      "assigned_role": "mixed",
+      "predicted_group": "motor",
+      "predicted_role": "readout",
+      "neuron_count": 103.0
+    },
+    "SSs": {
+      "bracket_norm": 0.09895036359224255,
+      "seis": -0.07742579576975177,
+      "assigned_role": "readout/context",
+      "predicted_group": "motor",
+      "predicted_role": "readout",
+      "neuron_count": 120.0
+    },
+    "SUB": {
+      "bracket_norm": 0.16528382885210663,
+      "seis": 0.015835061045931333,
+      "assigned_role": "computation",
+      "predicted_group": "hippocampal",
+      "predicted_role": "context",
+      "neuron_count": 76.11111111111111
+    },
+    "TH": {
+      "bracket_norm": 0.14180876324229813,
+      "seis": 0.057474791426783384,
+      "assigned_role": "mixed",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 157.125
+    },
+    "TT": {
+      "bracket_norm": 0.09289569386213913,
+      "seis": 0.03731169818794958,
+      "assigned_role": "readout/context",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 45.25
+    },
+    "VAL": {
+      "bracket_norm": 0.3885129778703333,
+      "seis": 0.09703031606234475,
+      "assigned_role": "computation",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 83.0
+    },
+    "VISa": {
+      "bracket_norm": 0.05442819322752509,
+      "seis": 0.07182458989705948,
+      "assigned_role": "readout/context",
+      "predicted_group": "sensory",
+      "predicted_role": "relay",
+      "neuron_count": 68.0
+    },
+    "VISam": {
+      "bracket_norm": 0.09305269798075029,
+      "seis": -0.008848264647390594,
+      "assigned_role": "readout/context",
+      "predicted_group": "sensory",
+      "predicted_role": "relay",
+      "neuron_count": 90.9090909090909
+    },
+    "VISl": {
+      "bracket_norm": 0.12917655352015736,
+      "seis": 0.2244361465304335,
+      "assigned_role": "mixed",
+      "predicted_group": "sensory",
+      "predicted_role": "relay",
+      "neuron_count": 144.66666666666666
+    },
+    "VISp": {
+      "bracket_norm": 0.11179741647258148,
+      "seis": 0.030233228968052393,
+      "assigned_role": "mixed",
+      "predicted_group": "sensory",
+      "predicted_role": "relay",
+      "neuron_count": 93.16666666666667
+    },
+    "VISpm": {
+      "bracket_norm": 0.15603915387483505,
+      "seis": 0.07486523462621307,
+      "assigned_role": "computation",
+      "predicted_group": "sensory",
+      "predicted_role": "relay",
+      "neuron_count": 146.75
+    },
+    "VISrl": {
+      "bracket_norm": 0.0827585231439442,
+      "seis": 0.01635294608232229,
+      "assigned_role": "readout/context",
+      "predicted_group": "sensory",
+      "predicted_role": "relay",
+      "neuron_count": 143.0
+    },
+    "VPL": {
+      "bracket_norm": 0.18861354807062125,
+      "seis": 0.04763327564412173,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 75.25
+    },
+    "VPM": {
+      "bracket_norm": 0.2002172865998194,
+      "seis": 0.06661404535444619,
+      "assigned_role": "computation",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 88.25
+    },
+    "ZI": {
+      "bracket_norm": 0.14523515972770631,
+      "seis": -0.27283763888353557,
+      "assigned_role": "mixed",
+      "predicted_group": "subcortical",
+      "predicted_role": "relay/gating",
+      "neuron_count": 72.25
+    },
+    "root": {
+      "bracket_norm": 0.11303772899830988,
+      "seis": 0.10878061391003976,
+      "assigned_role": "mixed",
+      "predicted_group": null,
+      "predicted_role": "unknown",
+      "neuron_count": 147.3448275862069
+    }
+  }
+}

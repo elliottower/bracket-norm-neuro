@@ -1,0 +1,588 @@
+{
+  "timestamp": "2026-06-26T03:52:23.115202+00:00",
+  "experiment": "alternative_predictions",
+  "geometric_metrics": {
+    "ACA": {
+      "bracket_norm": 0.08927163804641387,
+      "seis": 0.09963807142776716,
+      "neuron_count": 76.27272727272727
+    },
+    "MOs": {
+      "bracket_norm": 0.0937769115946867,
+      "seis": 0.004863394051843015,
+      "neuron_count": 96.77777777777777
+    },
+    "ORB": {
+      "bracket_norm": 0.13587878637401762,
+      "seis": 0.05526648680907111,
+      "neuron_count": 162.4
+    },
+    "PL": {
+      "bracket_norm": 0.11189490026621553,
+      "seis": 0.00726273442519571,
+      "neuron_count": 86.3
+    },
+    "RSP": {
+      "bracket_norm": 0.10860361748598164,
+      "seis": 0.016486977728868257,
+      "neuron_count": 85.22222222222223
+    },
+    "VISam": {
+      "bracket_norm": 0.09305269798075029,
+      "seis": -0.005895324504404217,
+      "neuron_count": 90.9090909090909
+    },
+    "VISl": {
+      "bracket_norm": 0.12917655352015736,
+      "seis": 0.20217592884364002,
+      "neuron_count": 144.66666666666666
+    },
+    "VISp": {
+      "bracket_norm": 0.11179741647258148,
+      "seis": 0.04037400486467978,
+      "neuron_count": 93.16666666666667
+    },
+    "VISpm": {
+      "bracket_norm": 0.15603915387483505,
+      "seis": 0.08647766119884621,
+      "neuron_count": 146.75
+    }
+  },
+  "test_1_decoding": {
+    "ACA": {
+      "decoding_accuracy": 0.4918203375977131,
+      "n_sessions": 11,
+      "neuron_count": 76.27272727272727
+    },
+    "MOs": {
+      "decoding_accuracy": 0.5125835983120275,
+      "n_sessions": 18,
+      "neuron_count": 96.77777777777777
+    },
+    "ORB": {
+      "decoding_accuracy": 0.5154876907863309,
+      "n_sessions": 5,
+      "neuron_count": 162.4
+    },
+    "PL": {
+      "decoding_accuracy": 0.5347791202637446,
+      "n_sessions": 10,
+      "neuron_count": 86.3
+    },
+    "RSP": {
+      "decoding_accuracy": 0.5138698876944856,
+      "n_sessions": 9,
+      "neuron_count": 85.22222222222223
+    },
+    "VISam": {
+      "decoding_accuracy": 0.5171300158681704,
+      "n_sessions": 11,
+      "neuron_count": 90.9090909090909
+    },
+    "VISl": {
+      "decoding_accuracy": 0.5518430318055844,
+      "n_sessions": 3,
+      "neuron_count": 144.66666666666666
+    },
+    "VISp": {
+      "decoding_accuracy": 0.5211517723710329,
+      "n_sessions": 12,
+      "neuron_count": 93.16666666666667
+    },
+    "VISpm": {
+      "decoding_accuracy": 0.49509467272572116,
+      "n_sessions": 4,
+      "neuron_count": 146.75
+    }
+  },
+  "test_2_rt": {
+    "ACA": {
+      "rt_r2": -0.04517347874600962,
+      "n_sessions": 11,
+      "neuron_count": 76.27272727272727
+    },
+    "MOs": {
+      "rt_r2": -0.03258714151630898,
+      "n_sessions": 18,
+      "neuron_count": 96.77777777777777
+    },
+    "ORB": {
+      "rt_r2": -0.04519953784128775,
+      "n_sessions": 5,
+      "neuron_count": 162.4
+    },
+    "PL": {
+      "rt_r2": 0.007038525975496068,
+      "n_sessions": 10,
+      "neuron_count": 86.3
+    },
+    "RSP": {
+      "rt_r2": -0.11108483781079251,
+      "n_sessions": 9,
+      "neuron_count": 85.22222222222223
+    },
+    "VISam": {
+      "rt_r2": -0.03545107560635669,
+      "n_sessions": 11,
+      "neuron_count": 90.9090909090909
+    },
+    "VISl": {
+      "rt_r2": 0.016049382856229765,
+      "n_sessions": 3,
+      "neuron_count": 144.66666666666666
+    },
+    "VISp": {
+      "rt_r2": -0.025085009657798748,
+      "n_sessions": 12,
+      "neuron_count": 93.16666666666667
+    },
+    "VISpm": {
+      "rt_r2": -0.06585878772830313,
+      "n_sessions": 4,
+      "neuron_count": 146.75
+    }
+  },
+  "test_3_error_correct": {
+    "ACA": {
+      "bracket_norm_correct": 0.05317944928204799,
+      "seis_correct": 0.027905023657395365,
+      "nc_correct": 76.27272727272727,
+      "seis_error": -0.08481188100693599,
+      "nc_error": 57.44444444444444
+    },
+    "MOs": {
+      "bracket_norm_correct": 0.07400547594382875,
+      "seis_correct": 0.00920768900629277,
+      "nc_correct": 96.77777777777777,
+      "seis_error": 0.04044233946381803,
+      "nc_error": 91.93333333333334
+    },
+    "ORB": {
+      "bracket_norm_correct": 0.10929264904744469,
+      "seis_correct": 0.07666203910783789,
+      "nc_correct": 162.4,
+      "seis_error": -0.004911313123547378,
+      "nc_error": 161.5
+    },
+    "PL": {
+      "bracket_norm_correct": 0.07685319422356707,
+      "seis_correct": -0.031873026847057284,
+      "nc_correct": 86.3,
+      "seis_error": 0.040675153234528076,
+      "nc_error": 86.3
+    },
+    "RSP": {
+      "bracket_norm_correct": 0.12149744726008938,
+      "seis_correct": 0.06032623134095657,
+      "nc_correct": 85.22222222222223,
+      "seis_error": 0.09349056597832975,
+      "nc_error": 92.66666666666667
+    },
+    "VISam": {
+      "bracket_norm_correct": 0.11318747547559373,
+      "seis_correct": 0.023061744187626246,
+      "nc_correct": 90.9090909090909,
+      "seis_error": 0.03150363190509377,
+      "nc_error": 81.44444444444444
+    },
+    "VISl": {
+      "bracket_norm_correct": 0.07737007793199695,
+      "seis_correct": 0.19482371170372423,
+      "nc_correct": 144.66666666666666,
+      "seis_error": -0.039169226753386376,
+      "nc_error": 144.66666666666666
+    },
+    "VISp": {
+      "bracket_norm_correct": 0.07784591862079551,
+      "seis_correct": -0.0013832100832939925,
+      "nc_correct": 93.16666666666667,
+      "seis_error": -0.031002796423825783,
+      "nc_error": 98.0909090909091
+    },
+    "VISpm": {
+      "bracket_norm_correct": 0.12457672931813182,
+      "seis_correct": 0.05056069611996544,
+      "nc_correct": 146.75,
+      "seis_error": 0.12125799650756602,
+      "nc_error": 172.0
+    }
+  },
+  "test_3_error_collapse": {},
+  "test_4_psychometric": {
+    "ACA": {
+      "psychometric_slope": -0.11320315949896256,
+      "n_sessions": 11,
+      "neuron_count": 76.27272727272727
+    },
+    "MOs": {
+      "psychometric_slope": -0.10501839476441156,
+      "n_sessions": 18,
+      "neuron_count": 96.77777777777777
+    },
+    "ORB": {
+      "psychometric_slope": -0.0844609006172802,
+      "n_sessions": 5,
+      "neuron_count": 162.4
+    },
+    "PL": {
+      "psychometric_slope": -0.005518159006951207,
+      "n_sessions": 10,
+      "neuron_count": 86.3
+    },
+    "RSP": {
+      "psychometric_slope": 0.005821890880079099,
+      "n_sessions": 9,
+      "neuron_count": 85.22222222222223
+    },
+    "VISam": {
+      "psychometric_slope": -0.07903362254218643,
+      "n_sessions": 11,
+      "neuron_count": 90.9090909090909
+    },
+    "VISl": {
+      "psychometric_slope": 0.02570356443191854,
+      "n_sessions": 3,
+      "neuron_count": 144.66666666666666
+    },
+    "VISp": {
+      "psychometric_slope": -0.1070537022081444,
+      "n_sessions": 12,
+      "neuron_count": 93.16666666666667
+    },
+    "VISpm": {
+      "psychometric_slope": -0.1467483878451116,
+      "n_sessions": 4,
+      "neuron_count": 146.75
+    }
+  },
+  "test_5_connectivity": {
+    "ACA": {
+      "connectivity": 0.72
+    },
+    "MOs": {
+      "connectivity": 0.81
+    },
+    "ORB": {
+      "connectivity": 0.63
+    },
+    "PL": {
+      "connectivity": 0.76
+    },
+    "RSP": {
+      "connectivity": 0.68
+    },
+    "VISam": {
+      "connectivity": 0.41
+    },
+    "VISl": {
+      "connectivity": 0.52
+    },
+    "VISp": {
+      "connectivity": 0.85
+    },
+    "VISpm": {
+      "connectivity": 0.48
+    }
+  },
+  "test_6_cell_type": {
+    "ACA": {
+      "ei_ratio": 1.0,
+      "n_sessions": 11,
+      "neuron_count": 76.27272727272727
+    },
+    "MOs": {
+      "ei_ratio": 1.0,
+      "n_sessions": 18,
+      "neuron_count": 96.77777777777777
+    },
+    "ORB": {
+      "ei_ratio": 1.0,
+      "n_sessions": 5,
+      "neuron_count": 162.4
+    },
+    "PL": {
+      "ei_ratio": 1.0,
+      "n_sessions": 10,
+      "neuron_count": 86.3
+    },
+    "RSP": {
+      "ei_ratio": 1.0,
+      "n_sessions": 9,
+      "neuron_count": 85.22222222222223
+    },
+    "VISam": {
+      "ei_ratio": 1.0,
+      "n_sessions": 11,
+      "neuron_count": 90.9090909090909
+    },
+    "VISl": {
+      "ei_ratio": 1.0,
+      "n_sessions": 3,
+      "neuron_count": 144.66666666666666
+    },
+    "VISp": {
+      "ei_ratio": 1.0,
+      "n_sessions": 12,
+      "neuron_count": 93.16666666666667
+    },
+    "VISpm": {
+      "ei_ratio": 1.0,
+      "n_sessions": 4,
+      "neuron_count": 146.75
+    }
+  },
+  "correlations": {
+    "bracket_norm_vs_silencing": {
+      "rho_raw": 0.6833333333333333,
+      "p_raw": 0.04244227208707231,
+      "partial": 0.6067942256677429,
+      "rho_with_nc": 0.7666666666666667,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "bracket_norm_vs_decoding": {
+      "rho_raw": 0.2833333333333333,
+      "p_raw": 0.46003032896572005,
+      "partial": 0.265183220323157,
+      "rho_with_nc": 0.7666666666666667,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "bracket_norm_vs_rt": {
+      "rho_raw": -0.016666666666666666,
+      "p_raw": 0.9660548039946862,
+      "partial": -0.06579862162535947,
+      "rho_with_nc": 0.7666666666666667,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "bracket_norm_vs_psychometric": {
+      "rho_raw": 0.03333333333333333,
+      "p_raw": 0.9321567355405039,
+      "partial": 0.19254399685896953,
+      "rho_with_nc": 0.7666666666666667,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "bracket_norm_vs_connectivity": {
+      "rho_raw": -0.25,
+      "p_raw": 0.5164895523012261,
+      "partial": -0.0326545421896911,
+      "rho_with_nc": 0.7666666666666667,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "bracket_norm_vs_ei_ratio": {
+      "rho_raw": NaN,
+      "p_raw": NaN,
+      "partial": NaN,
+      "rho_with_nc": 0.7666666666666667,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "seis_vs_silencing": {
+      "rho_raw": 0.3,
+      "p_raw": 0.43284532670948234,
+      "partial": 0.22694967359140372,
+      "rho_with_nc": 0.2333333333333333,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "seis_vs_decoding": {
+      "rho_raw": -0.08333333333333334,
+      "p_raw": 0.831214097710308,
+      "partial": -0.12308501700185197,
+      "rho_with_nc": 0.2333333333333333,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "seis_vs_rt": {
+      "rho_raw": 0.0,
+      "p_raw": 1.0,
+      "partial": -0.008003011005173307,
+      "rho_with_nc": 0.2333333333333333,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "seis_vs_psychometric": {
+      "rho_raw": -0.15,
+      "p_raw": 0.7000942309691418,
+      "partial": -0.12713120326312838,
+      "rho_with_nc": 0.2333333333333333,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "seis_vs_connectivity": {
+      "rho_raw": -0.15,
+      "p_raw": 0.7000942309691418,
+      "partial": -0.08624337934820703,
+      "rho_with_nc": 0.2333333333333333,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "seis_vs_ei_ratio": {
+      "rho_raw": NaN,
+      "p_raw": NaN,
+      "partial": NaN,
+      "rho_with_nc": 0.2333333333333333,
+      "n": 9,
+      "regions": [
+        "ACA",
+        "MOs",
+        "ORB",
+        "PL",
+        "RSP",
+        "VISam",
+        "VISl",
+        "VISp",
+        "VISpm"
+      ]
+    },
+    "nc_vs_silencing": {
+      "rho": 0.43333333333333335,
+      "p": 0.24395243588005172,
+      "n": 9
+    },
+    "nc_vs_decoding": {
+      "rho": 0.15,
+      "p": 0.7000942309691418,
+      "n": 9
+    },
+    "nc_vs_rt": {
+      "rho": 0.03333333333333333,
+      "p": 0.9321567355405039,
+      "n": 9
+    },
+    "nc_vs_psychometric": {
+      "rho": -0.11666666666666665,
+      "p": 0.765007942926146,
+      "n": 9
+    },
+    "nc_vs_connectivity": {
+      "rho": -0.3,
+      "p": 0.43284532670948234,
+      "n": 9
+    },
+    "nc_vs_ei_ratio": {
+      "rho": NaN,
+      "p": NaN,
+      "n": 9
+    }
+  },
+  "dissociation": {
+    "bracket_norm_silencing": 0.6067942256677429,
+    "bracket_norm_decoding": 0.265183220323157,
+    "seis_silencing": 0.22694967359140372,
+    "seis_decoding": -0.12308501700185197
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "timestamp": "2026-06-30T00:44:06.407387+00:00",
+  "dataset": "DANDI:000019 Chang lab CV syllables (Human ECoG)",
+  "task": "speech production (consonant-vowel syllables)",
+  "choice_definition": "consonant identity (binary split)",
+  "evidence_definition": "1/syllable_duration (fast = high evidence)",
+  "high_gamma_method": "bandpass 70-150 Hz + Hilbert analytic amplitude",
+  "bootstrap_resamples": 2000,
+  "causal_ground_truth": "none (no ESM data in dataset)",
+  "n_areas": 6,
+  "n_sessions": 19,
+  "n_skipped": 1,
+  "area_summary": {
+    " ": {
+      "n_sessions": 1,
+      "bracket_norm_mean": 6.501180171966553,
+      "bracket_norm_ci_lo": 6.501180171966553,
+      "bracket_norm_ci_hi": 6.501180171966553,
+      "rotation_angle_mean": 1.8072901783276099,
+      "rotation_angle_ci_lo": 1.8072901783276099,
+      "rotation_angle_ci_hi": 1.8072901783276099,
+      "commutativity_mean": 1.5714508989037552,
+      "participation_ratio_mean": 49.19971391682409,
+      "electrode_count_mean": 256.0,
+      "electrode_count_total": 256
+    },
+    "STG": {
+      "n_sessions": 12,
+      "bracket_norm_mean": 3.1101960142453513,
+      "bracket_norm_ci_lo": 2.5400243004163108,
+      "bracket_norm_ci_hi": 3.68146159251531,
+      "rotation_angle_mean": 1.4306691281959514,
+      "rotation_angle_ci_lo": 1.2403295063860666,
+      "rotation_angle_ci_hi": 1.6015516212905858,
+      "commutativity_mean": 1.3858697863270077,
+      "participation_ratio_mean": 3.8242210672696633,
+      "electrode_count_mean": 98.41666666666667,
+      "electrode_count_total": 1181
+    },
+    "caudalmiddlefrontal": {
+      "n_sessions": 12,
+      "bracket_norm_mean": 1.4412178471684456,
+      "bracket_norm_ci_lo": 1.08531054854393,
+      "bracket_norm_ci_hi": 1.8196748594443004,
+      "rotation_angle_mean": 1.4538834471408435,
+      "rotation_angle_ci_lo": 1.1926665766709972,
+      "rotation_angle_ci_hi": 1.735074255716162,
+      "commutativity_mean": 1.339776843651063,
+      "participation_ratio_mean": 3.0756178055568575,
+      "electrode_count_mean": 19.75,
+      "electrode_count_total": 237
+    },
+    "parsopercularis": {
+      "n_sessions": 12,
+      "bracket_norm_mean": 1.6031165073315303,
+      "bracket_norm_ci_lo": 1.257430151104927,
+      "bracket_norm_ci_hi": 1.96636796494325,
+      "rotation_angle_mean": 1.486997741609187,
+      "rotation_angle_ci_lo": 1.200063752207298,
+      "rotation_angle_ci_hi": 1.766539311243946,
+      "commutativity_mean": 1.3830516402889907,
+      "participation_ratio_mean": 2.799358854363813,
+      "electrode_count_mean": 25.75,
+      "electrode_count_total": 309
+    },
+    "supramarginal": {
+      "n_sessions": 12,
+      "bracket_norm_mean": 1.3347303022940953,
+      "bracket_norm_ci_lo": 1.0167993704477947,
+      "bracket_norm_ci_hi": 1.70802441239357,
+      "rotation_angle_mean": 1.1942630550542233,
+      "rotation_angle_ci_lo": 1.0434914964860382,
+      "rotation_angle_ci_hi": 1.334775477691078,
+      "commutativity_mean": 1.2056041225075262,
+      "participation_ratio_mean": 3.3898109771625933,
+      "electrode_count_mean": 24.916666666666668,
+      "electrode_count_total": 299
+    },
+    "vSMC": {
+      "n_sessions": 18,
+      "bracket_norm_mean": 3.5056621034940085,
+      "bracket_norm_ci_lo": 3.0295202003584967,
+      "bracket_norm_ci_hi": 4.015223277939691,
+      "rotation_angle_mean": 1.472193584871133,
+      "rotation_angle_ci_lo": 1.3346540589589275,
+      "rotation_angle_ci_hi": 1.601677821590761,
+      "commutativity_mean": 1.374670254823062,
+      "participation_ratio_mean": 11.987819327521118,
+      "electrode_count_mean": 84.44444444444444,
+      "electrode_count_total": 1520
+    }
+  },
+  "area_ranking": [
+    " ",
+    "vSMC",
+    "STG",
+    "parsopercularis",
+    "caudalmiddlefrontal",
+    "supramarginal"
+  ],
+  "confound_test_bn_vs_electrode_count": {
+    "rho_bn_vs_electrode_count": 0.8857142857142858,
+    "p_bn_vs_electrode_count": 0.01884548104956266,
+    "n_areas": 6,
+    "rho_ci_lo": 0.0,
+    "rho_ci_hi": 1.0
+  },
+  "neuroscience_predictions": {
+    "vSMC_bn": 3.5056621034940085,
+    "other_mean_bn": 2.798088168601195,
+    "vSMC_rank": 2,
+    "vSMC_above_average": true,
+    "STG_bn": 3.1101960142453513,
+    "STG_rank": 3,
+    "vSMC_gt_STG": true
+  },
+  "total_time_sec": 147.17557215690613
+}

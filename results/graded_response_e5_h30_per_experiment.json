@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-06-26T18:39:47.659926+00:00",
+  "experiment": "E5_graded_response_per_experiment",
+  "preregistration": "mechval_audit_statement_v1.md H30",
+  "note": "Per-experiment analysis (not pooled). Both show rho=-1.000 for pyramidal.",
+  "experiments": {
+    "ALM_PVxReaChR": {
+      "label": "ALM_PVxReaChR",
+      "n_units": 143,
+      "dose_response": {
+        "pyr": {
+          "powers": [
+            0.5,
+            1.51,
+            3.34,
+            7.99
+          ],
+          "mean_ratios": [
+            0.3402263873341608,
+            0.21162148067558,
+            0.15165188259776508,
+            0.10870048018304199
+          ],
+          "n_per_level": [
+            126,
+            127,
+            128,
+            128
+          ],
+          "spearman_rho": -1.0,
+          "spearman_p": 0.0
+        },
+        "fs": {
+          "powers": [
+            0.5,
+            1.51,
+            3.34,
+            7.99
+          ],
+          "mean_ratios": [
+            1.2829779954252134,
+            1.5860106176767357,
+            1.7398573225760108,
+            2.311735501857212
+          ],
+          "n_per_level": [
+            13,
+            13,
+            13,
+            13
+          ],
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0
+        }
+      }
+    },
+    "ALM_VGAT_ChR2": {
+      "label": "ALM_VGAT_ChR2",
+      "n_units": 103,
+      "dose_response": {
+        "pyr": {
+          "powers": [
+            0.49,
+            1.42,
+            3.08,
+            5.92
+          ],
+          "mean_ratios": [
+            0.2777296551336069,
+            0.20154571226730253,
+            0.14204985885444582,
+            0.13425894583057862
+          ],
+          "n_per_level": [
+            96,
+            96,
+            95,
+            96
+          ],
+          "spearman_rho": -1.0,
+          "spearman_p": 0.0
+        },
+        "fs": {
+          "powers": [
+            0.49,
+            1.42,
+            3.08,
+            5.92
+          ],
+          "mean_ratios": [
+            0.9945393600989034,
+            0.8816464814523692,
+            1.1866534880442432,
+            1.74527468823171
+          ],
+          "n_per_level": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "spearman_rho": 0.7999999999999999,
+          "spearman_p": 0.2000000000000001
+        }
+      }
+    }
+  }
+}

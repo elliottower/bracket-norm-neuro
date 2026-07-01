@@ -1,0 +1,318 @@
+{
+  "timestamp": "2026-06-26T14:11:01.617936+00:00",
+  "experiment": "M2_baseline_separation",
+  "n_shuffles": 1000,
+  "n_regions": 36,
+  "n_significant_005": 3,
+  "mean_ratio": 1.0488240962516056,
+  "region_summary": {
+    "ACA": {
+      "real_bn_mean": 0.07245005940569914,
+      "shuffle_bn_mean": 0.08967758376314935,
+      "ratio": 0.8078948638520422,
+      "mean_pvalue": 0.6936353829557713,
+      "n_sessions": 1,
+      "n_neurons_mean": 18.0
+    },
+    "APN": {
+      "real_bn_mean": 0.26831804976241447,
+      "shuffle_bn_mean": 0.34238068384602954,
+      "ratio": 0.7836833745116013,
+      "mean_pvalue": 0.8935483870967742,
+      "n_sessions": 1,
+      "n_neurons_mean": 62.0
+    },
+    "CA1": {
+      "real_bn_mean": 0.13277083696901776,
+      "shuffle_bn_mean": 0.11724006174495114,
+      "ratio": 1.132469864649218,
+      "mean_pvalue": 0.3983253715498939,
+      "n_sessions": 4,
+      "n_neurons_mean": 59.5
+    },
+    "CA3": {
+      "real_bn_mean": 0.12036589172502714,
+      "shuffle_bn_mean": 0.10909780821855287,
+      "ratio": 1.103284232562883,
+      "mean_pvalue": 0.2915,
+      "n_sessions": 2,
+      "n_neurons_mean": 51.5
+    },
+    "CL": {
+      "real_bn_mean": 0.10109297008300158,
+      "shuffle_bn_mean": 0.09567423000089187,
+      "ratio": 1.0566374035766524,
+      "mean_pvalue": 0.35607675906183367,
+      "n_sessions": 1,
+      "n_neurons_mean": 32.0
+    },
+    "DG": {
+      "real_bn_mean": 0.11793307144315412,
+      "shuffle_bn_mean": 0.10733352259033559,
+      "ratio": 1.098753385588573,
+      "mean_pvalue": 0.3292838514230011,
+      "n_sessions": 3,
+      "n_neurons_mean": 38.333333333333336
+    },
+    "ILA": {
+      "real_bn_mean": 0.19505242202161915,
+      "shuffle_bn_mean": 0.17737818769594832,
+      "ratio": 1.099641531156034,
+      "mean_pvalue": 0.184,
+      "n_sessions": 1,
+      "n_neurons_mean": 144.0
+    },
+    "LD": {
+      "real_bn_mean": 0.17166109172972338,
+      "shuffle_bn_mean": 0.14889859365608374,
+      "ratio": 1.1528724845509806,
+      "mean_pvalue": 0.254,
+      "n_sessions": 2,
+      "n_neurons_mean": 60.0
+    },
+    "LP": {
+      "real_bn_mean": 0.1707747532572961,
+      "shuffle_bn_mean": 0.1696829331395955,
+      "ratio": 1.0064344716162994,
+      "mean_pvalue": 0.4883489861259338,
+      "n_sessions": 3,
+      "n_neurons_mean": 114.66666666666667
+    },
+    "LS": {
+      "real_bn_mean": 0.15776116428132228,
+      "shuffle_bn_mean": 0.11448579427360897,
+      "ratio": 1.377997725783253,
+      "mean_pvalue": 0.011789924973204717,
+      "n_sessions": 1,
+      "n_neurons_mean": 47.0
+    },
+    "LSr": {
+      "real_bn_mean": 0.07823466597333492,
+      "shuffle_bn_mean": 0.08062360968241834,
+      "ratio": 0.9703691782651441,
+      "mean_pvalue": 0.494,
+      "n_sessions": 1,
+      "n_neurons_mean": 33.0
+    },
+    "MD": {
+      "real_bn_mean": 0.24074748214675565,
+      "shuffle_bn_mean": 0.2700617550459189,
+      "ratio": 0.8914534455894199,
+      "mean_pvalue": 0.7857142857142857,
+      "n_sessions": 1,
+      "n_neurons_mean": 155.0
+    },
+    "MOs": {
+      "real_bn_mean": 0.1491175959848873,
+      "shuffle_bn_mean": 0.12817317725203495,
+      "ratio": 1.1634071891291835,
+      "mean_pvalue": 0.38940057224606583,
+      "n_sessions": 3,
+      "n_neurons_mean": 73.0
+    },
+    "MRN": {
+      "real_bn_mean": 0.23532509475866176,
+      "shuffle_bn_mean": 0.2720244476237605,
+      "ratio": 0.8650880342844525,
+      "mean_pvalue": 0.39686872998932765,
+      "n_sessions": 2,
+      "n_neurons_mean": 45.0
+    },
+    "ORB": {
+      "real_bn_mean": 0.18814171886683423,
+      "shuffle_bn_mean": 0.12642303111433187,
+      "ratio": 1.4881918038167214,
+      "mean_pvalue": 0.045,
+      "n_sessions": 1,
+      "n_neurons_mean": 153.0
+    },
+    "ORBm": {
+      "real_bn_mean": 0.16983160972583802,
+      "shuffle_bn_mean": 0.1523671634031972,
+      "ratio": 1.1146208003161675,
+      "mean_pvalue": 0.224,
+      "n_sessions": 1,
+      "n_neurons_mean": 122.0
+    },
+    "PAG": {
+      "real_bn_mean": 0.09270966646976186,
+      "shuffle_bn_mean": 0.08155634097025687,
+      "ratio": 1.1367560787198256,
+      "mean_pvalue": 0.222,
+      "n_sessions": 1,
+      "n_neurons_mean": 41.0
+    },
+    "PL": {
+      "real_bn_mean": 0.17149561477407196,
+      "shuffle_bn_mean": 0.17227698196201607,
+      "ratio": 0.9954644707691546,
+      "mean_pvalue": 0.5115000000000001,
+      "n_sessions": 2,
+      "n_neurons_mean": 97.0
+    },
+    "PO": {
+      "real_bn_mean": 0.30871966121976624,
+      "shuffle_bn_mean": 0.280168423641915,
+      "ratio": 1.1019074066110748,
+      "mean_pvalue": 0.29305172413793107,
+      "n_sessions": 2,
+      "n_neurons_mean": 174.5
+    },
+    "POL": {
+      "real_bn_mean": 0.14458432762460635,
+      "shuffle_bn_mean": 0.1276821449243446,
+      "ratio": 1.1323770257543768,
+      "mean_pvalue": 0.21707060063224448,
+      "n_sessions": 1,
+      "n_neurons_mean": 39.0
+    },
+    "RSP": {
+      "real_bn_mean": 0.11755081813568513,
+      "shuffle_bn_mean": 0.11761740426390987,
+      "ratio": 0.9994338743608155,
+      "mean_pvalue": 0.42247565195896675,
+      "n_sessions": 3,
+      "n_neurons_mean": 91.33333333333333
+    },
+    "SCig": {
+      "real_bn_mean": 0.31959778267871164,
+      "shuffle_bn_mean": 0.4876753518356419,
+      "ratio": 0.6553494684736264,
+      "mean_pvalue": 0.874328678839957,
+      "n_sessions": 1,
+      "n_neurons_mean": 65.0
+    },
+    "SCm": {
+      "real_bn_mean": 0.1294747107177692,
+      "shuffle_bn_mean": 0.11548114983319868,
+      "ratio": 1.1211761468660923,
+      "mean_pvalue": 0.227,
+      "n_sessions": 1,
+      "n_neurons_mean": 56.0
+    },
+    "SCs": {
+      "real_bn_mean": 0.16344051368608556,
+      "shuffle_bn_mean": 0.1140832888733203,
+      "ratio": 1.4326420210790736,
+      "mean_pvalue": 0.021,
+      "n_sessions": 1,
+      "n_neurons_mean": 73.0
+    },
+    "SCsg": {
+      "real_bn_mean": 0.09471041757046142,
+      "shuffle_bn_mean": 0.10603626066811205,
+      "ratio": 0.893188960874254,
+      "mean_pvalue": 0.6280814576634512,
+      "n_sessions": 1,
+      "n_neurons_mean": 12.0
+    },
+    "SUB": {
+      "real_bn_mean": 0.1571433029292796,
+      "shuffle_bn_mean": 0.19039092210541436,
+      "ratio": 0.8253718250271217,
+      "mean_pvalue": 0.6299139784946237,
+      "n_sessions": 2,
+      "n_neurons_mean": 47.5
+    },
+    "TH": {
+      "real_bn_mean": 0.058492554632691686,
+      "shuffle_bn_mean": 0.045833889458373876,
+      "ratio": 1.2761857044271963,
+      "mean_pvalue": 0.173,
+      "n_sessions": 1,
+      "n_neurons_mean": 52.0
+    },
+    "TT": {
+      "real_bn_mean": 0.14203976630670767,
+      "shuffle_bn_mean": 0.11372231956486567,
+      "ratio": 1.2490051796805781,
+      "mean_pvalue": 0.28300000000000003,
+      "n_sessions": 2,
+      "n_neurons_mean": 68.5
+    },
+    "VISa": {
+      "real_bn_mean": 0.052797691937104346,
+      "shuffle_bn_mean": 0.06491430502498964,
+      "ratio": 0.8133444829370771,
+      "mean_pvalue": 0.6890164369034995,
+      "n_sessions": 2,
+      "n_neurons_mean": 41.0
+    },
+    "VISam": {
+      "real_bn_mean": 0.09148790891752166,
+      "shuffle_bn_mean": 0.07510318709694115,
+      "ratio": 1.2181628015015566,
+      "mean_pvalue": 0.194,
+      "n_sessions": 1,
+      "n_neurons_mean": 38.0
+    },
+    "VISl": {
+      "real_bn_mean": 0.12749396245023126,
+      "shuffle_bn_mean": 0.10303591536136258,
+      "ratio": 1.2373739960416055,
+      "mean_pvalue": 0.071,
+      "n_sessions": 1,
+      "n_neurons_mean": 104.0
+    },
+    "VISp": {
+      "real_bn_mean": 0.06685167097064049,
+      "shuffle_bn_mean": 0.08373647252411649,
+      "ratio": 0.7983578585968153,
+      "mean_pvalue": 0.839,
+      "n_sessions": 1,
+      "n_neurons_mean": 48.0
+    },
+    "VISpm": {
+      "real_bn_mean": 0.16261293929906226,
+      "shuffle_bn_mean": 0.13720761506167498,
+      "ratio": 1.1851597238786753,
+      "mean_pvalue": 0.1702127659574468,
+      "n_sessions": 1,
+      "n_neurons_mean": 71.0
+    },
+    "VPL": {
+      "real_bn_mean": 0.2005795942709386,
+      "shuffle_bn_mean": 0.2520894447346274,
+      "ratio": 0.7956683565332152,
+      "mean_pvalue": 0.947,
+      "n_sessions": 1,
+      "n_neurons_mean": 73.0
+    },
+    "VPM": {
+      "real_bn_mean": 0.26766285135110957,
+      "shuffle_bn_mean": 0.2983194158055546,
+      "ratio": 0.8972357717268036,
+      "mean_pvalue": 0.7328326180257511,
+      "n_sessions": 1,
+      "n_neurons_mean": 100.0
+    },
+    "root": {
+      "real_bn_mean": 0.051375847256825265,
+      "shuffle_bn_mean": 0.05833480948339956,
+      "ratio": 0.8807065219502385,
+      "mean_pvalue": 0.601902807775378,
+      "n_sessions": 2,
+      "n_neurons_mean": 18.0
+    }
+  },
+  "silencing_correlation": {
+    "rho_real": 0.8833333333333333,
+    "p_real": 0.0015905004234978695,
+    "partial_real": 0.7678979342337311,
+    "rho_ratio": 0.3,
+    "p_ratio": 0.43284532670948234,
+    "partial_ratio": -0.12436603924158131,
+    "n_regions": 9,
+    "regions": [
+      "PL",
+      "ORB",
+      "VISpm",
+      "VISl",
+      "MOs",
+      "ACA",
+      "RSP",
+      "VISp",
+      "VISam"
+    ]
+  }
+}

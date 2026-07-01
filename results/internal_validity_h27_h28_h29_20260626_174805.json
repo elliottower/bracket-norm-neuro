@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-06-26T17:48:05.573625+00:00",
+  "experiment": "internal_validity_H27_H28_H29",
+  "preregistration": "mechval_audit_statement_v1.md",
+  "h27_specificity": {
+    "pass": "False",
+    "n_regions": 9,
+    "decision_rho": 0.8833333333333333,
+    "decision_partial": 0.7678979342337311,
+    "prestim_rho": 0.5666666666666667,
+    "prestim_partial": 0.5327935209259119,
+    "differential": 0.23510441330781917
+  },
+  "h28_double_dissociation": {
+    "pass": true,
+    "n_regions": 9,
+    "top3_regions": [
+      "ORB",
+      "PL",
+      "VISpm"
+    ],
+    "top3_bn": [
+      0.18814171886683423,
+      0.17149561477407196,
+      0.16261293929906226
+    ],
+    "top3_silencing": [
+      0.3085,
+      0.3333,
+      0.2248
+    ],
+    "bot3_regions": [
+      "VISam",
+      "ACA",
+      "VISp"
+    ],
+    "bot3_bn": [
+      0.09148790891752166,
+      0.07245005940569914,
+      0.06685167097064049
+    ],
+    "bot3_silencing": [
+      0.0818,
+      0.1451,
+      0.1414
+    ],
+    "non_overlapping": true,
+    "obs_diff": 0.16610000000000003,
+    "perm_p": 0.0008
+  },
+  "h29_sufficiency": {
+    "pass": true,
+    "n_regions": 9,
+    "top3_bn_regions": [
+      "ORB",
+      "PL",
+      "VISpm"
+    ],
+    "top3_in_top5_silencing": 3,
+    "bot3_bn_regions": [
+      "VISam",
+      "ACA",
+      "VISp"
+    ],
+    "bot3_in_bot5_silencing": 3,
+    "counterexamples": []
+  }
+}

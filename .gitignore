@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+.DS_Store
+cache/
+*.npz
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

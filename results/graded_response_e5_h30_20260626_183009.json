@@ -1,0 +1,326 @@
+{
+  "timestamp": "2026-06-26T18:30:09.208775+00:00",
+  "experiment": "E5_graded_response_li_et_al_2019",
+  "preregistration": "mechval_audit_statement_v1.md H30",
+  "h30_graded_response": {
+    "pass": false,
+    "alm_rho": -0.4761904761904762,
+    "alm_monotonic": false,
+    "alm_p": 0.12192310954485756,
+    "cell_type_dissociation": true
+  },
+  "alm": {
+    "region": "ALM",
+    "n_units": 246,
+    "n_power_levels": 8,
+    "power_levels": [
+      0.49,
+      0.5,
+      1.42,
+      1.51,
+      3.08,
+      3.34,
+      5.92,
+      7.99
+    ],
+    "dose_response": {
+      "0.49": {
+        "n_all": 103,
+        "mean_ratio_all": 0.3264448778011514,
+        "n_pyr": 96,
+        "mean_ratio_pyr": 0.2777296551336069,
+        "n_fs": 7,
+        "mean_ratio_fs": 0.9945393600989034
+      },
+      "0.5": {
+        "n_all": 140,
+        "mean_ratio_all": 0.4266361209032159,
+        "n_pyr": 126,
+        "mean_ratio_pyr": 0.3402263873341608,
+        "n_fs": 13,
+        "mean_ratio_fs": 1.2829779954252134
+      },
+      "1.42": {
+        "n_all": 103,
+        "mean_ratio_all": 0.2477661528915303,
+        "n_pyr": 96,
+        "mean_ratio_pyr": 0.20154571226730253,
+        "n_fs": 7,
+        "mean_ratio_fs": 0.8816464814523692
+      },
+      "1.51": {
+        "n_all": 141,
+        "mean_ratio_all": 0.3374343344664632,
+        "n_pyr": 127,
+        "mean_ratio_pyr": 0.21162148067558,
+        "n_fs": 13,
+        "mean_ratio_fs": 1.5860106176767357
+      },
+      "3.08": {
+        "n_all": 102,
+        "mean_ratio_all": 0.21373834321060836,
+        "n_pyr": 95,
+        "mean_ratio_pyr": 0.14204985885444582,
+        "n_fs": 7,
+        "mean_ratio_fs": 1.1866534880442432
+      },
+      "3.34": {
+        "n_all": 142,
+        "mean_ratio_all": 0.2967692176705899,
+        "n_pyr": 128,
+        "mean_ratio_pyr": 0.15165188259776508,
+        "n_fs": 13,
+        "mean_ratio_fs": 1.7398573225760108
+      },
+      "5.92": {
+        "n_all": 103,
+        "mean_ratio_all": 0.24374545259570413,
+        "n_pyr": 96,
+        "mean_ratio_pyr": 0.13425894583057862,
+        "n_fs": 7,
+        "mean_ratio_fs": 1.74527468823171
+      },
+      "7.99": {
+        "n_all": 142,
+        "mean_ratio_all": 0.3103794259856723,
+        "n_pyr": 128,
+        "mean_ratio_pyr": 0.10870048018304199,
+        "n_fs": 13,
+        "mean_ratio_fs": 2.311735501857212
+      }
+    },
+    "spearman_rho": -0.4761904761904762,
+    "spearman_p": 0.23293553465009798,
+    "log_linear_slope": -0.08766938633812321,
+    "log_linear_r2": 0.3506932636099167,
+    "log_linear_p": 0.12192310954485756,
+    "monotonic_decreasing": false,
+    "pyr_rho": -0.9285714285714287,
+    "fs_rho": 0.8333333333333335
+  },
+  "s1": {
+    "region": "S1",
+    "n_units": 264,
+    "n_power_levels": 23,
+    "power_levels": [
+      0.36,
+      0.44,
+      0.5,
+      0.53,
+      0.8,
+      0.97,
+      1.27,
+      1.45,
+      1.46,
+      1.47,
+      2.25,
+      2.5,
+      2.6,
+      4.48,
+      5.1,
+      5.52,
+      5.89,
+      7.34,
+      12.18,
+      12.38,
+      14.04,
+      14.08,
+      24.88
+    ],
+    "dose_response": {
+      "0.36": {
+        "n_all": 94,
+        "mean_ratio_all": 0.6854960100470093,
+        "n_pyr": 70,
+        "mean_ratio_pyr": 0.6544705603049152,
+        "n_fs": 14,
+        "mean_ratio_fs": 0.7635857674060744
+      },
+      "0.44": {
+        "n_all": 59,
+        "mean_ratio_all": 0.39759789274511687,
+        "n_pyr": 50,
+        "mean_ratio_pyr": 0.40889964489577957,
+        "n_fs": 7,
+        "mean_ratio_fs": 0.3622886714143138
+      },
+      "0.5": {
+        "n_all": 35,
+        "mean_ratio_all": 0.4990490732974971,
+        "n_pyr": 31,
+        "mean_ratio_pyr": 0.47054945945724147,
+        "n_fs": 3,
+        "mean_ratio_fs": 0.6395913682740391
+      },
+      "0.53": {
+        "n_all": 62,
+        "mean_ratio_all": 0.20185376982608647,
+        "n_pyr": 52,
+        "mean_ratio_pyr": 0.15350912137644596,
+        "n_fs": 5,
+        "mean_ratio_fs": 0.1847531177990948
+      },
+      "0.8": {
+        "n_all": 92,
+        "mean_ratio_all": 0.6954088999844376,
+        "n_pyr": 69,
+        "mean_ratio_pyr": 0.6463577993718979,
+        "n_fs": 14,
+        "mean_ratio_fs": 0.9395984032424698
+      },
+      "0.97": {
+        "n_all": 63,
+        "mean_ratio_all": 0.11947714133351361,
+        "n_pyr": 55,
+        "mean_ratio_pyr": 0.06588461688686519,
+        "n_fs": 4,
+        "mean_ratio_fs": 0.11643955527416446
+      },
+      "1.27": {
+        "n_all": 58,
+        "mean_ratio_all": 0.26505123476742615,
+        "n_pyr": 50,
+        "mean_ratio_pyr": 0.24655926407296047,
+        "n_fs": 7,
+        "mean_ratio_fs": 0.3566312958814149
+      },
+      "1.45": {
+        "n_all": 66,
+        "mean_ratio_all": 0.16159259176714494,
+        "n_pyr": 56,
+        "mean_ratio_pyr": 0.061978361245417855,
+        "n_fs": 5,
+        "mean_ratio_fs": 0.3394435697066371
+      },
+      "1.46": {
+        "n_all": 93,
+        "mean_ratio_all": 0.8067042508901493,
+        "n_pyr": 69,
+        "mean_ratio_pyr": 0.6060243938151235,
+        "n_fs": 14,
+        "mean_ratio_fs": 2.02577257414241
+      },
+      "1.47": {
+        "n_all": 36,
+        "mean_ratio_all": 0.22976675024342097,
+        "n_pyr": 32,
+        "mean_ratio_pyr": 0.193315777139411,
+        "n_fs": 3,
+        "mean_ratio_fs": 0.3770141722913491
+      },
+      "2.25": {
+        "n_all": 59,
+        "mean_ratio_all": 0.20290534141378141,
+        "n_pyr": 50,
+        "mean_ratio_pyr": 0.15823159498719294,
+        "n_fs": 7,
+        "mean_ratio_fs": 0.5330789379672325
+      },
+      "2.5": {
+        "n_all": 65,
+        "mean_ratio_all": 0.34336294787485916,
+        "n_pyr": 55,
+        "mean_ratio_pyr": 0.01908114369270871,
+        "n_fs": 5,
+        "mean_ratio_fs": 2.656954966329967
+      },
+      "2.6": {
+        "n_all": 36,
+        "mean_ratio_all": 0.21855095378725536,
+        "n_pyr": 32,
+        "mean_ratio_pyr": 0.12026917878271529,
+        "n_fs": 3,
+        "mean_ratio_fs": 0.9481438289656429
+      },
+      "4.48": {
+        "n_all": 63,
+        "mean_ratio_all": 0.1353232495753433,
+        "n_pyr": 55,
+        "mean_ratio_pyr": 0.021418646088278148,
+        "n_fs": 4,
+        "mean_ratio_fs": 0.05351706925763293
+      },
+      "5.1": {
+        "n_all": 59,
+        "mean_ratio_all": 0.33025453183989845,
+        "n_pyr": 50,
+        "mean_ratio_pyr": 0.09039663541855415,
+        "n_fs": 7,
+        "mean_ratio_fs": 1.6703511906998616
+      },
+      "5.52": {
+        "n_all": 94,
+        "mean_ratio_all": 0.7884379601042392,
+        "n_pyr": 70,
+        "mean_ratio_pyr": 0.4578036746976274,
+        "n_fs": 14,
+        "mean_ratio_fs": 2.7116130033930963
+      },
+      "5.89": {
+        "n_all": 36,
+        "mean_ratio_all": 0.2786276165661658,
+        "n_pyr": 32,
+        "mean_ratio_pyr": 0.04951621870093467,
+        "n_fs": 3,
+        "mean_ratio_fs": 2.3267567868625307
+      },
+      "7.34": {
+        "n_all": 59,
+        "mean_ratio_all": 0.3976629975717405,
+        "n_pyr": 50,
+        "mean_ratio_pyr": 0.011504603040051494,
+        "n_fs": 5,
+        "mean_ratio_fs": 2.94085522732583
+      },
+      "12.18": {
+        "n_all": 59,
+        "mean_ratio_all": 0.3169898286018865,
+        "n_pyr": 50,
+        "mean_ratio_pyr": 0.05256540426225212,
+        "n_fs": 7,
+        "mean_ratio_fs": 1.8563691742647488
+      },
+      "12.38": {
+        "n_all": 98,
+        "mean_ratio_all": 0.8804823887641064,
+        "n_pyr": 74,
+        "mean_ratio_pyr": 0.488253963841337,
+        "n_fs": 14,
+        "mean_ratio_fs": 3.3003282692246825
+      },
+      "14.04": {
+        "n_all": 62,
+        "mean_ratio_all": 0.5723233063324155,
+        "n_pyr": 53,
+        "mean_ratio_pyr": 0.013233581911708496,
+        "n_fs": 5,
+        "mean_ratio_fs": 4.935350633651265
+      },
+      "14.08": {
+        "n_all": 35,
+        "mean_ratio_all": 0.5685942906419917,
+        "n_pyr": 31,
+        "mean_ratio_pyr": 0.026810792542831578,
+        "n_fs": 3,
+        "mean_ratio_fs": 5.750141000867456
+      },
+      "24.88": {
+        "n_all": 97,
+        "mean_ratio_all": 1.1708925842006572,
+        "n_pyr": 73,
+        "mean_ratio_pyr": 0.4527511998941183,
+        "n_fs": 14,
+        "mean_ratio_fs": 5.463896102516381
+      }
+    },
+    "spearman_rho": 0.29249011857707513,
+    "spearman_p": 0.17562591876850703,
+    "log_linear_slope": 0.16847588102834357,
+    "log_linear_r2": 0.10837682263916254,
+    "log_linear_p": 0.125055355651508,
+    "monotonic_decreasing": false,
+    "pyr_rho": -0.4723320158102767,
+    "fs_rho": 0.7569169960474308
+  },
+  "note": "Tests dose-response of photoinhibition, not bracket_norm (no choice/evidence labels in dataset). E5 criterion asks whether the perturbation effect is graded, which this tests."
+}

@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-26T01:38:56.043122+00:00",
+  "n_regions": 12,
+  "median_er": 21.80568654623065,
+  "median_nc": 112.25,
+  "regions_data": [
+    {
+      "region": "PL",
+      "silencing": 0.3333,
+      "decision_seis": 0.6808773094868643,
+      "effective_rank": 22.89647218129113,
+      "er_normalized": 0.239478692555394,
+      "neuron_count": 104.5
+    },
+    {
+      "region": "ORB",
+      "silencing": 0.3085,
+      "decision_seis": 0.7839240950085032,
+      "effective_rank": 24.701674548850917,
+      "er_normalized": 0.1691119697762094,
+      "neuron_count": 162.4
+    },
+    {
+      "region": "VISpm",
+      "silencing": 0.2248,
+      "decision_seis": 0.7424700061717713,
+      "effective_rank": 23.640560668993547,
+      "er_normalized": 0.19531925331999198,
+      "neuron_count": 146.75
+    },
+    {
+      "region": "MOp",
+      "silencing": 0.1869,
+      "decision_seis": 1.0,
+      "effective_rank": 23.56970167186833,
+      "er_normalized": 0.10086329293743539,
+      "neuron_count": 264.3333333333333
+    },
+    {
+      "region": "SSp",
+      "silencing": 0.1862,
+      "decision_seis": 0.6990228916661827,
+      "effective_rank": 15.927252487071957,
+      "er_normalized": 0.2030107361189071,
+      "neuron_count": 126.0
+    },
+    {
+      "region": "VISl",
+      "silencing": 0.1722,
+      "decision_seis": 0.8456805997652083,
+      "effective_rank": 27.320219824698082,
+      "er_normalized": 0.19991959262160366,
+      "neuron_count": 144.66666666666666
+    },
+    {
+      "region": "SSs",
+      "silencing": 0.16,
+      "decision_seis": 0.6573691898907613,
+      "effective_rank": 23.885646496827942,
+      "er_normalized": 0.19904705414023285,
+      "neuron_count": 120.0
+    },
+    {
+      "region": "MOs",
+      "silencing": 0.1529,
+      "decision_seis": 0.6072920816593017,
+      "effective_rank": 20.239557786624,
+      "er_normalized": 0.2416417310606324,
+      "neuron_count": 102.11764705882354
+    },
+    {
+      "region": "ACA",
+      "silencing": 0.1451,
+      "decision_seis": 0.5361063068908155,
+      "effective_rank": 16.152392920804402,
+      "er_normalized": 0.2485662050116012,
+      "neuron_count": 76.27272727272727
+    },
+    {
+      "region": "RSP",
+      "silencing": 0.1421,
+      "decision_seis": 0.6485059998224781,
+      "effective_rank": 18.458718891108116,
+      "er_normalized": 0.2573501887547282,
+      "neuron_count": 85.22222222222223
+    },
+    {
+      "region": "VISp",
+      "silencing": 0.1414,
+      "decision_seis": 0.622340386893112,
+      "effective_rank": 20.71490091117017,
+      "er_normalized": 0.2529529772203967,
+      "neuron_count": 93.16666666666667
+    },
+    {
+      "region": "VISam",
+      "silencing": 0.0818,
+      "decision_seis": 0.642712017528865,
+      "effective_rank": 18.71000866846508,
+      "er_normalized": 0.22856817315622113,
+      "neuron_count": 90.9090909090909
+    }
+  ]
+}
