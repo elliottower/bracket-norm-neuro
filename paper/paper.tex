@@ -19,11 +19,9 @@
 \maketitle
 
 \begin{abstract}
-Neuroscientists use the geometry of population activity to rank brain regions by computational importance, assuming that regions with richer geometric structure matter more for behavior. We test that assumption against optogenetic silencing of 12 brain regions in a mouse visual decision task \citep{steinmetz2019distributed, zatkahaas2021}. All 19 geometric metrics we test predict silencing importance only because they track the number of recorded neurons ($\rho > 0.8$ with neuron count); after controlling for recording yield, all 19 collapse.
+We identify a geometric property of neural population activity that predicts which brain regions are causally necessary for binary choice. We test 19 geometric metrics from the neural population literature, including decoding accuracy, persistent homology, participation ratio, dimensionality, curvature, and Sliced Wasserstein distance. Against optogenetic silencing ground truth (12 regions; \citealp{steinmetz2019distributed}; \citealp{zatkahaas2021}), none predict silencing importance after controlling for neuron count. \emph{Bracket norm}, the evidence-dependent rotation of the choice displacement vector, is the only metric that does: it predicts silencing importance after controlling for recording yield, with the top-3 and bottom-3 regions identical to those by silencing ($p = 0.0006$, exact combinatorial). Because raw bracket norm inherits a $\sqrt{n}$ dimensional scaling, we derive the corrected intensive quantity $\text{BN}/\!\sqrt{n}$, which is invariant to population size (CV $2.0\%$ across a $25\times$ range) and converts a non-significant cross-dataset prediction on held-out IBL data ($\rho = -0.286$, $p = 0.49$) into a significant one ($\rho = -0.762$, $p = 0.019$).
 
-We propose \emph{bracket norm}, which captures how much a region's neural separation between choices changes direction as sensory evidence varies. Regions where evidence actively reshapes the choice representation score high; relay regions that pass a fixed choice signal score low. Raw bracket norm grows as $\sqrt{n}$ (a property of Euclidean norms after z-scoring); the corrected quantity $\text{BN}/\!\sqrt{n}$ is invariant to population size (CV $2.0\%$ across a $25\times$ range). The top-3 and bottom-3 regions by bracket norm match the top-3 and bottom-3 by silencing ($p = 0.0006$, exact combinatorial). On held-out IBL data, the $\sqrt{n}$ correction converts a non-significant prediction ($\rho = -0.286$, $p = 0.49$) into a significant one ($\rho = -0.762$, permutation $p = 0.019$).
-
-Photoinhibition of ALM \emph{increases} $\text{BN}/\!\sqrt{n}$ by 68\% while reducing accuracy by 12 percentage points, replicated independently on ALM photoinhibition data \citep{dandi000007, dandi000009} ($+59\%$, $d = +1.27$, $p < 10^{-9}$). Rotation angle barely shifts ($-3\%$), dissociating coding gain from coding direction: disruption amplifies per-neuron responses while removing the recurrent integration behavior depends on. On human ECoG during speech production, $\text{BN}/\!\sqrt{n}$ ranks articulatory motor cortex highest with no electrode-count confound ($\rho = 0.000$). Complexity metrics in high-dimensional systems are confounded by sampling depth unless corrected to intensive (per-unit) quantities; all 19 measures tested here fail this requirement.
+To interpret what bracket norm measures, we perturb ALM directly: photoinhibition \emph{increases} $\text{BN}/\!\sqrt{n}$ by 68\% while reducing accuracy by 12 percentage points, replicated independently ($+59\%$, $d = +1.27$, $p < 10^{-9}$). The rotation angle barely shifts ($-3\%$), dissociating coding gain from coding direction: disruption amplifies per-neuron expressiveness while removing the recurrent integration behavior depends on. On human ECoG during speech production, $\text{BN}/\!\sqrt{n}$ ranks articulatory motor cortex highest with zero electrode-count confound ($\rho = 0.000$). The neuron-count confound is the paper's broader message: geometric predictors of causal importance in high-dimensional neural data are confounded by sampling depth unless corrected to intensive (per-unit) quantities; all 19 metrics tested here fail that requirement.
 \end{abstract}
 
 \section{Introduction}
@@ -109,7 +107,7 @@ This approximates the Lie bracket $[\xi_{\text{choice}}, \xi_{\text{evidence}}]$
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\textwidth]{../figures/fig_quiver.pdf}
+\includegraphics[width=\textwidth]{figures/fig_quiver.pdf}
 \caption{Kernel-smoothed choice displacement field for PL (prelimbic cortex, left) and VISam (anteromedial visual area, right), computed from Steinmetz et al.\ (2019) spike counts during the decision window (250--350\,ms post-stimulus). Each arrow shows the local choice displacement vector at a grid point in (sensory evidence $\times$ choice-axis projection) space; color encodes per-neuron gain ($\lVert\xi\rVert / \sqrt{n}$). In PL, arrows are large and colored (high gain), with orientation varying across the evidence axis---evidence reshapes the choice code. In VISam, arrows are uniformly small and dark---evidence does not modulate the choice signal. PL ranks \#1 by silencing effect and \#2 by bracket norm (BN\,=\,0.323); VISam ranks near the bottom (BN\,=\,0.065), a $5\times$ contrast.}
 \label{fig:quiver}
 \end{figure}
@@ -164,7 +162,7 @@ Rank & By bracket norm & (BN) & By silencing & (effect) \\
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.5\textwidth]{../figures/fig_ranking_scatter.pdf}
+\includegraphics[width=0.5\textwidth]{figures/fig_ranking_scatter.pdf}
 \caption{$\text{BN}/\!\sqrt{n}$ predicts optogenetic silencing effect across 9 brain regions ($\rho = +0.787$, $p = 0.001$). Red: top-3 regions by both metrics (ORB, PL, VISpm); blue: bottom-3 (VISam, ACA, VISp). The green band marks the separation gap between the two sets---the ranges do not overlap ($p = 0.0006$, exact combinatorial test). Dashed line: OLS fit.}
 \label{fig:ranking}
 \end{figure}
@@ -176,7 +174,7 @@ To interpret the metric we perturb a single region directly, using ALM photoinhi
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.45\textwidth]{../figures/fig_photostim_slopegraph.pdf}
+\includegraphics[width=0.45\textwidth]{figures/fig_photostim_slopegraph.pdf}
 \caption{ALM photoinhibition increases $\text{BN}/\!\sqrt{n}$ in every session. Each line connects one session's control and photostimulation values ($n = 32$ paired sessions, Wilcoxon signed-rank $p < 10^{-6}$, mean $+67\%$: control $0.34 \pm 0.01$, photostim $0.57 \pm 0.02$). Data from \citet{svoboda_alm}; DANDI:000007, 000009 \citep{dandi000007, dandi000009}.}
 \label{fig:photostim}
 \end{figure}
