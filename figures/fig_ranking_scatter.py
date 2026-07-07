@@ -21,7 +21,7 @@ rcParams.update({
 
 regions = ["ORB",  "PL",   "VISpm", "MOs",  "RSP",   "VISl",  "VISam", "ACA",  "VISp"]
 bn =      [0.188,  0.172,  0.163,   0.145,  0.137,   0.125,   0.092,   0.073,  0.067]
-silencing=[0.309,  0.333,  0.225,   0.207,  0.142,   0.145,   0.082,   0.168,  0.141]
+silencing=[0.309,  0.333,  0.225,   0.153,  0.142,   0.172,   0.082,   0.145,  0.141]
 
 bn = np.array(bn)
 silencing = np.array(silencing)
@@ -30,7 +30,7 @@ top3 = [0, 1, 2]
 bot3 = [6, 7, 8]
 mid = [3, 4, 5]
 
-fig, ax = plt.subplots(figsize=(3.8, 3.0))
+fig, ax = plt.subplots(figsize=(4.5, 3.5))
 
 gap_top = min(bn[top3])
 gap_bot = max(bn[bot3])
@@ -50,14 +50,14 @@ ax.plot(x_fit, c[0] + c[1] * x_fit, '--', color='#999', linewidth=0.9, zorder=1)
 
 offsets = {
     "ORB":   ( 0.004,  0.005),
-    "PL":    ( 0.004,  0.008),
+    "PL":    ( 0.004,  0.000),
     "VISpm": ( 0.004,  0.006),
-    "MOs":   (-0.030,  0.006),
+    "MOs":   ( 0.004,  0.004),
     "RSP":   ( 0.004, -0.014),
-    "VISl":  ( 0.004,  0.008),
+    "VISl":  ( 0.005,  0.002),
     "VISam": ( 0.004, -0.012),
     "ACA":   (-0.022, -0.014),
-    "VISp":  ( 0.004, -0.014),
+    "VISp":  ( 0.006,  0.008),
 }
 
 for i, region in enumerate(regions):
@@ -69,7 +69,7 @@ ax.set_xlabel("BN/$\\sqrt{n}$")
 ax.set_ylabel("silencing effect")
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
-ax.legend(fontsize=8, loc='upper left', framealpha=0.85, edgecolor='none')
+ax.legend(fontsize=8, loc='upper left', frameon=False, handletextpad=0.3, labelspacing=0.3)
 
 from pathlib import Path
 _out = Path(__file__).resolve().parent

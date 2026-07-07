@@ -25,7 +25,7 @@
 \maketitle
 
 \begin{abstract}
-Geometric properties of neural population activity---decoding accuracy, dimensionality, persistent homology, and 16 others---all fail to predict which brain regions are causally necessary for binary choice once the number of recorded neurons is controlled. We demonstrate this confound against optogenetic silencing ground truth (12 regions) and propose \emph{bracket norm}, the evidence-dependent rotation of the choice displacement vector, as the one metric that survives. Raw bracket norm scales as $\sqrt{n}$; the intensive quantity $\text{BN}/\!\sqrt{n}$ eliminates this dependence (CV $2.0\%$ across $25\times$ subsampling). The top-3 and bottom-3 regions by $\text{BN}/\!\sqrt{n}$ match optogenetic silencing ground truth exactly ($p = 0.0006$, exact combinatorial, survives Bonferroni). On a held-out dataset (IBL, different task), the correction strengthens the silencing correlation from non-significant ($\rho = -0.286$, $p = 0.49$) to $\rho = -0.667$ ($p = 0.083$), consistent with task-specific computation. ALM photoinhibition \emph{increases} $\text{BN}/\!\sqrt{n}$ while degrading behavior (32/32 sessions, $p < 10^{-6}$). The neuron-count confound affects all geometric predictors tested; the intensive correction is necessary for valid cross-region comparisons.
+Geometric properties of neural population activity---decoding accuracy, dimensionality, persistent homology, and 16 others---all fail to predict which brain regions are causally necessary for binary choice once the number of recorded neurons is controlled. We demonstrate this confound against optogenetic silencing ground truth (12 regions) and propose \emph{bracket norm}, the evidence-dependent rotation of the choice displacement vector, as the one metric that survives. Raw bracket norm scales as $\sqrt{n}$; the intensive quantity $\text{BN}/\!\sqrt{n}$ eliminates this dependence (CV $2.0\%$ across $25\times$ subsampling). The top-3 and bottom-3 regions by $\text{BN}/\!\sqrt{n}$ match optogenetic silencing ground truth exactly ($p = 0.0006$, exact combinatorial, survives Bonferroni). On a held-out dataset (IBL, different task), the correction removes the neuron-count confound and reveals a silencing correlation from non-significant ($\rho = -0.286$, $p = 0.49$) to $\rho = -0.667$ ($p = 0.083$), consistent with task-specific computation. ALM photoinhibition \emph{increases} $\text{BN}/\!\sqrt{n}$ while degrading behavior (32/32 sessions, $p < 10^{-6}$). The neuron-count confound affects all geometric predictors tested; the intensive correction is necessary for valid cross-region comparisons.
 \end{abstract}
 
 \noindent\textbf{Impact statement:} Standard geometric measures of neural population activity are confounded by the number of recorded neurons; a dimensionally corrected metric survives and predicts optogenetic silencing effects across brain regions, tasks, and species.
@@ -34,7 +34,7 @@ Geometric properties of neural population activity---decoding accuracy, dimensio
 
 A central goal of systems neuroscience is identifying which brain regions causally drive behavior, and a growing literature uses the \emph{geometry} of population activity to do so \citep{cunningham2014dimensionality, gallego2017neural}. Regions are ranked by decoding accuracy, representational dimensionality, manifold curvature, or equivariance, on the implicit assumption that geometric richness reflects causal involvement. This assumption has not been tested against interventional ground truth.
 
-We test it directly against optogenetic silencing of 12 brain regions during a visual decision task \citep{steinmetz2019distributed, zatkahaas2021}. Brain region abbreviations follow the Allen Common Coordinate Framework (CCF); common equivalents are noted at first use (e.g., ORB = OFC, VISp = V1, ACA = ACC). The basic observable is the \emph{choice displacement vector}---the difference in mean population activity between left-choice and right-choice trials---computed separately at low and high sensory evidence. All 19 geometric metrics we test predict silencing importance only because they track the number of recorded neurons; after controlling for recording yield, all 19 collapse. We propose \emph{bracket norm}, which measures how much the choice displacement vector rotates as evidence changes, and show it survives the confound. Because raw bracket norm inherits a $\sqrt{n}$ dimensional scaling, we derive the corrected intensive quantity $\text{BN}/\!\sqrt{n}$, which eliminates the neuron-count dependence. On a held-out dataset (IBL wheel-turning), the correction strengthens the silencing prediction from $\rho = -0.286$ ($p = 0.49$) to $\rho = -0.667$ ($p = 0.083$) while eliminating the neuron-count confound, with region rankings that are task-specific: licking-task and wheel-turning-task rankings are uncorrelated ($\rho = -0.079$, $n = 18$), and the sign of the silencing correlation flips---an observation we interpret post-hoc as task specificity (\S\ref{sec:scope}).
+We test it directly against optogenetic silencing of 12 brain regions during a visual decision task \citep{steinmetz2019distributed, zatkahaas2021}. Brain region abbreviations follow the Allen Common Coordinate Framework (CCF); common equivalents are noted at first use (e.g., ORB = OFC, VISp = V1, ACA = ACC). The basic observable is the \emph{choice displacement vector}---the difference in mean population activity between left-choice and right-choice trials---computed separately at low and high sensory evidence. All 19 geometric metrics we test predict silencing importance only because they track the number of recorded neurons; after controlling for recording yield, all 19 collapse. We propose \emph{bracket norm}, which measures how much the choice displacement vector rotates as evidence changes, and show it survives the confound. Because raw bracket norm inherits a $\sqrt{n}$ dimensional scaling, we derive the corrected intensive quantity $\text{BN}/\!\sqrt{n}$, which eliminates the neuron-count dependence. On a held-out dataset (IBL wheel-turning), the correction eliminates the neuron-count confound and uncovers a silencing prediction of $\rho = -0.667$ ($p = 0.083$), masked in the raw data ($\rho = -0.286$, $p = 0.49$), with region rankings that are task-specific: licking-task and wheel-turning-task rankings are uncorrelated ($\rho = -0.079$, $n = 18$), and the sign of the silencing correlation flips---an observation we interpret post-hoc as task specificity (\S\ref{sec:scope}).
 
 Directly perturbing a region (ALM photoinhibition) \emph{increases} $\text{BN}/\!\sqrt{n}$ while degrading behavior, suggesting the metric tracks per-neuron geometric expressiveness rather than computational quality. On human ECoG during speech production, the metric ranks articulatory motor cortex highest with zero electrode-count confound (\S\ref{sec:ecog}).
 
@@ -106,13 +106,15 @@ Bracket norm measures the evidence-dependent rotation of the choice displacement
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/fig_quiver.pdf}
-\caption{Kernel-smoothed choice displacement field for PL (prelimbic cortex, left) and VISam (anteromedial visual area, right), computed from Steinmetz et al.\ (2019) spike counts during the decision window (250--350\,ms post-stimulus). Each arrow shows the local choice displacement vector at a grid point in (sensory evidence $\times$ choice-axis projection) space; color encodes per-neuron gain ($\lVert\xi\rVert / \sqrt{n}$). In PL, arrows are large and colored (high gain), with orientation varying across the evidence axis---evidence reshapes the choice code. In VISam, arrows are uniformly small and dark---evidence does not modulate the choice signal. PL ranks \#1 by silencing effect and \#2 by bracket norm (BN\,=\,0.323); VISam ranks near the bottom (BN\,=\,0.065), a $5\times$ contrast.}
+\caption{Kernel-smoothed choice displacement field for PL (prelimbic cortex, left) and VISam (anteromedial visual area, right), computed from Steinmetz et al.\ (2019) spike counts during a late decision subwindow (250--350\,ms post-stimulus; the full decision window used for all analyses is 150--350\,ms). Each arrow shows the local choice displacement vector at a grid point in (sensory evidence $\times$ choice-axis projection) space; color encodes per-neuron gain ($\lVert\xi\rVert / \sqrt{n}$). In PL, arrows are large and colored (high gain), with orientation varying across the evidence axis---evidence reshapes the choice code. In VISam, arrows are uniformly small and dark---evidence does not modulate the choice signal. PL ranks \#1 by silencing effect and \#2 by bracket norm (BN\,=\,0.323); VISam ranks near the bottom (BN\,=\,0.065), a $5\times$ contrast.}
 \label{fig:quiver}
 \end{figure}
 
-Bracket norm predicts silencing at raw $\rho = +0.883$ ($p = 0.003$, exact permutation test) and partial $\rho = +0.753$ after controlling for neuron count ($n = 9$, the regions with sufficient trials per evidence quartile). After $\sqrt{n}$ normalization (\S\ref{sec:dim_correction}), the rank correlation strengthens: $\text{BN}/\!\sqrt{n}$ predicts silencing at $\rho = +0.833$ ($p = 0.007$; bootstrap 95\% CI: $[0.26,\; 1.00]$, $10{,}000$ resamples; Figure~\ref{fig:ranking}). Applying Bonferroni correction for 20 simultaneous tests (19 comparison metrics plus bracket norm), the corrected threshold is $\alpha = 0.0025$. The combinatorial tail test ($p = 0.0006$) survives this correction. The rank correlations ($p = 0.003$ raw, $p = 0.007$ normalized) and partial $\rho$ ($p = 0.031$) do not survive Bonferroni individually, but they address complementary questions---whether bracket norm predicts at all, whether it predicts beyond neuron count---and the combinatorial test, which makes no distributional assumptions, confirms the result at the corrected threshold.
+Bracket norm predicts silencing at raw $\rho = +0.883$ ($p = 0.003$, exact permutation test) and partial $\rho = +0.753$ after controlling for neuron count ($n = 9$, the regions with sufficient trials per evidence quartile). After $\sqrt{n}$ normalization (\S\ref{sec:dim_correction}), the rank correlation persists with the neuron-count confound removed: $\text{BN}/\!\sqrt{n}$ predicts silencing at $\rho = +0.833$ ($p = 0.007$; bootstrap 95\% CI: $[0.26,\; 1.00]$, $10{,}000$ resamples; Figure~\ref{fig:ranking}).
 
-All hypotheses and pass thresholds were pre-specified before analysis and archived at commit \texttt{7719b64} of the project repository before data analysis began. The top-3 bracket-norm regions (ORB, PL, VISpm) are identical to the top-3 by silencing, and the bottom-3 (VISam, ACA, VISp) match as well, with non-overlapping effect-size ranges ($\min(\text{top-3}) = 0.225 > \max(\text{bottom-3}) = 0.145$; exact combinatorial $p = 0.0006$; Table~\ref{tab:tails}, Figure~\ref{fig:ranking}). The top regions---orbitofrontal cortex (ORB/OFC), prelimbic cortex (PL), and posteromedial visual area (VISpm)---are association areas involved in evidence evaluation. The bottom regions---anteromedial visual area (VISam), anterior cingulate cortex (ACA/ACC), and primary visual cortex (VISp/V1)---are early sensory or monitoring areas that relay signals without evidence-dependent transformation. The result is robust: $\rho$ is positive across all 8 temporal windows tested, all 9 jackknife estimates are positive, and pre-stimulus bracket norm already predicts silencing ($\rho = +0.533$; Appendix~\ref{app:robustness}). The signal is stable across sessions: the mean per-region bracket norm (averaged across sessions) predicts silencing at $\rho = +0.618$ ($p = 0.043$, $n = 11$ regions with $\geq 2$ sessions), while per-region variability does not ($\rho = +0.045$, $p = 0.89$).
+Applying Bonferroni correction for 20 simultaneous tests (19 comparison metrics plus bracket norm), the corrected threshold is $\alpha = 0.0025$. The combinatorial tail test ($p = 0.0006$) survives this correction. The rank correlations ($p = 0.003$ raw, $p = 0.007$ normalized) and partial $\rho$ ($p = 0.031$) do not survive Bonferroni individually, but they address complementary questions---whether bracket norm predicts at all, whether it predicts beyond neuron count---and the combinatorial test, which makes no distributional assumptions, confirms the result at the corrected threshold.
+
+The top-3 bracket-norm regions (ORB, PL, VISpm) are identical to the top-3 by silencing, and the bottom-3 (VISam, ACA, VISp) match as well, with non-overlapping effect-size ranges ($\min(\text{top-3}) = 0.225 > \max(\text{bottom-3}) = 0.145$; exact combinatorial $p = 0.0006$; Table~\ref{tab:tails}, Figure~\ref{fig:ranking}). The top regions---orbitofrontal cortex (ORB/OFC), prelimbic cortex (PL), and posteromedial visual area (VISpm)---are association areas involved in evidence evaluation. The bottom regions---anteromedial visual area (VISam), anterior cingulate cortex (ACA/ACC), and primary visual cortex (VISp/V1)---are early sensory or monitoring areas that relay signals without evidence-dependent transformation. The result is robust: $\rho$ is positive across all 8 temporal windows tested, all 9 jackknife estimates are positive, and pre-stimulus bracket norm already predicts silencing ($\rho = +0.533$; Appendix~\ref{app:robustness}). The signal is stable across sessions: the mean per-region bracket norm (averaged across sessions) predicts silencing at $\rho = +0.618$ ($p = 0.043$, $n = 11$ regions with $\geq 2$ sessions), while per-region variability does not ($\rho = +0.045$, $p = 0.89$).
 
 \begin{table}[t]
 \centering
@@ -214,7 +216,7 @@ supramarginal & 1.33 & 0.267 & 1.194 & 25 \\
 \subsection{Region rankings are task-specific}
 \label{sec:scope}
 
-Bracket norm was developed on the Steinmetz visual-discrimination task (licking response), where $\text{BN}/\!\sqrt{n}$ predicts silencing importance at $\rho = +0.833$ (Figure~\ref{fig:ranking}; distinct from the raw BN correlation $\rho = +0.883$ in \S\ref{sec:bracket}). On the IBL wheel-turning task (86 sessions, 8 overlapping regions), $\text{BN}/\!\sqrt{n}$ correlates with the \emph{same} Steinmetz silencing ground truth at $\rho = -0.667$ ($p = 0.083$, exact permutation test). The sign reversal---positive within-task, negative cross-task---raises the question of whether the metric is measuring something consistent.
+Bracket norm was developed on the Steinmetz visual-discrimination task (licking response), where $\text{BN}/\!\sqrt{n}$ predicts silencing importance at $\rho = +0.833$ (Figure~\ref{fig:ranking}; \S\ref{sec:bracket} reports raw BN at $\rho = +0.883$ before $\sqrt{n}$ normalization). On the IBL wheel-turning task (86 sessions, 8 overlapping regions), $\text{BN}/\!\sqrt{n}$ correlates with the \emph{same} Steinmetz silencing ground truth at $\rho = -0.667$ ($p = 0.083$, exact permutation test). The sign reversal---positive within-task, negative cross-task---raises the question of whether the metric is measuring something consistent.
 
 The resolution is task specificity. Across the 18 regions recorded in both datasets, $\text{BN}/\!\sqrt{n}$ rankings are uncorrelated ($\rho = -0.079$, $p = 0.75$, $n = 18$): regions that rank high on the licking task do not rank high on the wheel-turning task. The silencing ground truth measures behavioral deficit during licking. Regions that compute for the licking task score high on the Steinmetz $\text{BN}/\!\sqrt{n}$ ranking and are missed when silenced during licking (positive $\rho$). Regions that compute for the wheel-turning task score high on the IBL $\text{BN}/\!\sqrt{n}$ ranking and are dispensable for licking (negative $\rho$). This task-specificity interpretation is post-hoc---constructed after observing the sign flip---but it generates a falsifiable prediction: optogenetic silencing during \emph{wheel-turning} should produce a positive $\rho$ with IBL $\text{BN}/\!\sqrt{n}$, since the metric would then be evaluated against the task it measures. No such dataset currently exists.
 
@@ -283,7 +285,28 @@ Trial-length vs.\ per-image ranking, partial $\rho$ (ctrl NC) & $\mathbf{+0.757}
 \end{tabular}
 \end{table}
 
-We tested whether coarse anatomical category predicts $\text{BN}/\!\sqrt{n}$ ranking using a pre-registered analysis (hypotheses, category assignments, and statistical tests frozen at commit \texttt{7719b64} before any categorical tests were performed). Across the full IBL dataset (43 regions with $\geq 5$ observations, 6 Allen CCF divisions), the predicted category ordering (midbrain $>$ isocortex $>$ hippocampal $>$ thalamus) does not hold: thalamus has the \emph{highest} category median ($0.374$), the opposite of the predicted lowest (Jonckheere-Terpstra $p = 0.34$, $10^5$ permutations). Category membership explains near-zero variance ($\eta^2 \approx 0$, Kruskal-Wallis $p = 0.77$), and fiber-tract regions---axon bundles with no cell bodies---score comparably to neural tissue (Mann-Whitney $p = 0.32$). Leave-one-session-out analysis confirms the category ordering is unstable, holding in only 1 of 75 folds. All three results are robust across inclusion thresholds ($\geq 5$, $\geq 8$, $\geq 10$ observations).
+We tested whether coarse anatomical category predicts $\text{BN}/\!\sqrt{n}$ ranking using a pre-registered analysis (hypotheses, category assignments, and statistical tests frozen at commit \texttt{7719b64} before any categorical tests were performed; Table~\ref{tab:anatomical}). Across the full IBL dataset (43 regions with $\geq 5$ observations, 6 Allen CCF divisions), the predicted category ordering does not hold, category membership explains near-zero variance, and fiber-tract regions score comparably to neural tissue. The category ordering is unstable across sessions, holding in only 1 of 75 leave-one-session-out folds. All results are robust across inclusion thresholds ($\geq 5$, $\geq 8$, $\geq 10$ observations).
+
+\begin{table}[t]
+\centering
+\caption{Pre-registered anatomical category hypotheses (H1--H6). All hypotheses, category assignments, and pass thresholds frozen at commit \texttt{7719b64} before analysis.}
+\label{tab:anatomical}
+\small
+\begin{tabular}{llcc}
+\toprule
+ID & Hypothesis & Result & Verdict \\
+\midrule
+H1 & Category ordering (midbrain $>$ isocortex $>$ hippo.\ $>$ thalamus) & JT $p = 0.34$ & fail \\
+H2 & Fiber tracts score below neural tissue (negative control) & MW $p = 0.32$ & fail \\
+H3 & Sensorimotor nuclei enriched in top-5 (CL, ZI, APN) & hyper.\ $p = 0.024$, BH $= 0.048$ & pass \\
+H4 & Isocortex gradient (motor $>$ association $>$ sensory) & exploratory & --- \\
+H5 & Category explains variance ($\eta^2$) & $\eta^2 \approx 0$, KW $p = 0.77$ & fail \\
+H6 & Category ordering stable across sessions (LOO) & 1/75 folds (1.3\%) & fail \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The category-level null results are informative. The predicted ordering (midbrain $>$ isocortex $>$ hippocampal $>$ thalamus) fails because thalamus has the \emph{highest} category median ($0.374$), the opposite of the predicted lowest (Jonckheere-Terpstra $p = 0.34$, $10^5$ permutations). That fiber-tract regions---axon bundles with no local cell bodies---score comparably to neural tissue (Mann-Whitney $p = 0.32$) likely reflects the fact that Neuropixels electrodes traversing fiber tracts still record action potentials from axons of passage, which inherit the evidence-dependent coding properties of their somatic populations.
 
 Individual sensorimotor transformation nuclei do concentrate at the top of the ranking: 3 of the top-5 regions (CL, ZI, APN) are sensorimotor junction structures spanning thalamus, hypothalamus, and midbrain respectively (hypergeometric $p = 0.024$, Benjamini-Hochberg corrected $p = 0.048$). These regions share a functional role---converting graded sensory evidence into motor commands for wheel-turning---despite belonging to three different anatomical divisions. The dissociation between category-level nulls and region-level enrichment indicates that $\text{BN}/\!\sqrt{n}$ tracks functional position in the evidence-to-action pathway rather than anatomical address.
 
@@ -291,9 +314,9 @@ Individual sensorimotor transformation nuclei do concentrate at the top of the r
 
 \section{Discussion}
 
-Evidence-dependent rotation of choice encoding predicts which brain regions are causally important for binary choice, succeeding where all 19 geometric metrics tested here---both established and constructed---fail to predict independently of recording yield. The dimensionally corrected quantity $\text{BN}/\!\sqrt{n}$ eliminates the residual neuron-count scaling, strengthening the IBL silencing prediction from non-significant ($\rho = -0.286$) to a strong negative effect ($\rho = -0.667$) while removing the neuron-count confound, and enabling confound-free generalization to human ECoG. Region rankings are task-specific: licking-task and wheel-turning-task rankings are uncorrelated ($\rho = -0.079$, $n = 18$), and each task's ranking predicts silencing importance for the appropriate motor output. The metric captures which regions are computing for a given task, a property that varies with behavioral demands.
+Evidence-dependent rotation of choice encoding predicts which brain regions are causally important for binary choice, succeeding where all 19 geometric metrics tested here---both established and constructed---fail to predict independently of recording yield. The dimensionally corrected quantity $\text{BN}/\!\sqrt{n}$ eliminates the residual neuron-count scaling, removing the neuron-count confound on the IBL data and revealing a silencing prediction ($\rho = -0.667$) masked in the raw data ($\rho = -0.286$), and enabling confound-free generalization to human ECoG. Region rankings are task-specific: licking-task and wheel-turning-task rankings are uncorrelated ($\rho = -0.079$, $n = 18$), and each task's ranking predicts silencing importance for the appropriate motor output. The metric captures which regions are computing for a given task, a property that varies with behavioral demands.
 
-We interpret the photoinhibition results through a recurrent attractor model of ALM. Photoinhibition reduces excitatory drive, plausibly shifting the network from recurrence-dominated to input-dominated dynamics: external evidence gains more leverage over a lower-dimensional state. This account predicts the observed pattern---higher bracket norm, lower dimensionality, higher per-neuron selectivity, and lower accuracy (integration requires recurrence). The $1.7\times$ elevation at \emph{every} timepoint, including 150\,ms before stimulus, suggests a tonic change in operating regime rather than a phasic processing effect. Under this interpretation, expressive regions are causally important because the animal depends on their structured representation; within a region, disrupting recurrence amplifies expressiveness at the cost of function. The gain/direction dissociation---disrupting recurrence raises $\text{BN}/\!\sqrt{n}$ without rotating the coding axis---suggests that bracket norm tracks a specific computational quantity, the leverage of evidence on choice representation, rather than a generic measure of neural activity.
+We interpret the photoinhibition results through a recurrent attractor model of ALM. Photoinhibition reduces excitatory drive, plausibly shifting the network from recurrence-dominated to input-dominated dynamics: external evidence gains more leverage over a lower-dimensional state. This account predicts the observed pattern---higher bracket norm, lower dimensionality, higher per-neuron selectivity, and lower accuracy (integration requires recurrence). The $1.7\times$ elevation at \emph{every} timepoint, including 150\,ms before stimulus, suggests a tonic change in operating regime rather than a phasic processing effect. Under this interpretation, expressive regions are causally important because the animal depends on their structured representation; within a region, disrupting recurrence amplifies expressiveness at the cost of function. The gain/direction dissociation---disrupting recurrence raises $\text{BN}/\!\sqrt{n}$ without rotating the coding axis---suggests that bracket norm tracks a specific computational quantity, the leverage of evidence on choice representation, rather than a generic measure of neural activity. A radial--angular decomposition of the bracket vector confirms that cross-region variation in bracket norm is primarily a gain (magnitude) effect rather than a rotation (curvature) effect (Appendix~\ref{app:decomposition}).
 
 We also measured autocorrelation timescale $\tau$ as an orthogonal probe of the recurrent-gain account. Photoinhibition slightly increased $\tau$ ($6.26 \to 6.40$\,ms, Wilcoxon $p = 0.001$, $n = 48$ sessions), orthogonal to bracket norm across regions ($\rho = +0.231$, n.s.), indicating that $\tau$ and $\text{BN}/\!\sqrt{n}$ track dissociable timescales of recurrent dynamics. Bracket norm captures fast evidence-dependent gain; $\tau$ reflects slow recurrent modes that photoinhibition does not abolish.
 
@@ -305,13 +328,13 @@ Standard causal methods for time-series data include convergent cross-mapping \c
 
 Differential geometry has been applied to neural coding through information geometry \citep{amari2016information} and null-space decompositions \citep{kaufman2014cortical}. The Lie bracket $[\xi_{\text{choice}}, \xi_{\text{evidence}}]$ that bracket norm approximates measures the noncommutativity of two vector fields---how much traversing choice then evidence differs from evidence then choice. Our discrete connection and holonomy analysis (Appendix~\ref{app:holonomy}) makes this interpretation concrete on a choice bundle over evidence space, showing uniform curvature across regions and localizing cross-region variation to gain.
 
-The principal limitation is the size of the interventional ground truth. Region-resolved optogenetic silencing during a quantified perceptual decision task is, to our knowledge, available for 12 regions \citep{steinmetz2019distributed, zatkahaas2021}, of which 9 have sufficient trials per evidence quartile to estimate bracket norm. This sample is not a design choice but a property of the current literature, and it limits the precision of the headline correlation: the bootstrap 95\% confidence interval on $\rho = +0.833$ is wide (reported in \S\ref{sec:bracket}). We therefore base the central claim on rank-based structural tests that remain valid at small $n$---a double dissociation with non-overlapping ranges (exact combinatorial $p = 0.0006$) and tail monotonicity with zero counterexamples---rather than on the point estimate alone. As additional silencing datasets become available, the correlation should be re-estimated.
+The principal limitation is the size of the interventional ground truth. Region-resolved optogenetic silencing during a quantified perceptual decision task is, to our knowledge, available for 12 regions \citep{steinmetz2019distributed, zatkahaas2021}, of which 9 have sufficient trials per evidence quartile to estimate bracket norm. This sample is not a design choice but a property of the current literature, and it limits the precision of the headline correlation: the bootstrap 95\% confidence interval on $\rho = +0.833$ is wide ($[0.26, 1.00]$; the upper bound reaches $1.00$ because tied ranks in small-$n$ resamples can produce perfect correlation). We therefore base the central claim on rank-based structural tests that remain valid at small $n$---a double dissociation with non-overlapping ranges (exact combinatorial $p = 0.0006$) and tail monotonicity with zero counterexamples---rather than on the point estimate alone. As additional silencing datasets become available, the correlation should be re-estimated.
 
 Several further limitations bound the scope of the conclusions. First, raw bracket norm retains a substantial correlation with neuron count ($\rho = +0.850$); $\text{BN}/\!\sqrt{n}$ eliminates this ($\rho = -0.119$ on IBL silencing regions, $\rho = 0.000$ on ECoG), but the normalization assumes z-scored neurons contribute independently---structured noise correlations could violate this. Second, the within-region mechanism is established in a single recurrent region (ALM), and whether the recurrent-gain account generalizes to other regions remains untested. Third, the human ECoG result lacks interventional ground truth; the area ranking is anatomically plausible but not causally validated. Silencing ground truth exists only for the Steinmetz licking task; a second silencing dataset for wheel-turning would directly test the task-specificity claim that IBL $\text{BN}/\!\sqrt{n}$ predicts wheel-task importance positively.
 
 More broadly, geometric predictors of causal importance in neural population data inherit a $\sqrt{n}$ dimensional scaling that should be explicitly corrected. All 19 metrics tested here fail that requirement.
 
-\paragraph{Data availability.} All datasets analyzed are publicly available through the DANDI Archive: Steinmetz Neuropixels recordings (DANDI:000028; \citealp{steinmetz2019distributed, zatkahaas2021}), ALM photoinhibition data (DANDI:000007, 000009; \citealp{svoboda_alm, dandi000007, dandi000009}), and human ECoG speech production (DANDI:000019; \citealp{dandi000019}). The Allen Institute Visual Behavior Neuropixels dataset \citep{siegle2021survey} and the International Brain Laboratory Brain-Wide Map \citep{ibl2025brainwide} are available through their respective data portals. Analysis code, pre-specified hypotheses and pass thresholds, and per-experiment results are available at \url{https://github.com/elliottower/bracket-norm}.
+\paragraph{Data availability.} All datasets analyzed are publicly available through the DANDI Archive: Steinmetz Neuropixels recordings (DANDI:000017; \citealp{steinmetz2019distributed, zatkahaas2021}), ALM photoinhibition data (DANDI:000007, 000009; \citealp{svoboda_alm, dandi000007, dandi000009}), and human ECoG speech production (DANDI:000019; \citealp{dandi000019}). The Allen Institute Visual Behavior Neuropixels dataset \citep{siegle2021survey} and the International Brain Laboratory Brain-Wide Map \citep{ibl2025brainwide} are available through their respective data portals. Analysis code, pre-specified hypotheses and pass thresholds, and per-experiment results are available at \url{https://github.com/elliottower/bracket-norm}.
 
 \paragraph{Competing interests.} The author declares no competing interests.
 
@@ -326,7 +349,7 @@ More broadly, geometric predictors of causal importance in neural population dat
 \subsection{Datasets}
 \label{sec:datasets}
 
-Five publicly available datasets were analyzed (Table~\ref{tab:key_resources}). The Steinmetz Neuropixels recordings (DANDI:000028; \citealp{steinmetz2019distributed, zatkahaas2021}) provide spike counts from 12 brain regions during a two-alternative visual discrimination task (licking response) with region-resolved optogenetic silencing ground truth. The ALM photoinhibition data (DANDI:000007, 000009; \citealp{svoboda_alm}) provide paired control and photostimulation sessions in anterior lateral motor cortex during a delayed-response licking task (32 sessions from the primary cohort, 52/46 control/stim sessions from the replication cohort). The human ECoG speech production dataset (DANDI:000019; \citealp{dandi000019}) provides field-potential recordings from 6 cortical areas across 19 sessions in 5 participants during a consonant-vowel-consonant production task. The International Brain Laboratory Brain-Wide Map \citep{ibl2025brainwide} provides Neuropixels recordings from 206 brain regions during a wheel-turning task (86 sessions, 8 regions overlapping with Steinmetz silencing data). The Allen Institute Visual Behavior Neuropixels dataset \citep{siegle2021survey} provides recordings from 49 brain regions during a go/no-go change-detection task (20 sessions).
+Five publicly available datasets were analyzed (Table~\ref{tab:key_resources}). The Steinmetz Neuropixels recordings (DANDI:000017; \citealp{steinmetz2019distributed, zatkahaas2021}) provide spike counts from 12 brain regions during a two-alternative visual discrimination task (licking response) with region-resolved optogenetic silencing ground truth. The ALM photoinhibition data (DANDI:000007, 000009; \citealp{svoboda_alm}) provide paired control and photostimulation sessions in anterior lateral motor cortex during a delayed-response licking task (32 sessions from the primary cohort, 52/46 control/stim sessions from the replication cohort). The human ECoG speech production dataset (DANDI:000019; \citealp{dandi000019}) provides field-potential recordings from 6 cortical areas across 19 sessions in 5 participants during a consonant-vowel-consonant production task. The International Brain Laboratory Brain-Wide Map \citep{ibl2025brainwide} provides Neuropixels recordings from 206 brain regions during a wheel-turning task (86 sessions, 8 regions overlapping with Steinmetz silencing data). The Allen Institute Visual Behavior Neuropixels dataset \citep{siegle2021survey} provides recordings from 49 brain regions during a go/no-go change-detection task (20 sessions).
 
 \begin{table}[t]
 \centering
@@ -337,16 +360,21 @@ Five publicly available datasets were analyzed (Table~\ref{tab:key_resources}). 
 \toprule
 \textbf{Resource type} & \textbf{Designation} & \textbf{Source} & \textbf{Identifier} \\
 \midrule
-Dataset & Steinmetz Neuropixels & DANDI Archive & DANDI:000028 \\
+Dataset & Steinmetz Neuropixels & DANDI Archive & DANDI:000017 \\
 Dataset & ALM photoinhibition & DANDI Archive & DANDI:000007, 000009 \\
 Dataset & Human ECoG speech & DANDI Archive & DANDI:000019 \\
-Dataset & IBL Brain-Wide Map & IBL data portal & \url{https://data.internationalbrainlab.org} \\
+Dataset & IBL Brain-Wide Map & IBL data portal & \url{https://internationalbrainlab.org/data} \\
 Dataset & Allen VBN & Allen Institute & \url{https://allensdk.readthedocs.io} \\
 Software & Analysis code & This paper & \url{https://github.com/elliottower/bracket-norm} \\
 Software & Python 3.11 & python.org & RRID:SCR\_008394 \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+\subsection{Silencing effect size}
+\label{sec:silencing_def}
+
+The optogenetic silencing effect for each brain region is the fractional decrease in task performance during bilateral photoinactivation, as reported by \citet{zatkahaas2021}: $\Delta_{\text{sil}} = (\text{accuracy}_{\text{control}} - \text{accuracy}_{\text{silenced}}) / \text{accuracy}_{\text{control}}$. Twelve regions have silencing data; 9 of these have sufficient trials per evidence quartile to estimate bracket norm. All correlations with ``silencing importance'' refer to $\Delta_{\text{sil}}$ as the dependent variable.
 
 \subsection{Bracket norm definition}
 \label{sec:bn_def}
@@ -355,14 +383,14 @@ For each region during the decision window (150--350\,ms post-stimulus), compute
 \begin{equation}
 \text{BN} \;=\; \bigl\lVert \xi(\text{high evidence}) - \xi(\text{low evidence}) \bigr\rVert .
 \end{equation}
-This approximates the Lie bracket $[\xi_{\text{choice}}, \xi_{\text{evidence}}]$ restricted to the decision window: how much the choice vector field rotates as evidence strength varies (Figure~\ref{fig:quiver}). A region with low bracket norm relays a fixed choice signal regardless of evidence. A region with high bracket norm reshapes its choice representation with evidence---a candidate computation node where the evidence-to-choice transformation takes place.
+This approximates the Lie bracket $[\xi_{\text{choice}}, \xi_{\text{evidence}}]$ restricted to the decision window: how much the choice vector field rotates as evidence strength varies (Figure~\ref{fig:quiver}). A region with low bracket norm relays a fixed choice signal regardless of evidence. A region with high bracket norm reshapes its choice representation with evidence---a candidate computation node where the evidence-to-choice transformation takes place. Most individual regions do not significantly exceed a label-shuffled null, but the cross-regional \emph{ranking} predicts causal importance (Appendix~\ref{app:baseline}).
 
 \subsection{Dimensional correction}
 \label{sec:dim_correction}
 
 Raw bracket norm is a Euclidean norm in $\mathbb{R}^n$ where $n$ is the number of recorded neurons. After z-scoring, each neuron contributes $O(1)$ variance to the displacement vector $\xi$, so $\lVert \xi \rVert \sim \sqrt{n}$ by the same argument as random-walk step lengths. The scaling is intrinsic to norms in high-dimensional spaces, not a statistical estimation artifact.
 
-We verify this on the Steinmetz Neuropixels dataset \citep{dandi000028}, subsampling $n \in \{10, 20, 30, 50, 75, 100, 150, 200, 250\}$ neurons from the same recording and computing bracket norm at each size. Raw BN scales near-linearly with neuron count ($\rho = +0.989$, $p < 10^{-4}$). The corrected quantity
+We verify this on the Steinmetz Neuropixels dataset \citep{dandi000017}, subsampling $n \in \{10, 20, 30, 50, 75, 100, 150, 200, 250\}$ neurons from the same recording and computing bracket norm at each size. Raw BN scales near-linearly with neuron count ($\rho = +0.989$, $p < 10^{-4}$). The corrected quantity
 \begin{equation}
 \text{BN}/\!\sqrt{n} \;=\; \frac{\bigl\lVert \xi_{\text{high}} - \xi_{\text{low}} \bigr\rVert}{\sqrt{n}}
 \end{equation}
@@ -370,7 +398,7 @@ is invariant: mean $0.394 \pm 0.008$ across the full $25\times$ range, coefficie
 
 \begin{table}[t]
 \centering
-\caption{Synthetic invariance test: correlation of each metric with neuron count across $25\times$ subsampling range \citep{dandi000028}. Raw BN fails; both corrected metrics pass.}
+\caption{Synthetic invariance test: correlation of each metric with neuron count across $25\times$ subsampling range \citep{dandi000017}. Raw BN fails; both corrected metrics pass.}
 \label{tab:invariance}
 \small
 \begin{tabular}{lccc}
@@ -459,9 +487,24 @@ Bracket norm alone explains 65.2\% of the variance in silencing importance, exce
 \section{Mimic Mechanism Discriminator}
 \label{app:mimic}
 
-To distinguish between two interpretations of bracket norm---that it marks ``computation nodes'' performing evidence integration, or that it reflects attractor persistence---we correlated bracket norm with autocorrelation timescale ($\tau$) and eigenspectrum slope across all 36 Steinmetz regions.
+To distinguish whether bracket norm marks evidence-integration nodes or reflects attractor persistence, we correlated bracket norm with two dynamical signatures across all 36 Steinmetz regions (Table~\ref{tab:mimic}).
 
-Bracket norm shows no significant correlation with $\tau$ ($\rho = +0.231$, $p = 0.17$) and is orthogonal to eigenspectrum slope ($\rho = -0.037$, $p = 0.83$). However, eigenspectrum slope has a strong partial correlation with silencing after controlling neuron count (partial $\rho = -0.776$), indicating that steeper spectral falloff (more low-rank activity) associates with greater causal importance once recording yield is removed. This is consistent with the main-text finding that compact, evidence-sensitive coding characterizes causally important regions.
+\begin{table}[h]
+\centering
+\caption{Mimic mechanism discriminator: bracket norm is orthogonal to both dynamical signatures, ruling out the attractor-persistence interpretation. Eigenspectrum slope independently predicts silencing importance.}
+\label{tab:mimic}
+\small
+\begin{tabular}{lccc}
+\toprule
+Comparison & $\rho$ with BN & $p$ & Partial $\rho$ vs.\ silencing \\
+\midrule
+Autocorrelation timescale $\tau$ & $+0.231$ & $0.17$ & --- \\
+Eigenspectrum slope & $-0.037$ & $0.83$ & $-0.776$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Bracket norm is orthogonal to both $\tau$ and eigenspectrum slope. Eigenspectrum slope independently predicts silencing after controlling neuron count (partial $\rho = -0.776$): steeper spectral falloff (more low-rank activity) associates with greater causal importance once recording yield is removed, consistent with the main-text finding that compact, evidence-sensitive coding characterizes causally important regions.
 
 \section{Baseline Separation Test}
 \label{app:baseline}
@@ -557,10 +600,26 @@ Across the 12 silencing regions, curvature is uniform ($\kappa \approx 28$--$32^
 \section{Causal Baselines}
 \label{app:causal_baselines}
 
-We tested five standard causal inference methods on the Steinmetz data: convergent cross-mapping \citep[CCM;][]{sugihara2012detecting}, PCMCI-lite (conditional Granger causality on principal components), topological CCM (persistence-diagram distance on shadow manifolds), geographical CCM (cross-region CCM strength versus silencing), and causalized CCM (CCM after partialing out the choice signal). All methods were applied to evidence-binned pseudo-time-series of $\xi$ (6--10 bins per session, 500 permutations each).
+Five standard causal inference methods were tested on evidence-binned pseudo-time-series of $\xi$ (6--10 bins per session, 500 permutations each). All return null results (Table~\ref{tab:causal_baselines}).
 
-All five return null results. CCM: mean $r \approx -0.3$, 0\% significant across all 12 silencing-matched regions. PCMCI: 0\% forward Granger significance, 0\% asymmetry. Topological CCM: mixed $z$-scores, $< 10$\% significant. Geographical CCM: no metric correlates with silencing (all $p > 0.4$). Causalized CCM: mean $r \approx -0.2$, $< 10$\% significant.
+\begin{table}[h]
+\centering
+\caption{Causal inference baselines on Steinmetz data. All five methods return null results due to insufficient time-series length (6--10 evidence bins versus the hundreds of points required for Takens embedding or lag-adjusted $F$-tests).}
+\label{tab:causal_baselines}
+\small
+\begin{tabular}{lcc}
+\toprule
+Method & Result & \% significant \\
+\midrule
+CCM \citep{sugihara2012detecting} & mean $r \approx -0.3$ & 0\% \\
+PCMCI-lite (Granger on PCs) & 0\% forward significance & 0\% \\
+Topological CCM & mixed $z$-scores & $< 10$\% \\
+Geographical CCM & all $p > 0.4$ vs.\ silencing & 0\% \\
+Causalized CCM & mean $r \approx -0.2$ & $< 10$\% \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-The null results reflect a methodological mismatch: CCM requires Takens embedding of long time series (hundreds of points) for shadow-manifold convergence, and Granger tests require sufficient lag-adjusted degrees of freedom. Our evidence-binned pseudo-time-series have only 6--10 points---below the minimum library size for simplex projection and below the degrees of freedom needed for lag-2 $F$-tests. These methods detect causal structure in continuous temporal dynamics; bracket norm operates on trial-averaged comparisons natural to cognitive neuroscience experimental designs.
+The null results reflect a methodological mismatch: these methods detect causal structure in continuous temporal dynamics requiring hundreds of time points, while bracket norm operates on trial-averaged comparisons natural to cognitive neuroscience experimental designs with discrete evidence levels.
 
 \end{document}
