@@ -1,0 +1,26 @@
+{
+  "title": "Bracket Norm Identifies Causally Important Brain Regions From Population Geometry",
+  "upload_type": "software",
+  "description": "Bracket norm captures how much a region's choice encoding changes direction as sensory evidence varies, predicting optogenetic silencing importance after controlling for recording yield.",
+  "creators": [
+    {
+      "name": "Tower, Elliot",
+      "orcid": "0000-0001-7004-8884"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bracket norm",
+    "neuroscience",
+    "causal importance",
+    "population geometry",
+    "optogenetics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/elliottower/bracket-norm",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
